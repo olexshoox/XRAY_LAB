@@ -77,12 +77,47 @@ workings of X-ray diffraction. It was found a solid can serve as a diffraction
 grating for x-rays of similar lengths to the inter-atomic distances of the solid.
 Similarly to how light diffracts, one can obtain a relation between the inter-atomic
 distance $d$, the incident angle $\theta$, and the wavelength $\lambda$: 
-\begin{equation}\label{eq:bragg}
+\begin{equation}\label{eq:brag}
 	n\lambda=2d\sin(\theta)
 \end{equation}
-
-with $n=1$ for our purposes. 
-
+with $n=1$ for our purposes. Equation \ref{eq:brag} is formally called Bragg's Law.
+Its utility becomes apparent when one ponders the crystalline structure of solids. 
+Suppose the individual atoms of a crystal could be observed. While vayring the angle the observer 
+makes with the plane of the solid, there will be an angle where the atoms appear to line
+up. Given that a crystal is 3-dimension, the atoms will be aligned in parallel planes.
+Not all observed planes are equal however. Figure \ref{fig:plane111} shows a plane formed
+from a cubic arrangement of atoms. Notice that a plane could also have been formed from 
+a face of the cube (in the y-z plane for example), or by aligning four diagonal atoms
+(the plane could be cutting through the y-axis and x-axis, for example). These planes are
+differentiated by their 'Miller index'. In Figure \ref{fig:plane111}, [!!!EXPLAIN 
+HOW TO GET MILLER INDEX!!!]
+Crystal are made of cells which can borrow one of fourteen 'Bravais lattices', each 
+grounped into one of seven crystal systems. Figure \ref{fig:brav_lat} shows these lattices 
+and their groups.
+%
+\begin{figure}[!bth]
+\begin{minipage}[c]{0.45\linewidth}
+\includegraphics[width=\linewidth]{figures/brav_lat.png}
+\caption{The fourteen Bravais lattices with their seven assocociated groups.}
+\label{fig:brav_lat}
+\end{minipage}
+\hfill
+\begin{minipage}[c]{0.45\linewidth}
+\includegraphics[width=\linewidth]{figures/plane111.png}
+\caption{Plane corresponding to Miller index 111.}
+\label{fig:plane111}
+\end{minipage}%
+\end{figure}
+%
+The Miller indices can be related to the inter-planar distance $d$, in equation 
+\ref{eq:brag}, by various equations depending on the Bravais lattice. In a cubic crystal
+system for example, the relation is given by
+\begin{equation}
+	\frac{1}{d^2}=\frac{h^2+k^2+l^2}{a^2}
+\end{equation}
+%
+where $h,k,l$ are the miller indices and $a$ is the len of the cube edge. Similar equations
+for different cyrstal systems are given in Appendix \ref{}.
 
 
 \section{Methods}\label{sec:met}
