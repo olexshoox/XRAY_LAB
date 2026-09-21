@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.9.12)  21 SEP 2026 12:10
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.9.12)  21 SEP 2026 14:13
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -510,19 +510,18 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has b
 <to be read again> 
                    \relax 
 l.70 \setcounter
-                {page}{1} [1]
+                {page}{1} [1] [2]
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.115 
+l.112 
        [1]
-
-LaTeX Warning: Reference `' on page 2 undefined on input line 122.
-
-
-LaTeX Warning: Reference `' on page 2 undefined on input line 126.
-
-(c:\gitshit\XRAY_LAB\tex_output\main.bbl (c:\gitshit\XRAY_LAB\tex_output\main.brf)
+<figures/CuNi_fitted_gaussian_sums.png, id=63, 1076.1003pt x 860.013pt>
+File: figures/CuNi_fitted_gaussian_sums.png Graphic file (type png)
+<use figures/CuNi_fitted_gaussian_sums.png>
+Package pdftex.def Info: figures/CuNi_fitted_gaussian_sums.png  used on input line 129.
+(pdftex.def)             Requested size: 472.03123pt x 377.23897pt.
+ (c:\gitshit\XRAY_LAB\tex_output\main.bbl (c:\gitshit\XRAY_LAB\tex_output\main.brf)
 \tf@brf=\write5
 \openout5 = `main.brf'.
 
@@ -530,32 +529,33 @@ LaTeX Warning: Reference `' on page 2 undefined on input line 126.
 
 LaTeX Warning: Empty `thebibliography' environment on input line 24.
 
-) [2] (c:\gitshit\XRAY_LAB\tex_output\main.aux)
+)
+pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.154 \end{document}
+                     [2] [3 <c:/gitshit/XRAY_LAB/tex_output/figures/CuNi_fitted_gaussian_sums.png>] (c:\gitshit\XRAY_LAB\tex_output\main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
  ***********
-
-
-LaTeX Warning: There were undefined references.
-
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: D8CDBE15C5EDCE9238FDFB6D9F079726;445.
+(rerunfilecheck)             Checksum: 7D6756E64F9A7CE51BD7E0CFAD247D83;735.
 Package rerunfilecheck Info: File `main.brf' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 15035 strings out of 474486
- 251362 string characters out of 5739943
- 1931542 words of memory out of 5000000
- 37089 multiletter control sequences out of 15000+600000
- 567519 words of font info for 71 fonts, out of 8000000 for 9000
+ 15060 strings out of 474486
+ 252016 string characters out of 5739943
+ 1932542 words of memory out of 5000000
+ 37110 multiletter control sequences out of 15000+600000
+ 567826 words of font info for 72 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 105i,5n,107p,373b,473s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 105i,6n,107p,373b,473s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/Michael Weltz/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/Michael Weltz/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Michael Weltz/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Michael Weltz/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Michael Weltz/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Michael Weltz/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Michael Weltz/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Michael Weltz/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Michael Weltz/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on c:\gitshit\XRAY_LAB\tex_output\main.pdf (4 pages, 126957 bytes).
+Output written on c:\gitshit\XRAY_LAB\tex_output\main.pdf (6 pages, 274492 bytes).
 PDF statistics:
- 95 PDF objects out of 1000 (max. 8388607)
- 9 named destinations out of 1000 (max. 500000)
- 41 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 117 PDF objects out of 1000 (max. 8388607)
+ 13 named destinations out of 1000 (max. 500000)
+ 62 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -87,6 +87,7 @@ with $n=1$ for our purposes.
 
 \section{Methods}\label{sec:met}
 
+\subsection{Measurement Procedure}
 A pre-calibrated Siemens diffractometer was used to produce X-Rays, send them at the samples, and 
 detect the diffractions.
 The diffractometer consisted primarily of an X-ray tube, a sample mounting plate, and a 
@@ -95,7 +96,7 @@ photon detector. The X-ray tube used Copper $K_{\alpha}$ radiation and was coole
 the tube and entering the detector. During data acquisition, the diffractometer was set to 
 40\,kV and 40\,mA. The mounting plate kept the sample in place with a spring-loaded mechanism. 
 The samples were centered by aligning the middle of the sample with a red line marked on the 
-moutning plate. The diffractometer changes the $\theta$ by rotating the mounting plate by some $\Delta\theta$
+mounting plate. The diffractometer changes the $\theta$ by rotating the mounting plate by some $\Delta\theta$
 and moving the detector by $2\Delta\theta$.
 A computer was connected to the diffractometer, with which
 a .dql measuring parameter file was given to the diffractometer and data was obtained from the 
@@ -108,24 +109,27 @@ with the red line. Then, on the computer, open the software program [!!!NAME!!!]
 parameter file, name the trial, and execute the job. After the job finishes, convert the .RAW file to .UXD.
 Finally, the .UXD files were transfered from the lab computer onto the experimentalists's for 
 the data analysis.
+
+\subsection{Data Analysis}
+From the .UXD files of a sample, the plot of light intensity against $\theta$ can be done. Using prominence 50, 
+local maxima of light intensities can be located and indexed to find angles where diffraction in planes
+occur. Every peak in the plot is then fitted to a gaussian curve, centered at a local maxima,
+and every curve is summed to obtain a plot of summed gaussians of
+intensity against $2\theta$. From this, we extract mean values and variance. 
+
+
+\section{Results}\label{sec:res}
 Three trials were done for Ni and Cu samples, though the data for the first Cu trial did not save correctly.
 Two trials were done for Pb, Sn, A and B. For each of the alloys (including different percentage of mixing) 
 one trial was done. It was determined that the uncertainty due to random errors would be 
 less that due to noise (could expand on this).
 
-
-
-
-\section{Results}\label{sec:res}
-
-From the .UXD files of a sample, the plot of light intensity against $\theta$ can be done.
-Figure \ref{} show this plot for the Copper and Nickel samples. Using prominence 50, 
-local maxima of light intensities can be located and indexed to find angles where diffraction in planes
-occur. Every peak in the plot is then fitted to a gaussian curve, centered at a local maxima,
-and every curve is summed to obtain a plot of summed gaussians of
-intensity against $2\theta$. Figure \ref{} shows the summed gaussians for Copper and 
-Nickel. The mean angle for every peak as well as its uncertainty can then be obtained from
-the corresponding gaussian. Table
+\begin{figure}
+	\centering
+    \includegraphics[width=1\linewidth]{figures/CuNi_fitted_gaussian_sums.png}
+    \caption{Gaussian sum fits of the Cu and Ni samples}
+    \label{fig:CuNi_fitted_gaussian_sums}
+\end{figure}
 
 
 

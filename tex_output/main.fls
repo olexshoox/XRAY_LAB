@@ -222,13 +222,21 @@ INPUT c:\gitshit\XRAY_LAB\tex_output\main.toc
 INPUT c:\gitshit\XRAY_LAB\tex_output\main.toc
 INPUT c:\gitshit\XRAY_LAB\tex_output\main.toc
 INPUT C:\Users\Michael Weltz\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
-OUTPUT c:\gitshit\XRAY_LAB\tex_output\main.toc
 INPUT C:\Users\Michael Weltz\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi12.tfm
 INPUT C:\Users\Michael Weltz\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy10.tfm
 INPUT C:\Users\Michael Weltz\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmex10.tfm
 INPUT C:\Users\Michael Weltz\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
 INPUT C:\Users\Michael Weltz\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
 INPUT C:\Users\Michael Weltz\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\euler\eurm10.tfm
+OUTPUT c:\gitshit\XRAY_LAB\tex_output\main.toc
+INPUT C:\Users\Michael Weltz\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
+INPUT c:\gitshit\XRAY_LAB\tex_output\figures\CuNi_fitted_gaussian_sums.png
+INPUT c:\gitshit\XRAY_LAB\tex_output\figures\CuNi_fitted_gaussian_sums.png
+INPUT c:\gitshit\XRAY_LAB\tex_output\figures\CuNi_fitted_gaussian_sums.png
+INPUT c:\gitshit\XRAY_LAB\tex_output\figures\CuNi_fitted_gaussian_sums.png
+INPUT c:\gitshit\XRAY_LAB\tex_output\figures\CuNi_fitted_gaussian_sums.png
+INPUT c:\gitshit\XRAY_LAB\tex_output\figures\CuNi_fitted_gaussian_sums.png
+INPUT c:\gitshit\XRAY_LAB\tex_output\figures\CuNi_fitted_gaussian_sums.png
 INPUT c:\gitshit\XRAY_LAB\tex_output\main.bbl
 INPUT c:\gitshit\XRAY_LAB\tex_output\main.bbl
 INPUT c:\gitshit\XRAY_LAB\tex_output\main.bbl

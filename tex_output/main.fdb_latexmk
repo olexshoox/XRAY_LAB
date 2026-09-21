@@ -1,5 +1,5 @@
 # Fdb version 4
-["bibtex tex_output/main"] 0 "tex_output/main.aux" "tex_output/main.bbl" "tex_output/main" 1790007035.29481 0
+["bibtex tex_output/main"] 0 "tex_output/main.aux" "tex_output/main.bbl" "tex_output/main" 1790014420.88584 0
   "C:/Users/Michael Weltz/AppData/Local/Programs/MiKTeX/bibtex/bst/ieeetran/IEEEtran.bst" 1440622569 57748 7c8250ecf02814ce6ddc0cdbb63df1dd ""
   "Reporttemplate/MyBibliography.bib" 0 -1 0 ""
   "tex_output/main.aux" 0 -1 0 "pdflatex"
@@ -7,7 +7,7 @@
   "tex_output/main.bbl"
   "tex_output/main.blg"
   (rewritten before read)
-["pdflatex"] 1790007031.27303 "c:/gitshit/XRAY_LAB/main.tex" "tex_output/main.pdf" "main" 1790007035.29569 0
+["pdflatex"] 1790014415.64976 "c:/gitshit/XRAY_LAB/main.tex" "tex_output/main.pdf" "main" 1790014420.88787 0
   "C:/Users/Michael Weltz/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1790006776 81107 70b8516c68c2e617189c5e44bfd16b96 ""
   "C:/Users/Michael Weltz/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1757687307 24228858 cfe757d8348640578715910a39efd22c ""
   "C:/Users/Michael Weltz/AppData/Local/Programs/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1233951848 1004 54797486969f23fa377b128694d548df ""
@@ -124,13 +124,14 @@
   "C:/Users/Michael Weltz/AppData/Local/Programs/MiKTeX/tex/latex/was/upgreek.sty" 1665850770 5794 9054e31be15d93f1e6bd28cca2b6643f ""
   "C:/Users/Michael Weltz/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1700127522 55487 80a65caedd3722f4c20a14a69e785d8f ""
   "Style-Thesis-Report.sty" 1790002669 1112 565861b050b6e86e2e8fe486ecf8a69a ""
-  "c:/gitshit/XRAY_LAB/main.tex" 1790007029 6044 f82eca9adb4adb569287e75ebeb68600 ""
-  "main.tex" 1790007029 6044 f82eca9adb4adb569287e75ebeb68600 ""
-  "tex_output/main.aux" 1790007033 1147 35e88e7956695975ee3ff8cd49c46e57 "pdflatex"
+  "c:/gitshit/XRAY_LAB/main.tex" 1790014408 6177 c701556fe04add1a925801c697eaa2d3 ""
+  "main.tex" 1790014408 6177 c701556fe04add1a925801c697eaa2d3 ""
+  "tex_output/figures/CuNi_fitted_gaussian_sums.png" 1790014045 174741 5f6149e7b40614c4f0e130905b176add ""
+  "tex_output/main.aux" 1790014419 1733 2abfb696d9489251dee3971db9124bb2 "pdflatex"
   "tex_output/main.bbl" 1790006923 901 628a2a8c68e066122d1514411e0b8455 "bibtex tex_output/main"
-  "tex_output/main.brf" 1790007033 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "tex_output/main.out" 1790007033 445 d8cdbe15c5edce9238fdfb6d9f079726 "pdflatex"
-  "tex_output/main.toc" 1790007033 356 9205d58e60e7faff95d12c9e72604989 "pdflatex"
+  "tex_output/main.brf" 1790014418 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "tex_output/main.out" 1790014419 735 7d6756e64f9a7ce51bd7e0cfad247d83 "pdflatex"
+  "tex_output/main.toc" 1790014419 522 6f1d03200dd4e5f8f5b5d8ddb44c99b2 "pdflatex"
   (generated)
   "tex_output/main.aux"
   "tex_output/main.brf"
