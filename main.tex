@@ -72,6 +72,14 @@ samples A and B were determined to be [...] and [...], with lattices [...] and p
 
 \section{Introduction}\label{sec:int}
 
+The discovery ofX-rays led to W.H. and W.L. Bragg researching the inner 
+workings of X-ray diffraction. It was found a solid can serve as a diffraction
+grating for x-rays of similar lengths to the inter-atomic distances of the solid.
+Similarly to how light diffracts, one can obtain a relation between the inter-atomic
+distance $d$, the incident angle $\theta$, and the wavelength $\lambda$: 
+\begin{equation}\label{eq:bragg}
+	n\lambda=2d\sin(\theta)
+\end{equation}
 
 
 
@@ -85,7 +93,9 @@ photon detector. The X-ray tube used Copper $K_{\alpha}$ radiation and was coole
 the tube and entering the detector. During data acquisition, the diffractometer was set to 
 40\,kV and 40\,mA. The mounting plate kept the sample in place with a spring-loaded mechanism. 
 The samples were centered by aligning the middle of the sample with a red line marked on the 
-moutning plate. A computer was connected to the diffractometer, with which
+moutning plate. The diffractometer changes the $\theta$ by rotating the mounting plate by some $\Delta\theta$
+and moving the detector by $2\Delta\theta$.
+A computer was connected to the diffractometer, with which
 a .dql measuring parameter file was given to the diffractometer and data was obtained from the 
 dectector as .RAW files. The measuring parameters were an initial angle of $2\theta_0=5.00^{\circ}$, 
 angle increments of $\Delta\theta=0.05^{\circ}$, with 2.00\,s at each step, with a final 
@@ -94,11 +104,29 @@ parameters.
 Data acquisition was simple: Mount the desired sample onto the mounting plate, centering it
 with the red line. Then, on the computer, open the software program [!!!NAME!!!], select the desired 
 parameter file, name the trial, and execute the job. After the job finishes, convert the .RAW file to .UXD.
+Finally, the .UXD files were transfered from the lab computer onto the experimentalists's for 
+the data analysis.
+Three trials were done for Ni and Cu samples, though the data for the first Cu trial did not save correctly.
+Two trials were done for Pb, Sn, A and B. For each of the alloys (including different percentage of mixing) 
+one trial was done. It was determined that the uncertainty due to random errors would be 
+less that due to noise (could expand on this).
 
 
 
 
 \section{Results}\label{sec:res}
+
+From the .UXD files of a sample, the plot of light intensity against $\theta$ can be done.
+Figure \ref{} show this plot for the Copper and Nickel samples. From the plot, 
+local maxima of light intensities can be located and indexed to find angles where diffraction in planes
+occur. Tables \ref{} shows the angles and their peaks
+
+
+
+
+
+
+
 
 \section{Discussion}\label{sec:dis}
 
