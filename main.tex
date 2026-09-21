@@ -16,7 +16,7 @@
 		\vspace*{1cm}
 		
 		\Huge
-		\textbf{Direct observation of meow meow in the presence of fart}
+		\textbf{Determining the Crystaline Structure of Metals through X-Ray Diffraction}
 		\large
 		\vspace{1.5cm}
 		
@@ -24,7 +24,7 @@
 		
 		McGill University Department of Physics
 		
-		Supervisor: ??
+		Supervisor: Brandon
 		
 		\today
 		
@@ -34,7 +34,32 @@
 
 \begin{abstract}
 
-The goal of this experiment is to measure X-ray diffraction patterns of various solid samples in order to describe their crystal structure at the atomic/molecular level. Any crystalline solid consists of a regular 3-dimensional packing of cells, the shape of which corresponds to one of fourteen Bravais lattices. These 3D patterns create multiple planar layers of various orientations within the crystal, each capable of producing a peak in the observed diffraction pattern. From that peak, Bragg's law $n\lambda = 2d \sin \theta$ (where $n =1$ for a first-order plane) can be used to deduce the inter-planar distance $d$ of each diffraction plane of the crystal. Using this, if the Miller indices of the different planes are known, one can identify the Bravais lattice and calculate the lattice parameter(s) of the crystal. The first samples to be observed are the pure copper and nickel ones, for which the obtained results (...). Following that, an alloy sample of Cu and Ni is observed, yielding (...). etc.
+	% put some abstract stuff in the into. From journal-template, the theory is more relevant in intro
+
+
+
+This experiment set out to to measure X-ray diffraction patterns of various solid 
+samples in order to describe their crystal structure at the atomic/molecular level. An 
+already calibrated Siemen !!!!!MODEL NAME!!!!! X-Ray diffractometer was used to send X-rays 
+into Copper (Cu), Nickel (Ni), CuNi alloy, Titanium (Sn), Lead (Pb), PbSn alloy and two
+mystery samples named A and B. 
+
+
+
+Any crystalline solid consists of a regular 3-dimensional packing of cells, the shape of 
+which corresponds to one of fourteen Bravais lattices. These 3D patterns create multiple 
+parallel planar layers within the crystal of various orientations.
+X-Rays travelling through these planes will diffract off the atoms and constructively 
+interfere at the detector, creating a peak in photon count in the observed diffraction pattern. 
+From that peak, Bragg's law $n\lambda = 2d \sin \theta$ (where $n=1$ for a first-order plane) can be used to 
+deduce the inter-planar distance $d$ of the diffraction plane of the crystal. Using this 
+inter-planar distance and the corresponding Miller indices, the Bravais lattice can be determined
+and the lattice parameter(s) calculated. The Cu and Ni samples were found to have a Bravais 
+lattice of [ ... ], with parameters [ ... ] respectively. The alloy sample of these two 
+was found to have [ ... ]. The Sn and Pb samples were found to have a lattice of [...] 
+and parameters [...] respectively, and their alloy [...], [...]. Finally, the mystery 
+samples A and B were determined to be [...] and [...], with lattices [...] and parameters
+[...], respectively. 
 
 
 \end{abstract}
@@ -45,36 +70,39 @@ The goal of this experiment is to measure X-ray diffraction patterns of various 
 \setcounter{page}{1}
 
 
-\section{Introduction}\label{sec:test}
-
-You can write a section intro here. Section \ref{sec:sub} below shows a demo of a subsection.
-
-This is a new paragraph, with some $M_\textrm{ath}=I_n lin_e$, and a larger equation can be made as follows:
-%
-\begin{equation}\label{eq:pants}
-ax^2 + bx + c = 0
-\end{equation}
-%
-Sadly, Eq.~\ref{eq:pants} is super boring. Note the little \% symbols in the latex code. They prevent a new paragraph from forming.
+\section{Introduction}\label{sec:int}
 
 
 
-\subsection{Test Subsection}\label{sec:sub}
 
-You can also do subsubsections if you really want. 
+\section{Methods}\label{sec:met}
+
+A pre-calibrated Siemens diffractometer was used to produce X-Rays, send them at the samples, and 
+detect the diffractions.
+The diffractometer consisted primarily of an X-ray tube, a sample mounting plate, and a 
+photon detector. The X-ray tube used Copper $K_{\alpha}$ radiation and was cooled using water. Two sets of filters of 
+0.6\,mm were present on the X-ray tube and the detector, to prevent stray rays from leaving
+the tube and entering the detector. During data acquisition, the diffractometer was set to 
+40\,kV and 40\,mA. The mounting plate kept the sample in place with a spring-loaded mechanism. 
+The samples were centered by aligning the middle of the sample with a red line marked on the 
+moutning plate. A computer was connected to the diffractometer, with which
+a .dql measuring parameter file was given to the diffractometer and data was obtained from the 
+dectector as .RAW files. The measuring parameters were an initial angle of $2\theta_0=5.00^{\circ}$, 
+angle increments of $\Delta\theta=0.05^{\circ}$, with 2.00\,s at each step, with a final 
+angle ofe $2\theta_f=110.00^{\circ}$. The total measuring time is roughly 1\,h0\,5m using the aformentionned
+parameters.
+Data acquisition was simple: Mount the desired sample onto the mounting plate, centering it
+with the red line. Then, on the computer, open the software program [!!!NAME!!!], select the desired 
+parameter file, name the trial, and execute the job. After the job finishes, convert the .RAW file to .UXD.
 
 
-%\begin{figure}
-%	\includegraphics[width=12cm]{}
-%	\caption{Space Laser Facility and action upon earth. (a) Space laser facility: A bank of $10^{18}$ 9V batteries powers the primary laser. (b) The laser output is swept along the equator from east to west at a rate of 5 radians / hour, producing a clean split between the northern and southern hemispheres. }
-%	\label{fig:laser}
-%\end{figure}
-
-Figure \ref{fig:laser}(a) shows a simplified drawing of the Space Laser Facility (SPL). A bank of $10^{18}$ 9-volt batteries (Eveready \textregistered X-treme bulkbox) supplies power to a sophisticated heat beam known as a ``Laser''. In Fig.~\ref{fig:laser}(b), we show the estimated response of earth for a laser swept along the equator at a rate of 5 radians / hour from east to west. Blue arrows indicate the approximate direction of motion. Due to the rotation of the earth, a similar sweep from west to east will not produce a clean cut \cite{Sankey2010Strong}. The wavelength of this laser, $\lambda=1.55$ \um, is chosen primarily because the telecom industry has produced a multitude of low-cost components at this wavelength.
 
 
+\section{Results}\label{sec:res}
 
-We definitely recommend using Mendeley to organize your citations and generate a bibliography file. You can set this up so that from the abstract page online, you can click a button that adds it to your library. Then it's just a matter of exporting to ``bibtex'' format.
+\section{Discussion}\label{sec:dis}
+
+\section{Conclusion}\label{sec:con}
 
 
 
