@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.9.12)  22 SEP 2026 12:22
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.9.12)  22 SEP 2026 12:41
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -512,7 +512,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.9 ...Lattices and Miller indices}{5}{appendix.A}
+l.9 ...Lattices and Miller indices}{6}{appendix.A}
                                                   % [1]
 Overfull \hbox (59.92378pt too wide) detected at line 9
 \OT1/cmr/bx/n/12 Appendix A.  
@@ -544,14 +544,19 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has b
                    \relax 
 l.152 
        [2 <./figures/brav_lat.png> <./figures/plane111.png>]
-<figures/secondresidualattempt.png, id=85, 859.2903pt x 2305.413pt>
-File: figures/secondresidualattempt.png Graphic file (type png)
-<use figures/secondresidualattempt.png>
-Package pdftex.def Info: figures/secondresidualattempt.png  used on input line 169.
-(pdftex.def)             Requested size: 472.03123pt x 1266.43327pt.
+<figures/fit_with_residuals_Ni_only.png, id=85, 859.2903pt x 860.013pt>
+File: figures/fit_with_residuals_Ni_only.png Graphic file (type png)
+<use figures/fit_with_residuals_Ni_only.png>
+Package pdftex.def Info: figures/fit_with_residuals_Ni_only.png  used on input line 169.
+(pdftex.def)             Requested size: 472.03123pt x 472.43121pt.
+<figures/fit_with_residuals_CuNI_oneofeach.png, id=86, 859.2903pt x 1438.173pt>
+File: figures/fit_with_residuals_CuNI_oneofeach.png Graphic file (type png)
+<use figures/fit_with_residuals_CuNI_oneofeach.png>
+Package pdftex.def Info: figures/fit_with_residuals_CuNI_oneofeach.png  used on input line 176.
+(pdftex.def)             Requested size: 377.62642pt x 632.00807pt.
 
 
-LaTeX Warning: Float too large for page by 638.22704pt on input line 172.
+LaTeX Warning: Float too large for page by 3.80183pt on input line 179.
 
 (c:\gitshit\XRAY_LAB\tex_output\main.bbl (c:\gitshit\XRAY_LAB\tex_output\main.brf)
 \tf@brf=\write5
@@ -561,7 +566,7 @@ LaTeX Warning: Float too large for page by 638.22704pt on input line 172.
 
 LaTeX Warning: Empty `thebibliography' environment on input line 24.
 
-) [3] [4 <./figures/secondresidualattempt.png>] [5] (c:\gitshit\XRAY_LAB\tex_output\main.aux)
+) [3] [4 <./figures/fit_with_residuals_Ni_only.png>] [5 <./figures/fit_with_residuals_CuNI_oneofeach.png>] [6] (c:\gitshit\XRAY_LAB\tex_output\main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
@@ -572,17 +577,17 @@ Package rerunfilecheck Info: File `main.brf' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 15162 strings out of 474486
- 254236 string characters out of 5739943
+ 15172 strings out of 474486
+ 254689 string characters out of 5739943
  1933542 words of memory out of 5000000
- 37205 multiletter control sequences out of 15000+600000
+ 37213 multiletter control sequences out of 15000+600000
  567826 words of font info for 72 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  105i,9n,107p,412b,539s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/Michael Weltz/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/Michael Weltz/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Michael Weltz/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Michael Weltz/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Michael Weltz/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Michael Weltz/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Michael Weltz/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Michael Weltz/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Michael Weltz/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on c:\gitshit\XRAY_LAB\tex_output\main.pdf (8 pages, 953354 bytes).
+Output written on c:\gitshit\XRAY_LAB\tex_output\main.pdf (9 pages, 963019 bytes).
 PDF statistics:
- 145 PDF objects out of 1000 (max. 8388607)
- 18 named destinations out of 1000 (max. 500000)
- 80 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 153 PDF objects out of 1000 (max. 8388607)
+ 20 named destinations out of 1000 (max. 500000)
+ 85 words of extra memory for PDF output out of 10000 (max. 10000000)
 

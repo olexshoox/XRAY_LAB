@@ -6,4 +6,4 @@
 \contentsline {section}{\numberline {3}Results}{3}{section.3}%
 \contentsline {section}{\numberline {4}Discussion}{3}{section.4}%
 \contentsline {section}{\numberline {5}Conclusion}{3}{section.5}%
-\contentsline {section}{\numberline {Appendix A. }Inter-planar distance, Bravais Lattices and Miller indices}{5}{appendix.A}%
+\contentsline {section}{\numberline {Appendix A. }Inter-planar distance, Bravais Lattices and Miller indices}{6}{appendix.A}%

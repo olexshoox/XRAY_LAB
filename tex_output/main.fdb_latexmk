@@ -1,5 +1,5 @@
 # Fdb version 4
-["bibtex tex_output/main"] 0 "tex_output/main.aux" "tex_output/main.bbl" "tex_output/main" 1790094155.89293 0
+["bibtex tex_output/main"] 0 "tex_output/main.aux" "tex_output/main.bbl" "tex_output/main" 1790095318.29709 0
   "C:/Users/Michael Weltz/AppData/Local/Programs/MiKTeX/bibtex/bst/ieeetran/IEEEtran.bst" 1440622569 57748 7c8250ecf02814ce6ddc0cdbb63df1dd ""
   "Reporttemplate/MyBibliography.bib" 0 -1 0 ""
   "tex_output/main.aux" 0 -1 0 "pdflatex"
@@ -7,7 +7,7 @@
   "tex_output/main.bbl"
   "tex_output/main.blg"
   (rewritten before read)
-["pdflatex"] 1790094148.07672 "c:/gitshit/XRAY_LAB/main.tex" "tex_output/main.pdf" "main" 1790094155.89544 0
+["pdflatex"] 1790095310.72757 "c:/gitshit/XRAY_LAB/main.tex" "tex_output/main.pdf" "main" 1790095318.30066 0
   "C:/Users/Michael Weltz/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1790006776 81107 70b8516c68c2e617189c5e44bfd16b96 ""
   "C:/Users/Michael Weltz/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1757687307 24228858 cfe757d8348640578715910a39efd22c ""
   "C:/Users/Michael Weltz/AppData/Local/Programs/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1233951848 1004 54797486969f23fa377b128694d548df ""
@@ -125,16 +125,17 @@
   "C:/Users/Michael Weltz/AppData/Local/Programs/MiKTeX/tex/latex/was/upgreek.sty" 1665850770 5794 9054e31be15d93f1e6bd28cca2b6643f ""
   "C:/Users/Michael Weltz/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1700127522 55487 80a65caedd3722f4c20a14a69e785d8f ""
   "Style-Thesis-Report.sty" 1790014581 1139 4538f332f5dea174b80cc38799696b1e ""
-  "c:/gitshit/XRAY_LAB/main.tex" 1790094138 9037 ddf93492df6db66602ba0d2713ce3bde ""
+  "c:/gitshit/XRAY_LAB/main.tex" 1790095236 9319 f748bb2d21564edb2539205fc08602d6 ""
   "figures/brav_lat.png" 1790014581 405466 e292cfa3855feb6c0e4e57c3cf93cc81 ""
+  "figures/fit_with_residuals_CuNI_oneofeach.png" 1790095236 394419 7968b73796cf1ee8e7edca80f7829273 ""
+  "figures/fit_with_residuals_Ni_only.png" 1790095308 225701 26ea0f46a25c2625d1061ff04ddd07b3 ""
   "figures/plane111.png" 1790014581 49082 b1b9c04beef4ee3051a68bad8cf28b8c ""
-  "figures/secondresidualattempt.png" 1790041870 605866 34ff8e07576686ced124f874acaa1815 ""
-  "main.tex" 1790094138 9037 ddf93492df6db66602ba0d2713ce3bde ""
-  "tex_output/main.aux" 1790094153 2571 b00e30dc5605811df700788d1fb9d415 "pdflatex"
+  "main.tex" 1790095236 9319 f748bb2d21564edb2539205fc08602d6 ""
+  "tex_output/main.aux" 1790095316 2931 8307bdf41cbd9a688afa46e997dbcbec "pdflatex"
   "tex_output/main.bbl" 1790006923 901 628a2a8c68e066122d1514411e0b8455 "bibtex tex_output/main"
-  "tex_output/main.brf" 1790094152 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "tex_output/main.out" 1790094153 1087 a851e0c74911f72f5dc3bd6a2fa8b0fa "pdflatex"
-  "tex_output/main.toc" 1790094153 648 1805cddc691f85353063102df8e14116 "pdflatex"
+  "tex_output/main.brf" 1790095314 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "tex_output/main.out" 1790095316 1087 a851e0c74911f72f5dc3bd6a2fa8b0fa "pdflatex"
+  "tex_output/main.toc" 1790095316 648 e7c0c9492802efb5a8933c608fdef485 "pdflatex"
   (generated)
   "tex_output/main.aux"
   "tex_output/main.brf"
