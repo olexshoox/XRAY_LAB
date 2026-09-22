@@ -162,7 +162,32 @@ intensity against $2\theta$. From this, we extract mean values and variance.
 Three trials were done for Ni and Cu samples, though the data for the first Cu trial did not save correctly.
 Two trials were done for Pb, Sn, A and B. For each of the alloys (including different percentage of mixing) 
 one trial was done. It was determined that the uncertainty due to random errors would be 
-less that due to noise as is observable in.
+less that due to noise as is observable in the residuals of the gaussian sum fits by observing the Ni trials
+available in appendix \ref{A:residuals}, figure \ref{fig:all_Ni_fitted_gaussian_sums}. Therefore, only one trial
+was used for each sample. The fitted gaussian sums with residuals for the Cu and Ni samples and alloys are shown
+in the same appendix, in figure \ref{fig:CuNi_fitted_gaussian_sums}. From these, the inter-planar distances were
+calculated and are shown in table \ref{tab:XRD_results}. These were plotted against expected results for all 3
+types of cubic Bravais lattices, and the best fit was found to be the Face-Centered Cubic (FCC) lattice, as shown
+below in figure \ref{fig:CuNi_fitted_cubic_lattice}. The lattice parameters were then calculated and are shown
+in table \ref{tab:CuNi_lattice_parameters}.
+
+\begin{table}[H]
+\centering
+\caption{Experimental and theoretical lattice parameters for Cu, Ni pure samples and alloys. The theoretical values for the alloys are calculated using Vegard's law	.}
+\begin{tabular}{lccc}
+\hline
+Sample & $a_{\mathrm{exp}}$ (\AA) & $a_{\mathrm{theory}}$ (\AA) & $\Delta a$ (\AA) \\
+\hline
+Ni & $3.5223 \pm 0.0001$ & $3.5238$ & $-0.0015 \pm 0.0001$ \\
+Cu & $3.6126 \pm 0.0001$ & $3.6149$ & $-0.0023 \pm 0.0001$ \\
+Cu$_{25}$Ni$_{75}$ & $3.5415 \pm 0.0002$ & $3.5467$ & $-0.0052 \pm 0.0002$ \\
+Cu$_{50}$Ni$_{50}$ & $3.5629 \pm 0.0003$ & $3.5696$ & $-0.0067 \pm 0.0003$ \\
+Cu$_{75}$Ni$_{25}$ & $3.5864 \pm 0.0002$ & $3.5924$ & $-0.0060 \pm 0.0002$ \\
+\hline
+\end{tabular}
+\label{tab:CuNi_lattice_parameters}
+\end{table}
+
 
 \begin{figure}[H]
 	\centering
@@ -218,8 +243,10 @@ Hexagonal: \[\frac{1}{d^2}=\frac{4}{3}(\frac{h^2+k^2+hk}{a^2})+\frac{l^2}{c^2})\
 
 Orthorhombic: \[\frac{1}{d^2}=\frac{h^2}{a^2}+\frac{k^2}{b^2}+\frac{l^2}{c^2}\]
 
-\section{Supplementary Figures and Tables}
+Vegard's law: \[a_{alloy}=x a_{Cu}+(1-x) a_{Ni}\]
 
+\section{Supplementary Figures and Tables}
+\label{A:residuals}
 
 \begin{figure}[H]
 	\centering
