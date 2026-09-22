@@ -61,7 +61,7 @@ samples A and B were determined to be [...] and [...], with lattices [...] and p
 
 
 \end{abstract}
-\tableofcontents{}
+
 
 \thispagestyle{empty}
 \pagebreak
@@ -133,17 +133,23 @@ the data analysis.
 
 
 \section{Results}\label{sec:res}
-Three trials were done for Ni and Cu samples, though the data for the first Cu trial did not save correctly.
-Two trials were done for Pb, Sn, A and B. For each of the alloys (including different percentage of mixing) 
-one trial was done. It was determined that the uncertainty due to random errors would be 
-less that due to noise as is observable in the residuals of the gaussian sum fits by observing the Ni trials
-available in appendix \ref{A:residuals}, figure \ref{fig:all_Ni_fitted_gaussian_sums}. Therefore, only one trial
-was used for each sample. The fitted gaussian sums with residuals for the Cu and Ni samples and alloys are shown
+
+Three trials were done for Ni and Cu samples, though the data for the first Cu trial did not save correctly. 
+For each of the alloys (including different percentage of mixing) 
+one trial was done. 
+
+The fitted gaussian sums with residuals for the Cu and Ni samples and alloys are shown.
+
+In figure \ref{fig:all_Ni_fitted_gaussian_sums}, the residuals for the Ni samples are shown, and from
+their numerical results in table \ref{tab:XRD_results} we can observe that random error from trial to trial is minimal compared
+with noise error provided by the Gaussian fits. The fitted gaussian sums with residuals for the Cu and Ni samples and alloys are shown
 in the same appendix, in figure \ref{fig:CuNi_fitted_gaussian_sums}. From these, the inter-planar distances were
 calculated and are shown in table \ref{tab:CuNi_lattice_parameters}. These were plotted against expected results for all 3
 types of cubic Bravais lattices, and the best fit was found to be the Face-Centered Cubic (FCC) lattice, as shown
 below in figure \ref{fig:CuNi_fitted_cubic_lattice}. The lattice parameters were then calculated and are shown
 in table \ref{tab:CuNi_lattice_parameters}.
+
+
 
 \begin{table}[H]
 \centering
@@ -174,6 +180,10 @@ Cu$_{75}$Ni$_{25}$ & $3.5864 \pm 0.0002$ & $3.5924$ & $-0.0060 \pm 0.0002$ \\
 
 
 \section{Discussion}\label{sec:dis}
+The results for the Cu and Ni pure samples and alloys are consistent with the literature values, with the experimental values being within 0.2\% of the theoretical values.
+The small discrepancies can be attributed to background noise in the acquired data. The determination of the Face-Centered Cubic (FCC) Bravais lattice for these samples is
+also consistent with known crystal structures for Cu and Ni. While running multiple trials does not reduce error much, it could still be worth it, as random error is of similar order
+as the noise error. The results for the Pb, Sn, and PbSn alloys are still to be determined, as well as the mystery samples A and B.
 
 \newpage
 
