@@ -246,20 +246,7 @@ INPUT .\figures\plane111.png
 INPUT .\figures\plane111.png
 INPUT .\figures\plane111.png
 INPUT C:\Users\Michael Weltz\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
-INPUT .\figures\fit_with_residuals_Ni_only.png
-INPUT .\figures\fit_with_residuals_Ni_only.png
-INPUT .\figures\fit_with_residuals_Ni_only.png
-INPUT .\figures\fit_with_residuals_Ni_only.png
-INPUT .\figures\fit_with_residuals_Ni_only.png
-INPUT .\figures\fit_with_residuals_Ni_only.png
-INPUT .\figures\fit_with_residuals_Ni_only.png
-INPUT .\figures\fit_with_residuals_CuNI_oneofeach.png
-INPUT .\figures\fit_with_residuals_CuNI_oneofeach.png
-INPUT .\figures\fit_with_residuals_CuNI_oneofeach.png
-INPUT .\figures\fit_with_residuals_CuNI_oneofeach.png
-INPUT .\figures\fit_with_residuals_CuNI_oneofeach.png
-INPUT .\figures\fit_with_residuals_CuNI_oneofeach.png
-INPUT .\figures\fit_with_residuals_CuNI_oneofeach.png
+INPUT C:\Users\Michael Weltz\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\tcrm1200.tfm
 INPUT c:\gitshit\XRAY_LAB\tex_output\main.bbl
 INPUT c:\gitshit\XRAY_LAB\tex_output\main.bbl
 INPUT c:\gitshit\XRAY_LAB\tex_output\main.bbl
@@ -269,11 +256,27 @@ INPUT c:\gitshit\XRAY_LAB\tex_output\main.brf
 INPUT c:\gitshit\XRAY_LAB\tex_output\main.brf
 INPUT c:\gitshit\XRAY_LAB\tex_output\main.brf
 OUTPUT c:\gitshit\XRAY_LAB\tex_output\main.brf
+INPUT .\figures\fit_with_residuals_Ni_only.png
+INPUT .\figures\fit_with_residuals_Ni_only.png
+INPUT .\figures\fit_with_residuals_Ni_only.png
+INPUT .\figures\fit_with_residuals_Ni_only.png
+INPUT .\figures\fit_with_residuals_Ni_only.png
+INPUT .\figures\fit_with_residuals_Ni_only.png
+INPUT .\figures\fit_with_residuals_Ni_only.png
+INPUT .\figures\fit_with_residuals_CuNI_oneofeach.png
+INPUT .\figures\fit_with_residuals_CuNI_oneofeach.png
+INPUT .\figures\fit_with_residuals_CuNI_oneofeach.png
+INPUT .\figures\fit_with_residuals_CuNI_oneofeach.png
+INPUT .\figures\fit_with_residuals_CuNI_oneofeach.png
+INPUT .\figures\fit_with_residuals_CuNI_oneofeach.png
+INPUT .\figures\fit_with_residuals_CuNI_oneofeach.png
 INPUT c:\gitshit\XRAY_LAB\tex_output\main.aux
 INPUT c:\gitshit\XRAY_LAB\tex_output\main.out
 INPUT c:\gitshit\XRAY_LAB\tex_output\main.out
 INPUT c:\gitshit\XRAY_LAB\tex_output\main.brf
 INPUT c:\gitshit\XRAY_LAB\tex_output\main.brf
+INPUT C:\Users\Michael Weltz\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1200.pk
+INPUT C:\Users\Michael Weltz\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1200.pk
 INPUT C:\Users\Michael Weltz\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx10.pfb
 INPUT C:\Users\Michael Weltz\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx10.pfb
 INPUT C:\Users\Michael Weltz\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx12.pfb

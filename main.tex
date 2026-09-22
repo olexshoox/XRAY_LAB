@@ -166,6 +166,80 @@ less that due to noise as is observable in.
 
 
 ```latex
+
+
+
+
+
+
+
+
+
+
+\section{Discussion}\label{sec:dis}
+
+\section{Conclusion}\label{sec:con}
+
+\section{plan}
+\subsection{Accomplished}
+\begin{itemize}
+	\item Take data for all samples (pure Cu, Ni, Pb, Sn, CuNi alloys, PbSn alloys, and mystery samples A and B)
+	\item Fit data using gaussian sum to find peak positions and uncertainties
+	\item Calculate inter-planar distances and uncertainties
+	\item Match inter-planar distances to Miller indices and cubic Bravais lattices for Cu, Ni, and CuNi alloys
+	\item Calculate lattice parameters and uncertainties for Cu, Ni, and CuNi alloys
+\end{itemize}
+
+\subsection{To Do}
+\begin{itemize}
+	\item Produce gaussian sum fits for Pb, Sn, and PbSn alloys.
+	\item Calculate inter-planar distances and uncertainties for Pb, Sn, and PbSn alloys.
+	\item Determine how to match inter-planar distances to Miller indices for non-cubic Bravais lattices (Pb, Sn, and PbSn alloys)
+	\item Determine Bravais lattices for Pb, Sn, and PbSn alloys
+	\item Calculate lattice parameters and uncertainties for Pb, Sn, and PbSn alloys
+	\item Buildin on the method developed above, determine the Bravais lattices and lattice parameters for mystery samples A and B.
+\end{itemize}
+
+
+% Bibliography:
+\bibliographystyle{IEEEtran}
+\bibliography{Report template/MyBibliography}
+
+%-----------------------------------%
+\appendix
+\renewcommand{\thesection}{Appendix \Alph{section}. }
+\renewcommand{\thesubsection}{\Alph{section}.\arabic{subsection}. }
+
+\section{Inter-planar distance, Bravais Lattices and Miller indices}\label{A:brav_eq}
+
+For the following equations: $d$ is the inter planar distance, $a,b,c$
+the inter-atomic distances, $h,k,l$ the indices for a given Miller index (hkl).
+
+Cubic: \[\frac{1}{d^2}=\frac{h^2+k^2+l^2}{a^2}\]
+
+Tetragonal: \[\frac{1}{d^2}=\frac{h^2+k^2}{a^2}+\frac{l^2}{c^2}\]
+
+Hexagonal: \[\frac{1}{d^2}=\frac{4}{3}(\frac{h^2+k^2+hk}{a^2})+\frac{l^2}{c^2})\]
+
+Orthorhombic: \[\frac{1}{d^2}=\frac{h^2}{a^2}+\frac{k^2}{b^2}+\frac{l^2}{c^2}\]
+
+\section{Supplementary Figures and Tables}
+
+
+\begin{figure}[H]
+	\centering
+    \includegraphics[width=1\linewidth]{figures/fit_with_residuals_Ni_only.png}
+    \caption{Gaussian sum fits of all pure Ni trials with residuals}
+    \label{fig:all_Ni_fitted_gaussian_sums}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+    \includegraphics[width=0.8\linewidth]{figures/fit_with_residuals_CuNI_oneofeach.png}
+    \caption{Gaussian sum fits with residuals of the Cu and Ni pure and alloy samples}
+    \label{fig:CuNi_fitted_gaussian_sums}
+\end{figure}
+
 \begin{table}[H]
 \centering
 \label{tab:XRD_results}
@@ -305,57 +379,7 @@ Peak & $2\theta$ ($^\circ$) & $d$ (\AA)\\
 \caption{Measured X-ray diffraction peak angular positions and corresponding interplanar spacings ($d$) for the Ni, Cu, and Cu--Ni alloy samples.}
 \end{table}
 
-\begin{figure}
-	\centering
-    \includegraphics[width=1\linewidth]{figures/fit_with_residuals_Ni_only.png}
-    \caption{Gaussian sum fits of all pure Ni trials with residuals}
-    \label{fig:all_Ni_fitted_gaussian_sums}
-\end{figure}
 
-\begin{figure}
-	\centering
-    \includegraphics[width=0.8\linewidth]{figures/fit_with_residuals_CuNI_oneofeach.png}
-    \caption{Gaussian sum fits with residuals of the Cu and Ni pure and alloy samples}
-    \label{fig:CuNi_fitted_gaussian_sums}
-\end{figure}
-
-
-
-
-
-
-
-
-
-
-\section{Discussion}\label{sec:dis}
-
-\section{Conclusion}\label{sec:con}
-
-
-
-
-% Bibliography:
-\bibliographystyle{IEEEtran}
-\bibliography{Report template/MyBibliography}
-
-%-----------------------------------%
-\appendix
-\renewcommand{\thesection}{Appendix \Alph{section}. }
-\renewcommand{\thesubsection}{\Alph{section}.\arabic{subsection}. }
-
-\section{Inter-planar distance, Bravais Lattices and Miller indices}\label{A:brav_eq}
-
-For the following equations: $d$ is the inter planar distance, $a,b,c$
-the inter-atomic distances, $h,k,l$ the indices for a given Miller index (hkl).
-
-Cubic: \[\frac{1}{d^2}=\frac{h^2+k^2+l^2}{a^2}\]
-
-Tetragonal: \[\frac{1}{d^2}=\frac{h^2+k^2}{a^2}+\frac{l^2}{c^2}\]
-
-Hexagonal: \[\frac{1}{d^2}=\frac{4}{3}(\frac{h^2+k^2+hk}{a^2})+\frac{l^2}{c^2})\]
-
-Orthorhombic: \[\frac{1}{d^2}=\frac{h^2}{a^2}+\frac{k^2}{b^2}+\frac{l^2}{c^2}\]
 
 
 \end{document}
