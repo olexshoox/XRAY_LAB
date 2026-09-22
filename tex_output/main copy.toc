@@ -4,6 +4,6 @@
 \contentsline {subsection}{\numberline {2.1}Measurement Procedure}{2}{subsection.2.1}%
 \contentsline {subsection}{\numberline {2.2}Data Analysis}{3}{subsection.2.2}%
 \contentsline {section}{\numberline {3}Results}{3}{section.3}%
-\contentsline {section}{\numberline {4}Discussion}{4}{section.4}%
-\contentsline {section}{\numberline {Appendix A. }Inter-planar distance, Bravais Lattices and Miller indices}{6}{appendix.A}%
-\contentsline {section}{\numberline {Appendix B. }Supplementary Figures and Tables}{7}{appendix.B}%
+\contentsline {section}{\numberline {4}Discussion}{5}{section.4}%
+\contentsline {section}{\numberline {5}Conclusion}{5}{section.5}%
+\contentsline {section}{\numberline {Appendix A. }Inter-planar distance, Bravais Lattices and Miller indices}{5}{appendix.A}%
