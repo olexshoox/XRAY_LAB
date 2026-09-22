@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.9.12)  22 SEP 2026 12:16
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.9.12)  22 SEP 2026 12:22
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -544,12 +544,16 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has b
                    \relax 
 l.152 
        [2 <./figures/brav_lat.png> <./figures/plane111.png>]
-<figures/CuNi_fitted_gaussian_sums.png, id=85, 1076.1003pt x 860.013pt>
-File: figures/CuNi_fitted_gaussian_sums.png Graphic file (type png)
-<use figures/CuNi_fitted_gaussian_sums.png>
-Package pdftex.def Info: figures/CuNi_fitted_gaussian_sums.png  used on input line 169.
-(pdftex.def)             Requested size: 472.03123pt x 377.23897pt.
- (c:\gitshit\XRAY_LAB\tex_output\main.bbl (c:\gitshit\XRAY_LAB\tex_output\main.brf)
+<figures/secondresidualattempt.png, id=85, 859.2903pt x 2305.413pt>
+File: figures/secondresidualattempt.png Graphic file (type png)
+<use figures/secondresidualattempt.png>
+Package pdftex.def Info: figures/secondresidualattempt.png  used on input line 169.
+(pdftex.def)             Requested size: 472.03123pt x 1266.43327pt.
+
+
+LaTeX Warning: Float too large for page by 638.22704pt on input line 172.
+
+(c:\gitshit\XRAY_LAB\tex_output\main.bbl (c:\gitshit\XRAY_LAB\tex_output\main.brf)
 \tf@brf=\write5
 \openout5 = `main.brf'.
 
@@ -557,7 +561,7 @@ Package pdftex.def Info: figures/CuNi_fitted_gaussian_sums.png  used on input li
 
 LaTeX Warning: Empty `thebibliography' environment on input line 24.
 
-) [3] [4 <c:/gitshit/XRAY_LAB/tex_output/figures/CuNi_fitted_gaussian_sums.png>] [5] (c:\gitshit\XRAY_LAB\tex_output\main.aux)
+) [3] [4 <./figures/secondresidualattempt.png>] [5] (c:\gitshit\XRAY_LAB\tex_output\main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
@@ -569,14 +573,14 @@ Package rerunfilecheck Info: File `main.brf' has not changed.
  ) 
 Here is how much of TeX's memory you used:
  15162 strings out of 474486
- 254264 string characters out of 5739943
+ 254236 string characters out of 5739943
  1933542 words of memory out of 5000000
  37205 multiletter control sequences out of 15000+600000
  567826 words of font info for 72 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  105i,9n,107p,412b,539s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/Michael Weltz/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/Michael Weltz/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Michael Weltz/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Michael Weltz/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Michael Weltz/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Michael Weltz/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Michael Weltz/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Michael Weltz/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Michael Weltz/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on c:\gitshit\XRAY_LAB\tex_output\main.pdf (8 pages, 692792 bytes).
+Output written on c:\gitshit\XRAY_LAB\tex_output\main.pdf (8 pages, 953354 bytes).
 PDF statistics:
  145 PDF objects out of 1000 (max. 8388607)
  18 named destinations out of 1000 (max. 500000)
