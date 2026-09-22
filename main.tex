@@ -44,8 +44,6 @@ already calibrated Siemen !!!!!MODEL NAME!!!!! X-Ray diffractometer was used to 
 into Copper (Cu), Nickel (Ni), CuNi alloy, Titanium (Sn), Lead (Pb), PbSn alloy and two
 mystery samples named A and B. 
 
-
-
 Any crystalline solid consists of a regular 3-dimensional packing of cells, the shape of 
 which corresponds to one of fourteen Bravais lattices. These 3D patterns create multiple 
 parallel planar layers within the crystal of various orientations.
@@ -79,32 +77,16 @@ distance $d$, the incident angle $\theta$, and the wavelength $\lambda$:
 \begin{equation}\label{eq:brag}
 	n\lambda=2d\sin(\theta)
 \end{equation}
-with $n=1$ for our purposes. Equation \ref{eq:brag} is formally called Bragg's Law.
-Its utility becomes apparent when one ponders the crystalline structure of solids. 
-Suppose the individual atoms of a crystal could be observed. While varying the angle the 
-observer makes with the plane of the solid, there will be a moment where the
-atoms appear to line up. Given that a crystal is 3-dimension, the atoms will be aligned 
-in parallel planes.
-Not all observed planes are equal however. Figure \ref{fig:plane111} shows a plane formed
-from a cubic arrangement of atoms. Notice that a plane could also have been formed from 
-a face of the cube (in the y-z plane for example), or by aligning four diagonal atoms
-(the plane could be cutting through the y-axis and x-axis, for example). These planes are
-differentiated by their 'Miller index'. 
-\par
-%In figure \ref{fig:plane111}, [!!!EXPLAIN HOW TO GET MILLER INDEX!!!]
-\par
-As briefly mentionned above, the atoms in Figure \ref{fig:plane111} are arranged as a cube.
-This set of arranged atoms is a called a cell, and they can borrow their symmetries from
-one of fourteen Bravais lattices, each grouped into one of seven crystal systems. 
-Figure \ref{fig:brav_lat} shows these lattices and their groups.
-%
+with $n=1$ for our purposes. Equation \ref{eq:brag} is formally called Bragg's Law. 
+Atoms within solids will arrange themselves in symmetries, formally called cells, given
+by one of one of fourteen Bravais lattices, with each lattice grouped into one of seven crystal 
+systems. Atoms will also align along different diffraction planes depending on their Bravais lattice.
 
-%
 If an X-ray is sent to a solid with an angle $\theta$ such that (\ref{eq:brag}) is satisfied,
 then constructive interference occurs between the different rays, and a peak in the intensity
 may be observed at a detector placed $2\theta$ with respect to the incident X-rays. From these
-peaks, the inter-planar distances can be obtained. This inter-planar distance is related
-to the Bravais lattice and Miller indices by various equations. For a cubic system, this relation
+peaks, the distance between the parallel diffraction planes can be obtained and related to the 
+Bravais lattice and Miller indices by various equations. For a cubic system, this relation
 takes the form of
 %
 \begin{equation}
@@ -151,11 +133,12 @@ the data analysis.
 
 
 \section{Results}\label{sec:res}
-Three trials were done for Ni and Cu samples, though the data for the first Cu trial did not save correctly. 
-For each of the alloys (including different percentage of mixing) 
-one trial was done. In figure \ref{fig:all_Ni_fitted_gaussian_sums}, the residuals for the Ni samples are shown, and from
-their numerical results in table \ref{tab:XRD_results} we can observe that random error from trial to trial is minimal compared
-with noise error provided by the Gaussian fits. The fitted gaussian sums with residuals for the Cu and Ni samples and alloys are shown
+Three trials were done for Ni and Cu samples, though the data for the first Cu trial did not save correctly.
+Two trials were done for Pb, Sn, A and B. For each of the alloys (including different percentage of mixing) 
+one trial was done. It was determined that the uncertainty due to random errors would be 
+less that due to noise as is observable in the residuals of the gaussian sum fits by observing the Ni trials
+available in appendix \ref{A:residuals}, figure \ref{fig:all_Ni_fitted_gaussian_sums}. Therefore, only one trial
+was used for each sample. The fitted gaussian sums with residuals for the Cu and Ni samples and alloys are shown
 in the same appendix, in figure \ref{fig:CuNi_fitted_gaussian_sums}. From these, the inter-planar distances were
 calculated and are shown in table \ref{tab:CuNi_lattice_parameters}. These were plotted against expected results for all 3
 types of cubic Bravais lattices, and the best fit was found to be the Face-Centered Cubic (FCC) lattice, as shown
@@ -191,10 +174,6 @@ Cu$_{75}$Ni$_{25}$ & $3.5864 \pm 0.0002$ & $3.5924$ & $-0.0060 \pm 0.0002$ \\
 
 
 \section{Discussion}\label{sec:dis}
-The results for the Cu and Ni pure samples and alloys are consistent with the literature values, with the experimental values being within 0.2\% of the theoretical values.
-The small discrepancies can be attributed to background noise in the acquired data. The determination of the Face-Centered Cubic (FCC) Bravais lattice for these samples is
-also consistent with known crystal structures for Cu and Ni. While running multiple trials does not reduce error much, it could still be worth it, as random error is of similar order
-as the noise error. The results for the Pb, Sn, and PbSn alloys are still to be determined, as well as the mystery samples A and B.
 
 \newpage
 
