@@ -1,5 +1,5 @@
 \documentclass[12pt]{article}
-\usepackage{Style-Thesis-Report}
+\usepackage{Style-Thesis-Report, amsmath, float}
 
 % You can define your own commands like this
 \newcommand{\um}{$\upmu$m} % easily creates the label for ``micrometers''
@@ -163,6 +163,147 @@ Three trials were done for Ni and Cu samples, though the data for the first Cu t
 Two trials were done for Pb, Sn, A and B. For each of the alloys (including different percentage of mixing) 
 one trial was done. It was determined that the uncertainty due to random errors would be 
 less that due to noise as is observable in.
+
+
+```latex
+\begin{table}[H]
+\centering
+\label{tab:XRD_results}
+\renewcommand{\arraystretch}{1.1}
+\setlength{\tabcolsep}{5pt}
+
+\begin{tabular}{cc}
+
+% ---------------- Row 1 ----------------
+\begin{tabular}{c}
+\textbf{Ni trial 1}\\[-2pt]
+\begin{tabular}{ccc}
+\hline
+Peak & $2\theta$ ($^\circ$) & $d$ (\AA)\\
+\hline
+1 & $44.4819 \pm 0.0011$ & $2.03512 \pm 0.00005$\\
+2 & $51.8330 \pm 0.0023$ & $1.76246 \pm 0.00007$\\
+3 & $76.3993 \pm 0.0041$ & $1.24563 \pm 0.00006$\\
+4 & $92.9684 \pm 0.0059$ & $1.06221 \pm 0.00005$\\
+5 & $98.4832 \pm 0.0109$ & $1.01694 \pm 0.00008$\\
+\hline
+\end{tabular}
+\end{tabular}
+&
+\begin{tabular}{c}
+\textbf{Ni trial 2}\\[-2pt]
+\begin{tabular}{ccc}
+\hline
+Peak & $2\theta$ ($^\circ$) & $d$ (\AA)\\
+\hline
+1 & $44.4843 \pm 0.0011$ & $2.03502 \pm 0.00005$\\
+2 & $51.8331 \pm 0.0024$ & $1.76245 \pm 0.00008$\\
+3 & $76.3933 \pm 0.0045$ & $1.24571 \pm 0.00006$\\
+4 & $92.9701 \pm 0.0062$ & $1.06220 \pm 0.00005$\\
+5 & $98.5025 \pm 0.0127$ & $1.01679 \pm 0.00010$\\
+\hline
+\end{tabular}
+\end{tabular}
+\\[8pt]
+
+% ---------------- Row 2 ----------------
+\begin{tabular}{c}
+\textbf{Ni trial 3}\\[-2pt]
+\begin{tabular}{ccc}
+\hline
+Peak & $2\theta$ ($^\circ$) & $d$ (\AA$)$\\
+\hline
+1 & $44.4810 \pm 0.0012$ & $2.03517 \pm 0.00005$\\
+2 & $51.8307 \pm 0.0024$ & $1.76253 \pm 0.00008$\\
+3 & $76.4023 \pm 0.0045$ & $1.24558 \pm 0.00006$\\
+4 & $92.9767 \pm 0.0062$ & $1.06214 \pm 0.00005$\\
+5 & $98.4665 \pm 0.0135$ & $1.01707 \pm 0.00010$\\
+\hline
+\end{tabular}
+\end{tabular}
+&
+\begin{tabular}{c}
+\textbf{Cu trial 1}\\[-2pt]
+\begin{tabular}{ccc}
+\hline
+Peak & $2\theta$ ($^\circ$) & $d$ (\AA)\\
+\hline
+1 & $43.3661 \pm 0.0011$ & $2.08487 \pm 0.00005$\\
+2 & $50.4888 \pm 0.0024$ & $1.80618 \pm 0.00008$\\
+3 & $74.2095 \pm 0.0043$ & $1.27687 \pm 0.00006$\\
+4 & $90.0228 \pm 0.0054$ & $1.08915 \pm 0.00005$\\
+5 & $95.2553 \pm 0.0097$ & $1.04266 \pm 0.00008$\\
+\hline
+\end{tabular}
+\end{tabular}
+\\[8pt]
+
+% ---------------- Row 3 ----------------
+\begin{tabular}{c}
+\textbf{Cu trial 2}\\[-2pt]
+\begin{tabular}{ccc}
+\hline
+Peak & $2\theta$ ($^\circ$) & $d$ (\AA)\\
+\hline
+1 & $43.3667 \pm 0.0011$ & $2.08484 \pm 0.00005$\\
+2 & $50.4882 \pm 0.0024$ & $1.80620 \pm 0.00008$\\
+3 & $74.2000 \pm 0.0043$ & $1.27701 \pm 0.00006$\\
+4 & $90.0104 \pm 0.0057$ & $1.08927 \pm 0.00005$\\
+5 & $95.2715 \pm 0.0098$ & $1.04253 \pm 0.00008$\\
+\hline
+\end{tabular}
+\end{tabular}
+&
+\begin{tabular}{c}
+\textbf{Cu$_{25}$Ni$_{75}$}\\[-2pt]
+\begin{tabular}{ccc}
+\hline
+Peak & $2\theta$ ($^\circ$) & $d$ (\AA)\\
+\hline
+1 & $44.2433 \pm 0.0015$ & $2.04554 \pm 0.00006$\\
+2 & $51.5406 \pm 0.0034$ & $1.77176 \pm 0.00011$\\
+3 & $75.9226 \pm 0.0065$ & $1.25226 \pm 0.00009$\\
+4 & $92.3239 \pm 0.0085$ & $1.06793 \pm 0.00008$\\
+5 & $97.7855 \pm 0.0166$ & $1.02232 \pm 0.00013$\\
+\hline
+\end{tabular}
+\end{tabular}
+\\[8pt]
+
+% ---------------- Row 4 ----------------
+\begin{tabular}{c}
+\textbf{Cu$_{50}$Ni$_{50}$}\\[-2pt]
+\begin{tabular}{ccc}
+\hline
+Peak & $2\theta$ ($^\circ$) & $d$ (\AA)\\
+\hline
+1 & $43.9763 \pm 0.0016$ & $2.05734 \pm 0.00007$\\
+2 & $51.2219 \pm 0.0036$ & $1.78204 \pm 0.00012$\\
+3 & $75.4112 \pm 0.0071$ & $1.25948 \pm 0.00010$\\
+4 & $91.6044 \pm 0.0098$ & $1.07443 \pm 0.00009$\\
+5 & $97.0016 \pm 0.0200$ & $1.02849 \pm 0.00016$\\
+\hline
+\end{tabular}
+\end{tabular}
+&
+\begin{tabular}{c}
+\textbf{Cu$_{75}$Ni$_{25}$}\\[-2pt]
+\begin{tabular}{ccc}
+\hline
+Peak & $2\theta$ ($^\circ$) & $d$ (\AA)\\
+\hline
+1 & $43.6499 \pm 0.0015$ & $2.07197 \pm 0.00007$\\
+2 & $50.8455 \pm 0.0035$ & $1.79434 \pm 0.00011$\\
+3 & $74.8037 \pm 0.0062$ & $1.26819 \pm 0.00009$\\
+4 & $90.8289 \pm 0.0083$ & $1.08157 \pm 0.00008$\\
+5 & $96.1327 \pm 0.0160$ & $1.03546 \pm 0.00013$\\
+\hline
+\end{tabular}
+\end{tabular}
+
+\end{tabular}
+\caption{Measured X-ray diffraction peak angular positions and corresponding interplanar spacings ($d$) for the Ni, Cu, and Cu--Ni alloy samples.}
+\end{table}
 
 \begin{figure}
 	\centering
