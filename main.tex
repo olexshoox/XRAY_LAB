@@ -72,10 +72,9 @@ samples A and B were determined to be [...] and [...], with lattices [...] and p
 
 \section{Introduction}\label{sec:int}
 
-The discovery of X-rays led to W.H. and W.L. Bragg researching the inner 
-workings of X-ray diffraction. It was found that a solid can serve as a diffraction
+A solid can serve as a diffraction
 grating for X-rays of wavelengths similar lengths to the the inter-atomic distances.
-Similarly to how light diffracts, one can obtain a relation between the inter-atomic
+Similarly to how light diffracts, one can obtain a relation between the inter-planar
 distance $d$, the incident angle $\theta$, and the wavelength $\lambda$: 
 \begin{equation}\label{eq:brag}
 	n\lambda=2d\sin(\theta)
@@ -83,7 +82,7 @@ distance $d$, the incident angle $\theta$, and the wavelength $\lambda$:
 with $n=1$ for our purposes. Equation \ref{eq:brag} is formally called Bragg's Law.
 Its utility becomes apparent when one ponders the crystalline structure of solids. 
 Suppose the individual atoms of a crystal could be observed. While varying the angle the 
-observer makes with the plane of the solid (incident angle), there will be a moment where the
+observer makes with the plane of the solid, there will be a moment where the
 atoms appear to line up. Given that a crystal is 3-dimension, the atoms will be aligned 
 in parallel planes.
 Not all observed planes are equal however. Figure \ref{fig:plane111} shows a plane formed
@@ -92,44 +91,38 @@ a face of the cube (in the y-z plane for example), or by aligning four diagonal 
 (the plane could be cutting through the y-axis and x-axis, for example). These planes are
 differentiated by their 'Miller index'. 
 \par
-In figure \ref{fig:plane111}, [!!!EXPLAIN HOW TO GET MILLER INDEX!!!]
+%In figure \ref{fig:plane111}, [!!!EXPLAIN HOW TO GET MILLER INDEX!!!]
 \par
 As briefly mentionned above, the atoms in Figure \ref{fig:plane111} are arranged as a cube.
 This set of arranged atoms is a called a cell, and they can borrow their symmetries from
 one of fourteen Bravais lattices, each grouped into one of seven crystal systems. 
 Figure \ref{fig:brav_lat} shows these lattices and their groups.
 %
-\begin{figure}[!bth]
-\begin{minipage}[c]{0.45\linewidth}
-\includegraphics[width=\linewidth]{figures/brav_lat.png}
-\caption{The fourteen Bravais lattices with their seven assocociated groups.}
-\label{fig:brav_lat}
-\end{minipage}
-\hfill
-\begin{minipage}[c]{0.45\linewidth}
-\includegraphics[width=\linewidth]{figures/plane111.png}
-\caption{Plane corresponding to Miller index 111.}
-\label{fig:plane111}
-\end{minipage}%
-\end{figure}
+
 %
-The Miller indices can be related to the inter-planar distance $d$ 
-(\ref{eq:brag}) by various equations depending on their Bravais lattice. In a cubic crystal
-system for example, the relation is given by
+If an X-ray is sent to a solid with an angle $\theta$ such that (\ref{eq:brag}) is satisfied,
+then constructive interference occurs between the different rays, and a peak in the intensity
+may be observed at a detector placed $2\theta$ with respect to the incident X-rays. From these
+peaks, the inter-planar distances can be obtained. This inter-planar distance is related
+to the Bravais lattice and Miller indices by various equations. For a cubic system, this relation
+takes the form of
+%
 \begin{equation}
 	\frac{1}{d^2}=\frac{h^2+k^2+l^2}{a^2}
 \end{equation}
 %
-where $h,k,l$ are the Miller Indices and $a$ is the len of the cube edge. Similar equations
+where $h,k,l$ are the Miller Indices and $a$ is the length of the cube edge. Similar equations
 for different crystal systems are given in \ref{A:brav_eq}. 
+
+%%% probably should talk more about how to obtain to indices and bravais lattices
 
 
 \section{Methods}\label{sec:met}
 
-\subsection{Measurement Procedure}
-A pre-calibrated Siemens diffractometer was used to produce X-Rays, send them at the samples, and 
-detect the diffractions.
-The diffractometer consisted primarily of an X-ray tube, a sample mounting plate, and a 
+\subsection{Apparatus}
+The apparatus consisted of a pre-calibrated Siemens diffractometer was used to produce X-Rays, 
+send them at the samples, and 
+detect the diffractions.The diffractometer consisted primarily of an X-ray tube, a sample mounting plate, and a 
 photon detector. The X-ray tube used Copper $K_{\alpha}$ radiation and was cooled using water. Two sets of filters of 
 0.6\,mm were present on the X-ray tube and the detector, to prevent stray rays from leaving
 the tube and entering the detector. During data acquisition, the diffractometer was set to 
@@ -137,25 +130,24 @@ the tube and entering the detector. During data acquisition, the diffractometer 
 The samples were centered by aligning the middle of the sample with a red line marked on the 
 mounting plate. The diffractometer changes the $\theta$ by rotating the mounting plate by some $\Delta\theta$
 and moving the detector by $2\Delta\theta$.
-A computer was connected to the diffractometer, with which
 
-a .dql measuring parameter file was given to the diffractometer and data was obtained from the 
+A computer was connected to the diffractometer, with which a .dql measuring parameter file was given to the diffractometer and data was obtained from the 
 dectector as .RAW files. The measuring parameters were an initial angle of $2\theta_0=5.00^{\circ}$, 
 angle increments of $\Delta\theta=0.05^{\circ}$, with 2.00\,s at each step, with a final 
 angle ofe $2\theta_f=110.00^{\circ}$. The total measuring time is roughly 1\,h0\,5m using the aformentionned
 parameters.
+
+\subsection{Data Acquisition and Analysis}
 Data acquisition was simple: Mount the desired sample onto the mounting plate, centering it
-with the red line. Then, on the computer, open the software program [!!!NAME!!!], select the desired 
+with the red line. Then, on the computer, open the software program, select the desired 
 parameter file, name the trial, and execute the job. After the job finishes, convert the .RAW file to .UXD.
 Finally, the .UXD files were transfered from the lab computer onto the experimentalists's for 
 the data analysis.
-
-\subsection{Data Analysis}
-From the .UXD files of a sample, the plot of light intensity against $\theta$ can be done. Using prominence 50, 
-local maxima of light intensities can be located and indexed to find angles where diffraction in planes
-occur. Every peak in the plot is then fitted to a gaussian curve, centered at a local maxima,
-and every curve is summed to obtain a plot of summed gaussians of
-intensity against $2\theta$. From this, we extract mean values and variance. 
+%From the .UXD files of a sample, the plot of light intensity against $\theta$ can be done. Using prominence 50, 
+%local maxima of light intensities can be located and indexed to find angles where diffraction in planes
+%occur. Every peak in the plot is then fitted to a gaussian curve, centered at a local maxima,
+%and every curve is summed to obtain a plot of summed gaussians of
+%intensity against $2\theta$. From this, we extract mean values and variance. 
 
 
 \section{Results}\label{sec:res}
@@ -166,15 +158,15 @@ less that due to noise as is observable in the residuals of the gaussian sum fit
 available in appendix \ref{A:residuals}, figure \ref{fig:all_Ni_fitted_gaussian_sums}. Therefore, only one trial
 was used for each sample. The fitted gaussian sums with residuals for the Cu and Ni samples and alloys are shown
 in the same appendix, in figure \ref{fig:CuNi_fitted_gaussian_sums}. From these, the inter-planar distances were
-calculated and are shown in table \ref{tab:XRD_results}. These were plotted against expected results for all 3
+calculated and are shown in table \ref{tab:CuNi_lattice_parameters}. These were plotted against expected results for all 3
 types of cubic Bravais lattices, and the best fit was found to be the Face-Centered Cubic (FCC) lattice, as shown
 below in figure \ref{fig:CuNi_fitted_cubic_lattice}. The lattice parameters were then calculated and are shown
 in table \ref{tab:CuNi_lattice_parameters}.
 
 \begin{table}[H]
 \centering
-\caption{Experimental and theoretical lattice parameters for Cu, Ni pure samples and alloys. The theoretical values for the alloys are calculated using Vegard's law	.}
 \begin{tabular}{lccc}
+\hline
 \hline
 Sample & $a_{\mathrm{exp}}$ (\AA) & $a_{\mathrm{theory}}$ (\AA) & $\Delta a$ (\AA) \\
 \hline
@@ -184,7 +176,9 @@ Cu$_{25}$Ni$_{75}$ & $3.5415 \pm 0.0002$ & $3.5467$ & $-0.0052 \pm 0.0002$ \\
 Cu$_{50}$Ni$_{50}$ & $3.5629 \pm 0.0003$ & $3.5696$ & $-0.0067 \pm 0.0003$ \\
 Cu$_{75}$Ni$_{25}$ & $3.5864 \pm 0.0002$ & $3.5924$ & $-0.0060 \pm 0.0002$ \\
 \hline
+\hline
 \end{tabular}
+\caption{Experimental and theoretical lattice parameters for Cu, Ni pure samples and alloys. The theoretical values for the alloys are calculated using Vegard's law	.}
 \label{tab:CuNi_lattice_parameters}
 \end{table}
 
@@ -193,6 +187,7 @@ Cu$_{75}$Ni$_{25}$ & $3.5864 \pm 0.0002$ & $3.5924$ & $-0.0060 \pm 0.0002$ \\
 	\centering
 	\includegraphics[width=1\linewidth]{figures/cubic_lattice_and_parameter_fit_Cu&Ni.png}
 	\caption{Determination of Cubic crystal structure and lattice parameter for Cu and Ni.}
+	\label{fig:CuNi_fitted_cubic_lattice}
 \end{figure}
 
 
@@ -212,6 +207,7 @@ Cu$_{75}$Ni$_{25}$ & $3.5864 \pm 0.0002$ & $3.5924$ & $-0.0060 \pm 0.0002$ \\
 
 \subsection*{To Do}
 \begin{itemize}
+	\item Do more runs for samples with only 1 run
 	\item Produce gaussian sum fits for Pb, Sn, and PbSn alloys.
 	\item Calculate inter-planar distances and uncertainties for Pb, Sn, and PbSn alloys.
 	\item Determine how to match inter-planar distances to Miller indices for non-cubic Bravais lattices (Pb, Sn, and PbSn alloys).
