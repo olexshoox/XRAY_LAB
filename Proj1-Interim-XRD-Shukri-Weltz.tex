@@ -61,7 +61,7 @@ samples A and B were determined to be [...] and [...], with lattices [...] and p
 
 
 \end{abstract}
-
+\tableofcontents{}
 
 \thispagestyle{empty}
 \pagebreak
@@ -101,30 +101,19 @@ for different crystal systems are given in \ref{A:brav_eq}.
 
 \section{Methods}\label{sec:met}
 
-\subsection{Apparatus}
-The apparatus consisted of a pre-calibrated Siemens diffractometer was used to produce X-Rays, 
-send them at the samples, and 
-detect the diffractions.The diffractometer consisted primarily of an X-ray tube, a sample mounting plate, and a 
-photon detector. The X-ray tube used Copper $K_{\alpha}$ radiation and was cooled using water. Two sets of filters of 
-0.6\,mm were present on the X-ray tube and the detector, to prevent stray rays from leaving
-the tube and entering the detector. During data acquisition, the diffractometer was set to 
-40\,kV and 40\,mA. The mounting plate kept the sample in place with a spring-loaded mechanism. 
-The samples were centered by aligning the middle of the sample with a red line marked on the 
-mounting plate. The diffractometer changes the $\theta$ by rotating the mounting plate by some $\Delta\theta$
-and moving the detector by $2\Delta\theta$.
-
-A computer was connected to the diffractometer, with which a .dql measuring parameter file was given to the diffractometer and data was obtained from the 
-dectector as .RAW files. The measuring parameters were an initial angle of $2\theta_0=5.00^{\circ}$, 
+The apparatus consisted of a pre-calibrated Siemens diffractometer, which consisted of an X-ray tube, 
+a sample mounting plate, and a photon detector. The X-ray tube used Copper $K_{\alpha}$ radiation. 
+Two sets of filters of 0.6\,mm were present on the X-ray tube and the detector. During data acquisition, the diffractometer was set to 
+40\,kV and 40\,mA. The mounting plate kept the sample in place with a spring-loaded mechanism, 
+and was marked with a red line to center the samples.
+A computer connected to the apparatus was used to give it a .dql measurement parameter file and 
+obtain the data as a .RAW file (subsequently converted to .UXD.) 
+ The measuring parameters were an initial angle of $2\theta_0=5.00^{\circ}$, 
 angle increments of $\Delta\theta=0.05^{\circ}$, with 2.00\,s at each step, with a final 
-angle ofe $2\theta_f=110.00^{\circ}$. The total measuring time is roughly 1\,h0\,5m using the aformentionned
-parameters.
+angle ofe $2\theta_f=110.00^{\circ}$.
+Data acquisition consited in mounting the sample on the plate, opening the parameter file in 
+the computer software and executing the job.
 
-\subsection{Data Acquisition and Analysis}
-Data acquisition was simple: Mount the desired sample onto the mounting plate, centering it
-with the red line. Then, on the computer, open the software program, select the desired 
-parameter file, name the trial, and execute the job. After the job finishes, convert the .RAW file to .UXD.
-Finally, the .UXD files were transfered from the lab computer onto the experimentalists's for 
-the data analysis.
 %From the .UXD files of a sample, the plot of light intensity against $\theta$ can be done. Using prominence 50, 
 %local maxima of light intensities can be located and indexed to find angles where diffraction in planes
 %occur. Every peak in the plot is then fitted to a gaussian curve, centered at a local maxima,
@@ -214,11 +203,9 @@ as the noise error. The results for the Pb, Sn, and PbSn alloys are still to be 
 \bibliography{Report template/MyBibliography}
 
 %-----------------------------------%
-\appendix
-\renewcommand{\thesection}{Appendix \Alph{section}. }
-\renewcommand{\thesubsection}{\Alph{section}.\arabic{subsection}. }
 
-\section{Inter-planar distance, Bravais Lattices and Miller indices}\label{A:brav_eq}
+\section{Appendix}
+\subsection{Inter-planar distance, Bravais Lattices and Miller indices}\label{A:brav_eq}
 
 For the following equations: $d$ is the inter planar distance, $a,b,c$
 the inter-atomic distances, $h,k,l$ the indices for a given Miller index (hkl).
@@ -233,7 +220,7 @@ Orthorhombic: \[\frac{1}{d^2}=\frac{h^2}{a^2}+\frac{k^2}{b^2}+\frac{l^2}{c^2}\]
 
 Vegard's law: \[a_{alloy}=x a_{Cu}+(1-x) a_{Ni}\]
 
-\section{Supplementary Figures and Tables}
+\subsection{Supplementary Figures and Tables}
 \label{A:residuals}
 
 \begin{figure}[H]
