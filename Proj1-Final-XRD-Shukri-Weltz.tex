@@ -96,14 +96,12 @@ Bravais lattice and Miller indices by various equations. For a cubic system,
 this relation
 takes the form of
 %
-\begin{equation}
+\begin{equation}\label{eq:cubic}
 	\frac{1}{d^2}=\frac{h^2+k^2+l^2}{a^2}
 \end{equation}
 %
 where $h,k,l$ are the Miller Indices and $a$ is the length of the cube edge. Similar equations
 for different crystal systems are given in \ref{A:brav}. 
-
-% figure of bravais lattice
 
 \section{Methods}\label{sec:met}
 % In method part, only include necessary infomation. it is not a lab manual or sop
@@ -137,9 +135,22 @@ gaussians fitted about the intensity peaks.
 
 % ---- 
 \subsection{Data Analysis}
-The acquired data is used to plot intensity against $2\theta$. From the plots, local 
-maxima of intensity are obtained and Guassians are fitted against each peak, yielding
-an uncertainties for the peaks. 
+For a given sample, the acquired data is used to plot intensity against $2\theta$. From the plots, local 
+maxima of intensity are obtained and gaussians are fitted against individual peaks, yielding
+an uncertainties for each. Noise is accounted for by taking an average of the intensities
+where there are no peaks, and subtracting it from the peaks. The Gaussians are
+then summed and plotted. From the means of the gaussians the angle of diffraction is obtained and used
+to find the inter-planar distance (for that given peak), using equation \ref{eq:brag}. Consider the set 
+of equation in Appendix \ref{A:brav} relating $d$ and the Miller indices. For every $d$ spacing, we 
+want to find what the sum of the Miller indices are. These will always be integers, so the goal is 
+to make a guess on $h,k,l$, find the lattice constant(s), and check for consistency. For example, in 
+a cubic system, we can simply plot the selection rules for a given Bravais lattice against the expected $d$
+values, and compare with the experimental $d$ values. The experimental $d$ values should align along 
+one of the Bravais lattice (either FCC, BCC, SC). For tetragonal and Hexagonal systems, it becomes more of a guessing
+game. Notice that 
+
+
+
 
 
 \section{Results}\label{sec:res}
@@ -156,6 +167,9 @@ an uncertainties for the peaks.
 %Cu trial did not save correctly. 
 %For each of the alloys (including different percentage of mixing) 
 %one trial was done. 
+
+% Figure we need : sample diffraction plot, 'd' plot, 
+
 
 The fitted gaussian sums with residuals for the Cu and Ni samples and alloys are shown.
 
@@ -232,7 +246,7 @@ Cubic: \[\frac{1}{d^2}=\frac{h^2+k^2+l^2}{a^2}\]
 
 Tetragonal: \[\frac{1}{d^2}=\frac{h^2+k^2}{a^2}+\frac{l^2}{c^2}\]
 
-Hexagonal: \[\frac{1}{d^2}=\frac{4}{3}(\frac{h^2+k^2+hk}{a^2})+\frac{l^2}{c^2})\]
+Hexagonal: \[\frac{1}{d^2}=\frac{4}{3}(\frac{h^2+k^2+hk}{a^2})+\frac{l^2}{c^2}\]
 
 Orthorhombic: \[\frac{1}{d^2}=\frac{h^2}{a^2}+\frac{k^2}{b^2}+\frac{l^2}{c^2}\]
 
