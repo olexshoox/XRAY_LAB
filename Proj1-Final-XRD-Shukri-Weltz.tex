@@ -106,13 +106,13 @@ for different crystal systems are given in \ref{A:brav}.
 \section{Methods}\label{sec:met}
 % In method part, only include necessary infomation. it is not a lab manual or sop
 \subsection{Instrument and Data Acquisition}
-The apparatus consisted of a pre-calibrated Siemens SD5000 diffractometer. 
+The apparatus consisted of a pre-calibrated Siemens D5000 diffractometer. 
 The X-ray tube used Copper $K_{\alpha}$ radiation. 
 Two sets of filters of 0.6\,mm were present on the X-ray tube and the detector.
 During data acquisition, the diffractometer was set to 
 40\,kV and 40\,mA. 
 A computer connected to the apparatus was used to specify the measurement parameters and 
-obtain the data from the instrument. 
+obtain the data from the instrument. A picture of the instrument is shown in Figure \ref{fig:instr}
 
 Data acquisition consisted in mounting the sample on the mounting plate, opening the parameter 
 file in the computer software and executing the job. Once the job is executed, 
@@ -130,8 +130,14 @@ It was found that the uncertainties associated to statistical fluctuations of tw
 measurements were smaller than that of the standard deviation of
 gaussians fitted about the intensity peaks.
 
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.4\linewidth]{figures/Instr_1.JPG}
+	\caption{Picture of the Siemens D5000 diffractometer used for the experiment.}
+	\label{fig:instr}
+\end{figure}
 
-% --- add picture of diffractometer
+% --- add picture of diffractometer --- %
 
 % ---- 
 \subsection{Data Analysis}
@@ -146,8 +152,11 @@ want to find what the sum of the Miller indices are. These will always be intege
 to make a guess on $h,k,l$, find the lattice constant(s), and check for consistency. For example, in 
 a cubic system, we can simply plot the selection rules for a given Bravais lattice against the expected $d$
 values, and compare with the experimental $d$ values. The experimental $d$ values should align along 
-one of the Bravais lattice (either FCC, BCC, SC). For tetragonal and Hexagonal systems, it becomes more of a guessing
-game. Notice that 
+one of the Bravais lattice (either FCC, BCC, SC). For tetragonal and Hexagonal systems, it becomes more of 
+a guessing game. Notice that $d$ is maximised when $h,k,l$ are a minimum, and that not all integer for 
+$h,k,l$ are allowed. By guessing certain values of $h,k,l$, we can isolate the lattice parameters, take 
+the ratios of the spacings with the latter, and if consistent these ratios should be integers. For the 
+Mystery samples and alloys, this method is repeated but and extra guess is made on the crystal system.
 
 
 
@@ -168,7 +177,7 @@ game. Notice that
 %For each of the alloys (including different percentage of mixing) 
 %one trial was done. 
 
-% Figure we need : sample diffraction plot, 'd' plot, 
+% Figure we need : sample diffraction plot, 'd' plot, sample table of 2\theta | d | 1/d^2 | hkl | miller index 
 
 
 The fitted gaussian sums with residuals for the Cu and Ni samples and alloys are shown.
