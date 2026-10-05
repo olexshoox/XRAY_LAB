@@ -40,7 +40,7 @@
 This experiment set out to to measure X-ray diffraction patterns of various solid 
 samples in order to describe their crystaline structure level. A pre-calibrated Siemen D5000 X-Ray 
 diffractometer was used to charactize the structure of Copper, Nickel (Ni), CuNi alloy, Titanium (Sn), 
-Lead (Pb), PbSn alloy and two mystery samples (labeled A and B). Bragg's law was used to obtain the 
+Lead (Pb), PbSn alloy and two mystery samples A and B. Bragg's law was used to obtain the 
 distances of various diffraction planes, which was related to the Miller indices of the 
 planes. It was found that Copper, Nickel and the alloys are Cubic system with FCC Bravais lattices ((and a 
 lattice parameter of [...])); Tin, Lead and the alloys are Tetragonal systemes with [P/I] lattices ((and parameters 
@@ -196,8 +196,14 @@ set of diffraction planes.
 
 Figure \ref{fig:cu_diff} shows the summed gaussians fitted to the diffraction pattern for the Cu sample.
 Notice the peak of the gaussians is lower than that of the data, this is to account for noise. 
+A $\chi^2$ value of 2.477 was obtained, showing that the results are statistically probably and 
+reproducible.
 From the means of the gaussians and Bragg's law the inter-planar distances were found, as shown in Tables
-\ref{cu_d}
+\ref{cu_d}. First a guess is made that the first peak occurs at (100), thus $1/d^2=1/a^2$. Dividing
+$1/d^2$ by $1/a^2$ for every $d$ does not yield integers. However we find that it is an integer plus a 
+factor of three. Hence we multiply by three and find integers for $h^2+k^2+l^2$. From these 
+integer we infer $h,k,l$, and hence the Miller index for each plane. Table \ref{cu_miller} show the 
+values obtained following this procedure.
 
 \begin{figure}[H]
 	\centering
@@ -222,7 +228,7 @@ $95.263 \pm 7\cdot 10^{-3}$ & $1.04260 \pm 6\cdot 10^{-5}$ \\
 \hline
 \hline
 \end{tabular}
-\caption{Experimental and theoretical lattice parameters for Cu, Ni pure samples and alloys. The theoretical values for the alloys are calculated using Vegard's law.}
+\caption{Angle of the peaks and the associated inter-planar distances}
 \label{tab:cu_d}
 \end{table}
 
@@ -241,9 +247,13 @@ $0.9200 \pm 1\cdot 10^{-4}$ & $11.996 \pm 1\cdot 10^{-3}$ & 12 & (222)\\
 \hline
 \hline
 \end{tabular}
-\caption{Experimental and theoretical lattice parameters for Cu, Ni pure samples and alloys. The theoretical values for the alloys are calculated using Vegard's law.}
+\caption{Values obtained when trying to find the Miler indices.}
 \label{tab:cu_miller}
 \end{table}
+
+Based on the selection rules for cubic systems, we find that Copper is face 
+centered cubic (FCC).
+
 
 The fitted gaussian sums with residuals for the Cu and Ni samples and alloys are shown.
 
