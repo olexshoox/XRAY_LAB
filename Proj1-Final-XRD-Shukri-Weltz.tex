@@ -72,52 +72,27 @@ samples A and B were determined to be [...] and [...], with lattices [...] and p
 
 \section{Introduction}\label{sec:int}
 
-The discovery of X-rays led to W.H. and W.L. Bragg researching the inner 
-workings of X-ray diffraction. It was found that a solid can serve as a diffraction
-grating for X-rays of wavelengths similar lengths to the the inter-atomic distances.
-Similarly to how light diffracts, one can obtain a relation between the inter-planar
+A solid can serve as a diffraction grating for X-rays of wavelengths similar 
+to the lengths of inter-atomic distances. Similarly to how light diffracts, X-rays 
+can also diffract off of atoms. Atoms within solids will arrange themselves in 
+symmetries, formally called cells, given
+by one of one of fourteen Bravais lattices, with each lattice grouped into one 
+of seven crystal systems. Atoms will also align along different diffraction 
+planes depending on their Bravais lattice. 
+If an X-ray is sent to a solid with an angle $\theta$ such that
+constructive interference occurs at a detector placed $2\theta$ with respect to the 
+incident ray, a peak in intensity of photons may be observed. From this, one can
+obtain a relation between the inter-planar
 distance $d$, the incident angle $\theta$, and the wavelength $\lambda$: 
 \begin{equation}\label{eq:brag}
 	n\lambda=2d\sin(\theta)
 \end{equation}
-with $n=1$ for our purposes. Equation \ref{eq:brag} is formally called Bragg's Law.
-Its utility becomes apparent when one ponders the crystalline structure of solids. 
-Suppose the individual atoms of a crystal could be observed. While varying the angle the 
-observer makes with the plane of the solid, there will be a moment where the
-atoms appear to line up. Given that a crystal is 3-dimension, the atoms will be aligned 
-in parallel planes.
-Not all observed planes are equal however. Figure \ref{fig:plane111} shows a plane formed
-from a cubic arrangement of atoms. Notice that a plane could also have been formed from 
-a face of the cube (in the y-z plane for example), or by aligning four diagonal atoms
-(the plane could be cutting through the y-axis and x-axis, for example). These planes are
-differentiated by their 'Miller index'. 
-\par
-In figure \ref{fig:plane111}, [!!!EXPLAIN HOW TO GET MILLER INDEX!!!]
-\par
-As briefly mentionned above, the atoms in Figure \ref{fig:plane111} are arranged as a cube.
-This set of arranged atoms is a called a cell, and they can borrow their symmetries from
-one of fourteen Bravais lattices, each grouped into one of seven crystal systems. 
-Figure \ref{fig:brav_lat} shows these lattices and their groups.
-%
-\begin{figure}[!bth]
-\begin{minipage}[c]{0.45\linewidth}
-\includegraphics[width=\linewidth]{figures/brav_lat.png}
-\caption{The fourteen Bravais lattices with their seven assocociated groups.}
-\label{fig:brav_lat}
-\end{minipage}
-\hfill
-\begin{minipage}[c]{0.45\linewidth}
-\includegraphics[width=\linewidth]{figures/plane111.png}
-\caption{Plane corresponding to Miller index 111.}
-\label{fig:plane111}
-\end{minipage}%
-\end{figure}
-%
-If an X-ray is sent to a solid with an angle $\theta$ such that (\ref{eq:brag}) is satisfied,
-then constructive interference occurs between the different rays, and a peak in the intensity
-may be observed at a detector placed $2\theta$ with respect to the incident X-rays. From these
-peaks, the inter-planar distances can be obtained. This inter-planar distance is related
-to the Bravais lattice and Miller indices by various equations. For a cubic system, this relation
+with $n=1$ for our purposes. Equation \ref{eq:brag} is formally called Bragg's Law. 
+
+Using these observed peaks and (\ref{eq:brag}), the distance $d$ between the parallel 
+diffraction planes can be obtained and related to the 
+Bravais lattice and Miller indices by various equations. For a cubic system, 
+this relation
 takes the form of
 %
 \begin{equation}
@@ -127,61 +102,76 @@ takes the form of
 where $h,k,l$ are the Miller Indices and $a$ is the length of the cube edge. Similar equations
 for different crystal systems are given in \ref{A:brav_eq}. 
 
-%%% probably should talk more about how to obtain to indices and bravais lattices
-
 
 \section{Methods}\label{sec:met}
 
-\subsection{Measurement Procedure}
-A pre-calibrated Siemens diffractometer was used to produce X-Rays, send them at the samples, and 
-detect the diffractions.
-The diffractometer consisted primarily of an X-ray tube, a sample mounting plate, and a 
-photon detector. The X-ray tube used Copper $K_{\alpha}$ radiation and was cooled using water. Two sets of filters of 
-0.6\,mm were present on the X-ray tube and the detector, to prevent stray rays from leaving
-the tube and entering the detector. During data acquisition, the diffractometer was set to 
-40\,kV and 40\,mA. The mounting plate kept the sample in place with a spring-loaded mechanism. 
-The samples were centered by aligning the middle of the sample with a red line marked on the 
-mounting plate. The diffractometer changes the $\theta$ by rotating the mounting plate by some $\Delta\theta$
-and moving the detector by $2\Delta\theta$.
-A computer was connected to the diffractometer, with which
 
-a .dql measuring parameter file was given to the diffractometer and data was obtained from the 
-dectector as .RAW files. The measuring parameters were an initial angle of $2\theta_0=5.00^{\circ}$, 
+The apparatus consisted of a pre-calibrated Siemens diffractometer, which consisted of an X-ray tube, 
+a sample mounting plate, and a photon detector. The X-ray tube used Copper $K_{\alpha}$ radiation. 
+Two sets of filters of 0.6\,mm were present on the X-ray tube and the detector. During data acquisition, the diffractometer was set to 
+40\,kV and 40\,mA. The mounting plate kept the sample in place with a spring-loaded mechanism, 
+and was marked with a red line to center the samples.
+A computer connected to the apparatus was used to give it a .dql measurement parameter file and 
+obtain the data as a .RAW file (subsequently converted to .UXD.) 
+ The measuring parameters were an initial angle of $2\theta_0=5.00^{\circ}$, 
 angle increments of $\Delta\theta=0.05^{\circ}$, with 2.00\,s at each step, with a final 
-angle ofe $2\theta_f=110.00^{\circ}$. The total measuring time is roughly 1\,h0\,5m using the aformentionned
-parameters.
-Data acquisition was simple: Mount the desired sample onto the mounting plate, centering it
-with the red line. Then, on the computer, open the software program [!!!NAME!!!], select the desired 
-parameter file, name the trial, and execute the job. After the job finishes, convert the .RAW file to .UXD.
-Finally, the .UXD files were transfered from the lab computer onto the experimentalists's for 
-the data analysis.
-
-\subsection{Data Analysis}
-From the .UXD files of a sample, the plot of light intensity against $\theta$ can be done. Using prominence 50, 
-local maxima of light intensities can be located and indexed to find angles where diffraction in planes
-occur. Every peak in the plot is then fitted to a gaussian curve, centered at a local maxima,
-and every curve is summed to obtain a plot of summed gaussians of
-intensity against $2\theta$. From this, we extract mean values and variance. 
-
+angle ofe $2\theta_f=110.00^{\circ}$.
+Data acquisition consited in mounting the sample on the plate, opening the parameter file in 
+the computer software and executing the job.
 
 \section{Results}\label{sec:res}
-Three trials were done for Ni and Cu samples, though the data for the first Cu trial did not save correctly.
-Two trials were done for Pb, Sn, A and B. For each of the alloys (including different percentage of mixing) 
-one trial was done. It was determined that the uncertainty due to random errors would be 
-less that due to noise (could expand on this).
+
+Three trials were done for Ni and Cu samples, though the data for the first Cu trial did not save correctly. 
+For each of the alloys (including different percentage of mixing) 
+one trial was done. 
+
+The fitted gaussian sums with residuals for the Cu and Ni samples and alloys are shown.
+
+In figure \ref{fig:all_Ni_fitted_gaussian_sums}, the residuals for the Ni samples are shown, and from
+their numerical results in table \ref{tab:XRD_results} we can observe that random error from trial to trial is minimal compared
+with noise error provided by the Gaussian fits. The fitted gaussian sums with residuals for the Cu and Ni samples and alloys are shown
+in the same appendix, in figure \ref{fig:CuNi_fitted_gaussian_sums}. From these, the inter-planar distances were
+calculated and are shown in table \ref{tab:CuNi_lattice_parameters}. These were plotted against expected results for all 3
+types of cubic Bravais lattices, and the best fit was found to be the Face-Centered Cubic (FCC) lattice, as shown
+below in figure \ref{fig:CuNi_fitted_cubic_lattice}. The lattice parameters were then calculated and are shown
+in table \ref{tab:CuNi_lattice_parameters}.
 
 
 
+\begin{table}[H]
+\centering
+\begin{tabular}{lccc}
+\hline
+\hline
+Sample & $a_{\mathrm{exp}}$ (\AA) & $a_{\mathrm{theory}}$ (\AA) & $\Delta a$ (\AA) \\
+\hline
+Ni & $3.5223 \pm 0.0001$ & $3.5238$ & $-0.0015 \pm 0.0001$ \\
+Cu & $3.6126 \pm 0.0001$ & $3.6149$ & $-0.0023 \pm 0.0001$ \\
+Cu$_{25}$Ni$_{75}$ & $3.5415 \pm 0.0002$ & $3.5467$ & $-0.0052 \pm 0.0002$ \\
+Cu$_{50}$Ni$_{50}$ & $3.5629 \pm 0.0003$ & $3.5696$ & $-0.0067 \pm 0.0003$ \\
+Cu$_{75}$Ni$_{25}$ & $3.5864 \pm 0.0002$ & $3.5924$ & $-0.0060 \pm 0.0002$ \\
+\hline
+\hline
+\end{tabular}
+\caption{Experimental and theoretical lattice parameters for Cu, Ni pure samples and alloys. The theoretical values for the alloys are calculated using Vegard's law	.}
+\label{tab:CuNi_lattice_parameters}
+\end{table}
 
 
-
-
-
-
-
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1\linewidth]{figures/cubic_lattice_and_parameter_fit_Cu&Ni.png}
+	\caption{Determination of Cubic crystal structure and lattice parameter for Cu and Ni.}
+	\label{fig:CuNi_fitted_cubic_lattice}
+\end{figure}
 
 
 \section{Discussion}\label{sec:dis}
+The results for the Cu and Ni pure samples and alloys are consistent with the literature values, with the experimental values being within 0.2\% of the theoretical values.
+The small discrepancies can be attributed to background noise in the acquired data. The determination of the Face-Centered Cubic (FCC) Bravais lattice for these samples is
+also consistent with known crystal structures for Cu and Ni. While running multiple trials does not reduce error much, it could still be worth it, as random error is of similar order
+as the noise error. The results for the Pb, Sn, and PbSn alloys are still to be determined, as well as the mystery samples A and B.
+
 
 \section{Conclusion}\label{sec:con}
 
@@ -193,11 +183,9 @@ less that due to noise (could expand on this).
 \bibliography{Report template/MyBibliography}
 
 %-----------------------------------%
-\appendix
-\renewcommand{\thesection}{Appendix \Alph{section}. }
-\renewcommand{\thesubsection}{\Alph{section}.\arabic{subsection}. }
 
-\section{Inter-planar distance, Bravais Lattices and Miller indices}\label{A:brav_eq}
+\section{Appendix}
+\subsection{Inter-planar distance, Bravais Lattices and Miller indices}\label{A:brav_eq}
 
 For the following equations: $d$ is the inter planar distance, $a,b,c$
 the inter-atomic distances, $h,k,l$ the indices for a given Miller index (hkl).
@@ -210,5 +198,162 @@ Hexagonal: \[\frac{1}{d^2}=\frac{4}{3}(\frac{h^2+k^2+hk}{a^2})+\frac{l^2}{c^2})\
 
 Orthorhombic: \[\frac{1}{d^2}=\frac{h^2}{a^2}+\frac{k^2}{b^2}+\frac{l^2}{c^2}\]
 
+Vegard's law: \[a_{alloy}=x a_{Cu}+(1-x) a_{Ni}\]
+
+\subsection{Supplementary Figures and Tables}
+\label{A:residuals}
+
+\begin{figure}[H]
+	\centering
+    \includegraphics[width=1\linewidth]{figures/fit_with_residuals_Ni_only.png}
+    \caption{Gaussian sum fits of all pure Ni trials with residuals}
+    \label{fig:all_Ni_fitted_gaussian_sums}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+    \includegraphics[width=0.8\linewidth]{figures/fit_with_residuals_CuNI_oneofeach.png}
+    \caption{Gaussian sum fits with residuals of the Cu and Ni pure and alloy samples}
+    \label{fig:CuNi_fitted_gaussian_sums}
+\end{figure}
+
+\begin{table}[H]
+\centering
+\label{tab:XRD_results}
+\renewcommand{\arraystretch}{1.1}
+\setlength{\tabcolsep}{5pt}
+
+\begin{tabular}{cc}
+
+% ---------------- Row 1 ----------------
+\begin{tabular}{c}
+\textbf{Ni trial 1}\\[-2pt]
+\begin{tabular}{ccc}
+\hline
+Peak & $2\theta$ ($^\circ$) & $d$ (\AA)\\
+\hline
+1 & $44.4819 \pm 0.0011$ & $2.03512 \pm 0.00005$\\
+2 & $51.8330 \pm 0.0023$ & $1.76246 \pm 0.00007$\\
+3 & $76.3993 \pm 0.0041$ & $1.24563 \pm 0.00006$\\
+4 & $92.9684 \pm 0.0059$ & $1.06221 \pm 0.00005$\\
+5 & $98.4832 \pm 0.0109$ & $1.01694 \pm 0.00008$\\
+\hline
+\end{tabular}
+\end{tabular}
+&
+\begin{tabular}{c}
+\textbf{Ni trial 2}\\[-2pt]
+\begin{tabular}{ccc}
+\hline
+Peak & $2\theta$ ($^\circ$) & $d$ (\AA)\\
+\hline
+1 & $44.4843 \pm 0.0011$ & $2.03502 \pm 0.00005$\\
+2 & $51.8331 \pm 0.0024$ & $1.76245 \pm 0.00008$\\
+3 & $76.3933 \pm 0.0045$ & $1.24571 \pm 0.00006$\\
+4 & $92.9701 \pm 0.0062$ & $1.06220 \pm 0.00005$\\
+5 & $98.5025 \pm 0.0127$ & $1.01679 \pm 0.00010$\\
+\hline
+\end{tabular}
+\end{tabular}
+\\[8pt]
+
+% ---------------- Row 2 ----------------
+\begin{tabular}{c}
+\textbf{Ni trial 3}\\[-2pt]
+\begin{tabular}{ccc}
+\hline
+Peak & $2\theta$ ($^\circ$) & $d$ (\AA$)$\\
+\hline
+1 & $44.4810 \pm 0.0012$ & $2.03517 \pm 0.00005$\\
+2 & $51.8307 \pm 0.0024$ & $1.76253 \pm 0.00008$\\
+3 & $76.4023 \pm 0.0045$ & $1.24558 \pm 0.00006$\\
+4 & $92.9767 \pm 0.0062$ & $1.06214 \pm 0.00005$\\
+5 & $98.4665 \pm 0.0135$ & $1.01707 \pm 0.00010$\\
+\hline
+\end{tabular}
+\end{tabular}
+&
+\begin{tabular}{c}
+\textbf{Cu trial 1}\\[-2pt]
+\begin{tabular}{ccc}
+\hline
+Peak & $2\theta$ ($^\circ$) & $d$ (\AA)\\
+\hline
+1 & $43.3661 \pm 0.0011$ & $2.08487 \pm 0.00005$\\
+2 & $50.4888 \pm 0.0024$ & $1.80618 \pm 0.00008$\\
+3 & $74.2095 \pm 0.0043$ & $1.27687 \pm 0.00006$\\
+4 & $90.0228 \pm 0.0054$ & $1.08915 \pm 0.00005$\\
+5 & $95.2553 \pm 0.0097$ & $1.04266 \pm 0.00008$\\
+\hline
+\end{tabular}
+\end{tabular}
+\\[8pt]
+
+% ---------------- Row 3 ----------------
+\begin{tabular}{c}
+\textbf{Cu trial 2}\\[-2pt]
+\begin{tabular}{ccc}
+\hline
+Peak & $2\theta$ ($^\circ$) & $d$ (\AA)\\
+\hline
+1 & $43.3667 \pm 0.0011$ & $2.08484 \pm 0.00005$\\
+2 & $50.4882 \pm 0.0024$ & $1.80620 \pm 0.00008$\\
+3 & $74.2000 \pm 0.0043$ & $1.27701 \pm 0.00006$\\
+4 & $90.0104 \pm 0.0057$ & $1.08927 \pm 0.00005$\\
+5 & $95.2715 \pm 0.0098$ & $1.04253 \pm 0.00008$\\
+\hline
+\end{tabular}
+\end{tabular}
+&
+\begin{tabular}{c}
+\textbf{Cu$_{25}$Ni$_{75}$}\\[-2pt]
+\begin{tabular}{ccc}
+\hline
+Peak & $2\theta$ ($^\circ$) & $d$ (\AA)\\
+\hline
+1 & $44.2433 \pm 0.0015$ & $2.04554 \pm 0.00006$\\
+2 & $51.5406 \pm 0.0034$ & $1.77176 \pm 0.00011$\\
+3 & $75.9226 \pm 0.0065$ & $1.25226 \pm 0.00009$\\
+4 & $92.3239 \pm 0.0085$ & $1.06793 \pm 0.00008$\\
+5 & $97.7855 \pm 0.0166$ & $1.02232 \pm 0.00013$\\
+\hline
+\end{tabular}
+\end{tabular}
+\\[8pt]
+
+% ---------------- Row 4 ----------------
+\begin{tabular}{c}
+\textbf{Cu$_{50}$Ni$_{50}$}\\[-2pt]
+\begin{tabular}{ccc}
+\hline
+Peak & $2\theta$ ($^\circ$) & $d$ (\AA)\\
+\hline
+1 & $43.9763 \pm 0.0016$ & $2.05734 \pm 0.00007$\\
+2 & $51.2219 \pm 0.0036$ & $1.78204 \pm 0.00012$\\
+3 & $75.4112 \pm 0.0071$ & $1.25948 \pm 0.00010$\\
+4 & $91.6044 \pm 0.0098$ & $1.07443 \pm 0.00009$\\
+5 & $97.0016 \pm 0.0200$ & $1.02849 \pm 0.00016$\\
+\hline
+\end{tabular}
+\end{tabular}
+&
+\begin{tabular}{c}
+\textbf{Cu$_{75}$Ni$_{25}$}\\[-2pt]
+\begin{tabular}{ccc}
+\hline
+Peak & $2\theta$ ($^\circ$) & $d$ (\AA)\\
+\hline
+1 & $43.6499 \pm 0.0015$ & $2.07197 \pm 0.00007$\\
+2 & $50.8455 \pm 0.0035$ & $1.79434 \pm 0.00011$\\
+3 & $74.8037 \pm 0.0062$ & $1.26819 \pm 0.00009$\\
+4 & $90.8289 \pm 0.0083$ & $1.08157 \pm 0.00008$\\
+5 & $96.1327 \pm 0.0160$ & $1.03546 \pm 0.00013$\\
+\hline
+\end{tabular}
+\end{tabular}
+
+\end{tabular}
+\caption{Measured X-ray diffraction peak angular positions and corresponding interplanar spacings ($d$) for the Ni, Cu, and Cu--Ni alloy samples.}
+\end{table}
 
 \end{document}
