@@ -8,7 +8,7 @@
 \contentsline {subsection}{\numberline {3.2}Lead, Tin, and alloys}{8}{subsection.3.2}%
 \contentsline {subsection}{\numberline {3.3}Mystery Samples A and B}{8}{subsection.3.3}%
 \contentsline {section}{\numberline {4}Discussion}{9}{section.4}%
-\contentsline {section}{\numberline {5}Conclusion}{11}{section.5}%
-\contentsline {section}{\numberline {6}Appendix}{12}{section.6}%
-\contentsline {subsection}{\numberline {6.1}Inter-planar distance, Bravais Lattices and Miller indices}{12}{subsection.6.1}%
-\contentsline {subsection}{\numberline {6.2}Supplementary Figures and Tables}{14}{subsection.6.2}%
+\contentsline {section}{\numberline {5}Conclusion}{10}{section.5}%
+\contentsline {section}{\numberline {6}Appendix}{11}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Inter-planar distance, Bravais Lattices and Miller indices}{11}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Supplementary Figures and Tables}{12}{subsection.6.2}%
