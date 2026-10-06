@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.10.5)  5 OCT 2026 17:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.10.5)  5 OCT 2026 20:48
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -269,3 +269,403 @@ LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 )) (C:\Users\micha\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count309
+\float@exts=\toks24
+\float@box=\box56
+\@float@everytoks=\toks25
+\@floatcapt=\box57
+) (C:\Users\micha\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
+Package: geometry 2026/03/07 v6.0 Page Geometry
+ (C:\Users\micha\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+)
+\Gm@cnth=\count310
+\Gm@cntv=\count311
+\c@Gm@tempcnt=\count312
+\Gm@bindingoffset=\dimen177
+\Gm@wd@mp=\dimen178
+\Gm@odd@mp=\dimen179
+\Gm@even@mp=\dimen180
+\Gm@layoutwidth=\dimen181
+\Gm@layoutheight=\dimen182
+\Gm@layouthoffset=\dimen183
+\Gm@layoutvoffset=\dimen184
+\Gm@dimlist=\toks26
+ (C:\Users\micha\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg)) (C:\Users\micha\AppData\Local\Programs\MiKTeX\tex/latex/multirow\multirow.sty
+Package: multirow 2024/11/12 v2.9 Span multiple rows of a table
+\multirow@colwidth=\skip57
+\multirow@cntb=\count313
+\multirow@dima=\skip58
+\bigstrutjot=\dimen185
+) (C:\Users\micha\AppData\Local\Programs\MiKTeX\tex/latex/mhchem\mhchem.sty
+Package: mhchem 2024/01/29 v4.10 for typesetting chemical formulae
+ (C:\Users\micha\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
+Package: expl3 2025-12-24 L3 programming layer (loader) 
+ (C:\Users\micha\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
+File: l3backend-pdftex.def 2025-10-09 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count314
+)) (C:\Users\micha\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/l3keys2e\l3keys2e.sty
+Package: l3keys2e 2025-10-09 LaTeX2e option processing using LaTeX3 keys
+) (C:\Users\micha\AppData\Local\Programs\MiKTeX\tex/latex/tools\calc.sty
+Package: calc 2025/03/01 v4.3b Infix arithmetic (KKT,FJ)
+\calc@Acount=\count315
+\calc@Bcount=\count316
+\calc@Adimen=\dimen186
+\calc@Bdimen=\dimen187
+\calc@Askip=\skip59
+\calc@Bskip=\skip60
+LaTeX Info: Redefining \setlength on input line 86.
+LaTeX Info: Redefining \addtolength on input line 87.
+\calc@Ccount=\count317
+\calc@Cskip=\skip61
+) (C:\Users\micha\AppData\Local\Programs\MiKTeX\tex/latex/chemgreek\chemgreek.sty (C:\Users\micha\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xparse.sty
+Package: xparse 2025-10-09 L3 Experimental document command parser
+)
+Package: chemgreek 2020/01/16 v1.1a interface for upright Greek letters for use in chemistry (CN)
+\l__chemgreek_tmpa_int=\count318
+\g__chemgreek_tmpa_int=\count319
+)
+\l__mhchem_ce_distanceFromLastComma_int=\count320
+\__mhchem_arrow_extPgfLength_skip=\skip62
+\mhchem@minispace@tmp=\skip63
+\mhchem@minibackspace@tmp=\skip64
+\mhchem@bondwidth=\skip65
+\mhchem@bondheight=\skip66
+\mhchem@smallbondwidth@tmpA=\skip67
+\mhchem@smallbondwidth@tmpB=\skip68
+\mhchem@smallbondwidth=\skip69
+\mhchem@bondtmp@minussidebearingleft=\skip70
+\mhchem@bondtmp@minussidebearingright=\skip71
+\l__mhchem_option_version_int=\count321
+\mhchem@option@minusmathsidebearingleft=\dimen188
+\mhchem@option@minusmathsidebearingright=\dimen189
+\mhchem@option@minustextsidebearingleft=\dimen190
+\mhchem@option@minustextsidebearingright=\dimen191
+) (C:\Users\micha\AppData\Local\Programs\MiKTeX\tex/latex/subfig\subfig.sty
+Package: subfig 2005/06/28 ver: 1.3 subfig package
+\c@KVtest=\count322
+\sf@farskip=\skip72
+\sf@captopadj=\dimen192
+\sf@capskip=\skip73
+\sf@nearskip=\skip74
+\c@subfigure=\count323
+\c@subfigure@save=\count324
+\c@lofdepth=\count325
+\c@subtable=\count326
+\c@subtable@save=\count327
+\c@lotdepth=\count328
+\sf@top=\skip75
+\sf@bottom=\skip76
+) (C:\Users\micha\AppData\Local\Programs\MiKTeX\tex/latex/base\textcomp.sty
+Package: textcomp 2024/04/24 v2.1b Standard LaTeX package
+) (C:\Users\micha\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
+Package: inputenc 2024/02/08 v1.3d Input encoding file
+\inpenc@prehook=\toks27
+\inpenc@posthook=\toks28
+) (C:\Users\micha\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
+Package: babel 2025/12/11 v25.17 The multilingual framework for LuaLaTeX, pdfLaTeX and XeLaTeX
+\babel@savecnt=\count329
+LaTeX Encoding Info:    Redeclaring text command \ij (encoding OT1) on input line 2068.
+LaTeX Encoding Info:    Redeclaring text command \IJ (encoding OT1) on input line 2070.
+LaTeX Encoding Info:    Redeclaring text command \ij (encoding T1) on input line 2072.
+LaTeX Encoding Info:    Redeclaring text command \IJ (encoding T1) on input line 2073.
+LaTeX Encoding Info:    Ignoring declaration for text command \ij (encoding ?) on input line 2074.
+LaTeX Encoding Info:    Ignoring declaration for text command \IJ (encoding ?) on input line 2076.
+LaTeX Encoding Info:    Ignoring declaration for text command \SS (encoding ?) on input line 2101.
+\U@D=\dimen193
+\l@unhyphenated=\language79
+ (C:\Users\micha\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
+\bbl@readstream=\read2
+\bbl@dirlevel=\count330
+Package babel Info: Configuration files are deprecated, as
+(babel)             they can break document portability.
+(babel)             Reported on input line 4196.
+
+*************************************
+* Local config file bblopts.cfg used
+*
+(C:\Users\micha\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of babel
+) (C:\Users\micha\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/en\babel-english.tex)
+Package babel Info: Importing font and identification data for english
+(babel)             from babel-en.ini. Reported on input line 4320.
+ (C:\Users\micha\AppData\Local\Programs\MiKTeX\tex/latex/babel-english\english.ldf
+Language: english 2017/06/06 v3.3r English support from the babel system
+Package babel Info: Hyphen rules for 'canadian' set to \l@english
+(babel)             (\language0). Reported on input line 102.
+Package babel Info: Hyphen rules for 'australian' set to \l@ukenglish
+(babel)             (\language73). Reported on input line 105.
+Package babel Info: Hyphen rules for 'newzealand' set to \l@ukenglish
+(babel)             (\language73). Reported on input line 108.
+)) (C:\Users\micha\AppData\Local\Programs\MiKTeX\tex/latex/was\upgreek.sty
+Package: upgreek 2003/02/12 v2.0 (WaS)
+Package upgreek Info: Using Euler Roman for upright Greek on input line 31.
+\symugrf@m=\mathgroup6
+LaTeX Font Info:    Overwriting symbol font `ugrf@m' in version `bold'
+(Font)                  U/eur/m/n --> U/eur/b/n on input line 38.
+) (C:\Users\micha\AppData\Local\Programs\MiKTeX\tex/latex/caption\subcaption.sty
+Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
+LaTeX Info: Redefining \subref on input line 189.
+Package subcaption Info: The counter `subfigure' was already defined by
+(subcaption)             \newsubfloat (offered by the subfig package) on input line 238.
+Package subcaption Info: The counter `subtable' was already defined by
+(subcaption)             \newsubfloat (offered by the subfig package) on input line 238.
+)) (e:\codeshit\PHYS-469\XRD-code\XRAY_LAB\tex_output\Proj1-Final-XRD-Shukri-Weltz.aux)
+\openout1 = `Proj1-Final-XRD-Shukri-Weltz.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+ (C:\Users\micha\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count331
+\scratchdimen=\dimen194
+\scratchbox=\box58
+\nofMPsegments=\count332
+\nofMParguments=\count333
+\everyMPshowfont=\toks29
+\MPscratchCnt=\count334
+\MPscratchDim=\dimen195
+\MPnumerator=\count335
+\makeMPintoPDFobject=\count336
+\everyMPtoPDFconversion=\toks30
+) (C:\Users\micha\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+ (C:\Users\micha\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+))
+Package hyperref Info: Link coloring ON on input line 11.
+ (e:\codeshit\PHYS-469\XRD-code\XRAY_LAB\tex_output\Proj1-Final-XRD-Shukri-Weltz.out) (e:\codeshit\PHYS-469\XRD-code\XRAY_LAB\tex_output\Proj1-Final-XRD-Shukri-Weltz.out)
+\@outlinefile=\write3
+\openout3 = `Proj1-Final-XRD-Shukri-Weltz.out'.
+
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: subfig package v1.3 is loaded.
+Package caption Info: float package is loaded.
+Package caption Info: End \AtBeginDocument code.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(71.13188pt, 472.03123pt, 71.13188pt)
+* v-part:(T,H,B)=(71.13188pt, 652.70622pt, 71.13188pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=472.03123pt
+* \textheight=652.70622pt
+* \oddsidemargin=-1.1381pt
+* \evensidemargin=-1.1381pt
+* \topmargin=-38.1381pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=44.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+
+Package chemgreek Info: Activating mapping `upgreek' on line 11.
+
+[1
+
+{C:/Users/micha/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.69 \newpage
+              [1] (e:\codeshit\PHYS-469\XRD-code\XRAY_LAB\tex_output\Proj1-Final-XRD-Shukri-Weltz.toc)
+\tf@toc=\write4
+\openout4 = `Proj1-Final-XRD-Shukri-Weltz.toc'.
+
+ [2]
+
+LaTeX Warning: Reference `A:brav' on page 1 undefined on input line 87.
+
+LaTeX Font Info:    Trying to load font information for U+msa on input line 88.
+(C:\Users\micha\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 88.
+ (C:\Users\micha\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+
+LaTeX Warning: Reference `eq:brag' on page 1 undefined on input line 97.
+
+
+LaTeX Warning: Reference `eq:brag' on page 1 undefined on input line 99.
+
+
+LaTeX Warning: Reference `A:brav' on page 1 undefined on input line 110.
+
+
+LaTeX Warning: Reference `A:brav' on page 1 undefined on input line 113.
+
+
+LaTeX Warning: Reference `fig:instr' on page 1 undefined on input line 124.
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.125 
+       [1]
+<figures/Instr_1.JPG, id=27, 971.3088pt x 728.4816pt>
+File: figures/Instr_1.JPG Graphic file (type jpg)
+<use figures/Instr_1.JPG>
+Package pdftex.def Info: figures/Instr_1.JPG  used on input line 145.
+(pdftex.def)             Requested size: 188.8096pt x 141.60315pt.
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.149 
+       [2]
+
+LaTeX Warning: Reference `eq:brag' on page 3 undefined on input line 172.
+
+
+LaTeX Warning: Reference `A:brav' on page 3 undefined on input line 179.
+
+[3 <./figures/Instr_1.JPG>]
+
+LaTeX Warning: Reference `fig:cu_diff' on page 4 undefined on input line 205.
+
+
+LaTeX Warning: Reference `A:residuals' on page 4 undefined on input line 206.
+
+
+LaTeX Warning: Reference `tab:cu_d' on page 4 undefined on input line 210.
+
+
+LaTeX Warning: Reference `subsec:6.1' on page 4 undefined on input line 211.
+
+
+LaTeX Warning: Reference `tab:cu_miller' on page 4 undefined on input line 215.
+
+<figures/cu_diff.png, id=43, 901.3675pt x 282.05376pt>
+File: figures/cu_diff.png Graphic file (type png)
+<use figures/cu_diff.png>
+Package pdftex.def Info: figures/cu_diff.png  used on input line 220.
+(pdftex.def)             Requested size: 472.03123pt x 147.7103pt.
+[4 <./figures/cu_diff.png>]
+
+LaTeX Warning: Reference `tab:CuNi_lattice_parameters' on page 5 undefined on input line 266.
+
+
+LaTeX Warning: Reference `fig:CuNi_fitted_cubic_lattice' on page 5 undefined on input line 291.
+
+[5]
+<figures/cubic_lattice_and_parameter_fit_Cu&Ni_new.png, id=62, 559.3698pt x 967.6953pt>
+File: figures/cubic_lattice_and_parameter_fit_Cu&Ni_new.png Graphic file (type png)
+<use figures/cubic_lattice_and_parameter_fit_Cu&Ni_new.png>
+Package pdftex.def Info: figures/cubic_lattice_and_parameter_fit_Cu&Ni_new.png  used on input line 295.
+(pdftex.def)             Requested size: 377.62642pt x 653.29904pt.
+ [6]
+Overfull \vbox (25.0928pt too high) has occurred while \output is active []
+
+ [7 <./figures/cubic_lattice_and_parameter_fit_Cu&Ni_new.png>]
+
+LaTeX Warning: Reference `sec:dis' on page 8 undefined on input line 307.
+
+
+LaTeX Warning: Reference `tab:B_indexing' on page 8 undefined on input line 313.
+
+[8]
+
+LaTeX Warning: Reference `tab:CuNi_lattice_parameters' on page 9 undefined on input line 347.
+
+[9]
+
+LaTeX Warning: Reference `tab:B_indexing' on page 10 undefined on input line 353.
+
+[10] [11]
+No file Proj1-Final-XRD-Shukri-Weltz.bbl.
+<figures/brav_lat.png, id=95, 482.80376pt x 508.90125pt>
+File: figures/brav_lat.png Graphic file (type png)
+<use figures/brav_lat.png>
+Package pdftex.def Info: figures/brav_lat.png  used on input line 377.
+(pdftex.def)             Requested size: 188.8096pt x 199.01425pt.
+[12 <./figures/brav_lat.png>]
+<figures/fit_with_residuals_Ni_only.png, id=105, 859.2903pt x 860.013pt>
+File: figures/fit_with_residuals_Ni_only.png Graphic file (type png)
+<use figures/fit_with_residuals_Ni_only.png>
+Package pdftex.def Info: figures/fit_with_residuals_Ni_only.png  used on input line 416.
+(pdftex.def)             Requested size: 472.03123pt x 472.43121pt.
+ [13]
+<figures/fit_with_residuals_CuNI_oneofeach.png, id=110, 859.2903pt x 1438.173pt>
+File: figures/fit_with_residuals_CuNI_oneofeach.png Graphic file (type png)
+<use figures/fit_with_residuals_CuNI_oneofeach.png>
+Package pdftex.def Info: figures/fit_with_residuals_CuNI_oneofeach.png  used on input line 423.
+(pdftex.def)             Requested size: 377.62642pt x 632.00807pt.
+ [14 <./figures/fit_with_residuals_Ni_only.png>]
+Overfull \vbox (3.80183pt too high) has occurred while \output is active []
+
+ [15 <./figures/fit_with_residuals_CuNI_oneofeach.png>] (e:\codeshit\PHYS-469\XRD-code\XRAY_LAB\tex_output\Proj1-Final-XRD-Shukri-Weltz.aux)
+ ***********
+LaTeX2e <2025-11-01>
+L3 programming layer <2025-12-24>
+ ***********
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package rerunfilecheck Warning: File `Proj1-Final-XRD-Shukri-Weltz.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `Proj1-Final-XRD-Shukri-Weltz.out':
+(rerunfilecheck)             Before: D41D8CD98F00B204E9800998ECF8427E;0
+(rerunfilecheck)             After:  E4688A5C16AA6477B07B5E1BB942B9A3;2086.
+ ) 
+Here is how much of TeX's memory you used:
+ 15260 strings out of 467870
+ 254373 string characters out of 5418355
+ 704999 words of memory out of 5000000
+ 43888 multiletter control sequences out of 15000+600000
+ 636284 words of font info for 71 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 105i,11n,107p,1030b,482s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\micha\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Users/micha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/micha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/micha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/micha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/micha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/micha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/micha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/micha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/micha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/micha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/micha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on e:\codeshit\PHYS-469\XRD-code\XRAY_LAB\tex_output\Proj1-Final-XRD-Shukri-Weltz.pdf (18 pages, 4338644 bytes).
+PDF statistics:
+ 185 PDF objects out of 1000 (max. 8388607)
+ 41 named destinations out of 1000 (max. 500000)
+ 31 words of extra memory for PDF output out of 10000 (max. 10000000)
+

@@ -107,7 +107,10 @@ takes the form of
 \end{equation}
 %
 where $h,k,l$ are the Miller Indices and $a$ is the length of the cube edge. Similar equations
-for different crystal systems are given in \ref{A:brav}. 
+for different crystal systems are given in \ref{A:brav}. Additionally, selection rules exist for each Bravais
+lattice, which allow only certain diffraction planes to be observed. For instance, while any plane is allowed for a
+ primitive cubic lattice, only planes with all even or all odd Miller indices are allowed for a face-centered cubic lattice.
+ These selection rules are outlined for cubic and tetragonal systems in Appendix \ref{A:brav}.
 
 \section{Methods}\label{sec:met}
 % In method part, only include necessary infomation. it is not a lab manual or sop
@@ -132,9 +135,10 @@ until reaching $2\theta=110.00^{\circ}$.
 Measurements were taken for samples of Copper, Nickel, Tin, Lead; 25\%, 50\% and 75\% 
 alloys of Copper-Nickel and Tin-lead, and two mystery samples A and B. Three trials 
 were initially done for Copper and Nickel, and two trials were done for the other samples.
-It was found that the uncertainties associated to statistical fluctuations of two
-measurements were smaller than that of the standard deviation of
-gaussians fitted about the intensity peaks.
+This is because it was found that the uncertainties associated to statistical fluctuations of two
+measurements were smaller than that associated with noise in a single data plot, expressed as standard
+deviation of a fitted gaussian. Therefore, taking a second trial reduced the uncertainty in the mean
+value of $d$ for a given peak, but taking a third trial did not reduce it significantly.
 
 \begin{figure}[H]
 	\centering
@@ -147,31 +151,33 @@ gaussians fitted about the intensity peaks.
 
 % ---- 
 \subsection{Data Analysis}
-For a given sample, the acquired data is used to plot intensity against $2\theta$. From the plots, local 
-maxima of intensity are obtained and gaussians are fitted against individual peaks.
-Noise is accounted for by taking an average of the intensities
-where there are no peaks, and subtracting it from the peaks. 
-The Gaussians are
-then summed and plotted. From the means of the gaussians the angle of diffraction is obtained and used
-to find the inter-planar distance (for that given peak), using equation \ref{eq:brag}. Finally,
-a mean inter-planar distance $d_{mean}$ is taken between all the runs for a given sample.
-Uncertainties were first obtained in $2\theta$, from the standard deviation of the associated gaussian.
-This was then propagated to $d$ and to $d_{mean}$.
-Consider the set 
-of equation in Appendix \ref{A:brav} relating $d$ and the Miller indices. For every $d$ spacing, we 
-want to find what the sum of the Miller indices are. These will always be integers, so the goal is 
-to make a guess on $h,k,l$, find the lattice constant(s), and check for consistency. Notice 
-that $d$ is maximised when $h,k,l$ are a minimum, and that not all integer for 
-$h,k,l$ are allowed. By guessing certain values of $h,k,l$, we can isolate the lattice 
-parameters, take 
-the ratios of the spacings with the latter, and if consistent these ratios should be integers. 
-The ratios may also be multiplied by a small integer to become integer if they aren't already.
-For tetragonal and hexagonal system, this process is repeated twice for each lattice parameter.
-For the 
-Mystery samples and alloys, and extra guess is made on the crystal system before attempting 
-to decipher the Miller indices. After the Miller indices are obtained, the Bravais lattice 
-can be found using selection rules: certain Bravais lattices will allow only a specific
-set of diffraction planes. 
+\label{subsec:6.1}
+The measured intensity was read as a function of $2\theta$ for each sample. Candidate diffraction
+peaks were identified from a smoothed intensity trace using a local-maximum
+prominence threshold. These parameters were varied from sample to sample based on the characteristics
+of the diffraction patterns. Smoothing was used only
+for candidate detection; the peak fit used the original measured intensities.
+
+All candidate peaks in a sample plot were fitted simultaneously with a sum of Gaussian functions and
+a linear background (meant to account for a baseline count), $I_{\mathrm{fit}}(2\theta)=m(2\theta)+b+
+\sum_i A_i\exp[-(2\theta-\mu_i)^2/(2\sigma_i^2)]$. The initial peak centers were the
+detected positions, and the fit constrained each center to within $1^\circ$ of its initial
+position and each Gaussian width to between $0.01^\circ$ and $1^\circ$. Nonlinear least
+squares was performed with each count weighted by its Poisson uncertainty,
+$\sqrt{\max(I,1)}$. The fitted center $\mu_i$ gives the peak position $2\theta_i$; its
+uncertainty was obtained from the corresponding $\sigma_i$ standard deviation. Fit residuals
+and reduced $\chi^2$ were also calculated to assess the fit.
+
+For each fitted peak, the interplanar spacing was calculated from Bragg's law
+(equation \ref{eq:brag}) using first-order diffraction and
+$\lambda=1.5406\,\text{\AA}$ for a $K_\alpha$ source. The uncertainty in $d$ was propagated from the fitted
+uncertainty in $2\theta$. Given that multiple plots were available per sample, weighted means and uncertainties were
+calculated separately for each peak position and spacing. The values of $1/d^2$ and their
+propagated uncertainties were then calculated, and ratios (often relative to the first peak, as was the case with all cubics) were
+compared with the expected sequences for candidate crystal systems and Miller indices.
+Candidate indices and lattice parameters were assessed for consistency with the measured
+spacings; Bravais-lattice selection rules (Appendix \ref{A:brav}) were used to assess which
+reflections are allowed.
 
 
 
@@ -194,15 +200,19 @@ set of diffraction planes.
 
 % Figure we need : sample diffraction plot, 'd' plot, sample table of 2\theta | d | 1/d^2 | hkl | miller index 
 
-Figure \ref{fig:cu_diff} shows the summed gaussians fitted to the diffraction pattern for the Cu sample.
-Notice the peak of the gaussians is lower than that of the data, this is to account for noise. 
-A $\chi^2$ value of 2.477 was obtained, showing that the results are statistically probably and 
+\subsection{Analysis of Copper, Nickel, and alloys}
+
+Figure \ref{fig:cu_diff} shows the summed gaussians fitted to the diffraction pattern for a Cu sample as an example.
+All other such fits are available in \ref{A:residuals}.
+A $\chi^2$ value of 2.477 was obtained, showing that the results are statistically probable and 
 reproducible.
-From the means of the gaussians and Bragg's law the inter-planar distances were found, as shown in Tables
-\ref{cu_d}. First a guess is made that the first peak occurs at (100), thus $1/d^2=1/a^2$. Dividing
-$1/d^2$ by $1/a^2$ for every $d$ does not yield integers. However we find that it is an integer plus a 
+From the means of the gaussians and Bragg's law the inter-planar distances were found, and then averaged for all
+Cu sample runs. Angles for this particular run are shown in Table \ref{tab:cu_d}, along with the associated \underline{mean}
+inter-planar distances for Cu. Uncertainties were calculated as explain in \ref{subsec:6.1}.
+We first try cubic systems, so a guess is made that the first peak occurs at (100), thus $1/d^2=1/a^2$. Dividing
+$1/d^2$ by $1/a^2$ for every $d$ does not yield integers. However we find that it is an integer times a 
 factor of three. Hence we multiply by three and find integers for $h^2+k^2+l^2$. From these 
-integer we infer $h,k,l$, and hence the Miller index for each plane. Table \ref{cu_miller} show the 
+integer we infer $h,k,l$, and hence the Miller index for each plane. Table \ref{tab:cu_miller} show the 
 values obtained following this procedure.
 
 \begin{figure}[H]
@@ -247,26 +257,14 @@ $0.9200 \pm 1\cdot 10^{-4}$ & $11.996 \pm 1\cdot 10^{-3}$ & 12 & (222)\\
 \hline
 \hline
 \end{tabular}
-\caption{Values obtained when trying to find the Miler indices.}
+\caption{Values obtained when attempting to index the Miller indices.}
 \label{tab:cu_miller}
 \end{table}
 
-Based on the selection rules for cubic systems, we find that Copper is face 
-centered cubic (FCC).
-
-
-The fitted gaussian sums with residuals for the Cu and Ni samples and alloys are shown.
-
-In figure \ref{fig:all_Ni_fitted_gaussian_sums}, the residuals for the Ni samples are shown, and from
-their numerical results in table \ref{tab:XRD_results} we can observe that random error from trial to trial is minimal compared
-with noise error provided by the Gaussian fits. The fitted gaussian sums with residuals for the Cu and Ni samples and alloys are shown
-in the same appendix, in figure \ref{fig:CuNi_fitted_gaussian_sums}. From these, the inter-planar distances were
-calculated and are shown in table \ref{tab:CuNi_lattice_parameters}. These were plotted against expected results for all 3
-types of cubic Bravais lattices, and the best fit was found to be the Face-Centered Cubic (FCC) lattice, as shown
-below in figure \ref{fig:CuNi_fitted_cubic_lattice}. The lattice parameters were then calculated and are shown
-in table \ref{tab:CuNi_lattice_parameters}.
-
-
+Based on the selection rules for cubic systems, we find that Copper is a face 
+centered cubic (FCC). A similar method was applied to determine the same for Nickel, and all alloys of the two materials.
+The lattice parameters were then calculated and are shown in table \ref{tab:CuNi_lattice_parameters} below, compared with
+theoretical values.
 
 \begin{table}[H]
 \centering
@@ -287,25 +285,82 @@ Cu$_{75}$Ni$_{25}$ & $3.5864 \pm 0.0002$ & $3.5924$ & $-0.0060 \pm 0.0002$ \\
 \label{tab:CuNi_lattice_parameters}
 \end{table}
 
+For cubics, a viable alternate method for comparison with expected sequences is to plot the experimental values against the expected sequence of
+$(h^2+k^2+l^2)$ values for each of all 3 types of cubic Bravais lattices, which yielded the same results as indexing and comparing for
+all copper and nickel samples (alloys included) Example such plots are shown
+below in figure \ref{fig:CuNi_fitted_cubic_lattice} for mean values of $d^{-2}$.
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=1\linewidth]{figures/cubic_lattice_and_parameter_fit_Cu&Ni.png}
+	\includegraphics[width=0.8\linewidth]{figures/cubic_lattice_and_parameter_fit_Cu&Ni_new.png}
 	\caption{Determination of Cubic crystal structure and lattice parameter for Cu and Ni.}
 	\label{fig:CuNi_fitted_cubic_lattice}
 \end{figure}
 
+\subsection{Lead, Tin, and alloys}
+The lead and tin samples' analysis proved to be more challenging, as the peaks were greater in number and not as well defined. Still, proper tweaking of the  peak detection
+parameters lead to accurate identification of the peak angles, which were then used to calculate the interplanar distances as with Cu and Ni. Lead (Pb) followed a
+pattern similar to that of Cu and Ni, though showing many more peaks; it was indexed as another face-centered cubic (FCC) system, with a lattice parameter of $a_{Pb}=4.94343\pm 0.0001$\,\AA.
+As it is repetitive, the indexing of the lead sample is not shown here, but is available in the supplementary material. The tin sample required more in-depth analysis,
+as it did not match any cubic crystal structure. It was eventually identified to be a body-centered tetragonal, with parameters $a_{Sn}=5.8278 \pm 0.0010$\,\AA\ and $c_{Sn}=3.1817 \pm 0.0008$\,\AA.
+As for the alloys, time proved insufficient to complete that part of the analysis. Indexing of samples containing Sn is too bulky to be shown here, but is available in the supplementary material. Further discussion of the analysis of these samples is done
+ in section \ref{sec:dis}.
+
+\subsection{Mystery Samples A and B}
+Analysis of the mystery samples provided was actually quite straightforward. Building upon the methodology developed for Copper and Nickel,
+we quickly found sample A to be a cubic system with a face-centered lattice, with a ratio sequence and Miller indices identical to that of the Copper
+and Nickel samples; sample B proved to be a cubic system with a primitive lattice. Again, as it is repetitive, the indexing of sample A is not shown here, but is
+available in the supplementary material. The indexing of sample B is shown in table \ref{tab:B_indexing} below, where $a$ is the first inreplanar distance,
+as is the case with PC.
+The lattice parameters were calculated to be $a_A=3.7482\pm 0.0004$\,\AA\ and $a_B=3.6110\pm 0.0001$\,\AA, respectively.
+
+\begin{table}[H]
+\centering
+\begin{tabular}{c c c c}
+\hline
+$1/d^2$ (\AA$^{-2}$) &
+$\frac{1/d^2}{a^2}$ &
+Expected PC ratio &
+Miller indices \\
+\hline
+\hline
+$0.071179 \pm 0.000016$ & $1.00 \pm 0.00$ & 1  & (100) \\
+$0.142535 \pm 0.000020$ & $2.00248 \pm 0.00054$ & 2  & (110) \\
+$0.213807 \pm 0.000010$ & $3.00379 \pm 0.00071$ & 3  & (111) \\
+$0.285031 \pm 0.000021$ & $4.00442 \pm 0.00097$ & 4  & (200) \\
+$0.356334 \pm 0.000050$ & $5.0062 \pm 0.0014$ & 5  & (210) \\
+$0.427618 \pm 0.000065$ & $6.0076 \pm 0.0017$ & 6  & (211) \\
+$0.570263 \pm 0.000036$ & $8.0117 \pm 0.0019$ & 8  & (220) \\
+$0.64134 \pm 0.00011$ & $9.0102 \pm 0.0026$ & 9  & (221), (300) \\
+$0.71252 \pm 0.00016$ & $10.0103 \pm 0.0033$ & 10 & (310) \\
+$0.784099 \pm 0.000050$ & $11.0159 \pm 0.0026$ & 11 & (311) \\
+$0.85524 \pm 0.00011$ & $12.0153 \pm 0.0032$ & 12 & (222) \\
+$0.92726 \pm 0.00026$ & $13.0271 \pm 0.0048$ & 13 & (320) \\
+$0.99755 \pm 0.00018$ & $14.0146 \pm 0.0041$ & 14 & (321) \\
+\hline
+\end{tabular}
+\caption{XRD peak indexing for sample B.}
+\label{tab:B_indexing}
+\end{table}
 
 \section{Discussion}\label{sec:dis}
-The results for the Cu and Ni pure samples and alloys are consistent with the literature values, with the experimental values being within 0.2\% of the theoretical values.
-The small discrepancies can be attributed to background noise in the acquired data. The determination of the Face-Centered Cubic (FCC) Bravais lattice for these samples is
-also consistent with known crystal structures for Cu and Ni. While running multiple trials does not reduce error much, it could still be worth it, as random error is of similar order
-as the noise error. The results for the Pb, Sn, and PbSn alloys are still to be determined, as well as the mystery samples A and B.
+The Cu--Ni series provides the clearest test of the peak-indexing procedure. The measured Cu reflections are consistent with the sequence $(111)$, $(200)$, $(220)$, $(311)$, and $(222)$, and satisfy the FCC selection rule that the Miller indices are either all odd or all even. The corresponding cubic fits give the same FCC assignment for Ni and for the Cu--Ni alloys. The measured lattice parameter increases with Cu content, from $3.5223 \pm 0.0001$\,\AA\ for Ni to $3.6126 \pm 0.0001$\,\AA\ for Cu. The alloy values follow this same monotonic trend and are close to the linear Vegard-law estimates listed in Table \ref{tab:CuNi_lattice_parameters}.
+
+All five experimental lattice parameters in that table are lower than their theoretical or Vegard-law values. The differences range from $0.0015$ to $0.0067$\,\AA\ (less than $0.2\%$), but are larger than the quoted fit-based uncertainties. Thus, those small uncertainties describe the precision estimated from the fitted peaks and repeat measurements, not the full accuracy of the lattice parameters. A small systematic error in the measured angle scale or sample positioning, as well as limitations of the peak model or departures from ideal Vegard-law behavior, could contribute to the offsets. The available results do not distinguish among these possibilities. The reported Cu fit statistic of $\chi^2=2.477$ should likewise be interpreted together with its degrees of freedom and the precise definition of the statistic; it does not on its own demonstrate reproducibility.
+
+The Pb and Sn results illustrate the value of comparing candidate crystal systems rather than assuming that every sample is cubic. The Pb pattern was indexed as FCC, with $a_{\mathrm{Pb}}=4.94343 \pm 0.0001$\,\AA, while the Sn pattern did not match a cubic sequence and was assigned a body-centered tetragonal structure, with $a_{\mathrm{Sn}}=5.8278 \pm 0.0010$\,\AA\ and $c_{\mathrm{Sn}}=3.1817 \pm 0.0008$\,\AA. As noted in the Results, the Pb and Sn patterns contained more numerous and less well-defined peaks than the Cu and Ni patterns. Their peak detection therefore required sample-specific parameter choices, making missed, overlapping, or ambiguously indexed peaks a greater concern. This issue is especially relevant to the Pb--Sn alloys: the current Results do not provide the alloy peak sequences and lattice parameters needed to establish their structures or to compare their behavior quantitatively with the Cu--Ni series.
+
+The two mystery patterns were assigned to cubic structures: sample A to FCC and sample B to primitive cubic (PC), based on their observed ratio sequences and the applicable selection rules. These assignments describe the diffraction patterns; the results presented here do not independently establish the chemical identities of the samples. In addition, the lattice parameter reported for sample B should be checked against Table \ref{tab:B_indexing} before it is interpreted: for a PC first reflection indexed as $(100)$, the table's first value, $1/d^2=0.071179$\,\AA$^{-2}$, implies $a=d\approx 3.748$\,\AA, whereas the text reports $a_B=3.6110$\,\AA.
+
+Overall, the data show that peak positions and systematic reflection conditions can distinguish the cubic lattices in the Cu, Ni, and mystery samples, while the Sn pattern requires a non-cubic model. The reliability of each assignment depends not only on the precision of peak fitting but also on indexing consistency, systematic effects in the diffractometer geometry, and whether the measured peak set is sufficiently complete.
 
 
 \section{Conclusion}\label{sec:con}
+X-ray diffraction patterns were used to determine interplanar spacings, index reflections, and identify candidate Bravais lattices for the measured metals, alloys, and mystery samples. Cu, Ni, their alloys, and Pb were assigned FCC structures; Sn was assigned a body-centered tetragonal structure; mystery samples A and B were assigned FCC and primitive cubic structures, respectively. The Cu--Ni lattice parameters increase with Cu fraction and remain within $0.2\%$ of the theoretical or Vegard-law values reported in the Results, although the systematic offsets are larger than the fit-based uncertainties.
 
+The results demonstrate that the combination of Bragg's law, Miller-index sequences, and lattice selection rules can identify structures and estimate lattice parameters from measured diffraction peaks. The Cu--Ni series provides the strongest quantitative comparison in the current report. By contrast, the Pb--Sn alloy analysis is not reported with enough indexed-peak and lattice-parameter detail to support a definitive structural conclusion. Before finalizing the structural interpretation, the reported lattice parameter for mystery sample B should also be reconciled with its indexed first reflection.
 
+\newpage
 
 
 % Bibliography:
@@ -320,8 +375,24 @@ as the noise error. The results for the Pb, Sn, and PbSn alloys are still to be 
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.4\linewidth]{figures/brav_lat.png}
-	\caption{Fourteen Bravais lattices and their associated sevent groups.}
+	\caption{Fourteen Bravais lattices and their seven associated groups.}
 \end{figure}
+
+The selection rules for cubic systems are as follows:
+\begin{itemize}
+	\item PC: all $h,k,l$ allowed
+	\item FCC: all even or all odd $h,k,l$ allowed
+	\item BCC: $h+k+l$ even
+\end{itemize}
+
+For tetragonal systems, the selection rules are as follows:
+
+\begin{itemize}
+	\item P: all $h,k,l$ allowed
+	\item I: $h+k+l$ even
+\end{itemize}
+
+\newpage
 
 For the following equations: $d$ is the inter planar distance, $a,b,c$
 the inter-atomic distances, $h,k,l$ the indices for a given Miller index (hkl).
@@ -335,6 +406,7 @@ Hexagonal: \[\frac{1}{d^2}=\frac{4}{3}(\frac{h^2+k^2+hk}{a^2})+\frac{l^2}{c^2}\]
 Orthorhombic: \[\frac{1}{d^2}=\frac{h^2}{a^2}+\frac{k^2}{b^2}+\frac{l^2}{c^2}\]
 
 Vegard's law: \[a_{alloy}=x a_{Cu}+(1-x) a_{Ni}\]
+
 
 \subsection{Supplementary Figures and Tables}
 \label{A:residuals}
@@ -353,143 +425,5 @@ Vegard's law: \[a_{alloy}=x a_{Cu}+(1-x) a_{Ni}\]
     \label{fig:CuNi_fitted_gaussian_sums}
 \end{figure}
 
-\begin{table}[H]
-\centering
-\label{tab:XRD_results}
-\renewcommand{\arraystretch}{1.1}
-\setlength{\tabcolsep}{5pt}
-
-\begin{tabular}{cc}
-
-% ---------------- Row 1 ----------------
-\begin{tabular}{c}
-\textbf{Ni trial 1}\\[-2pt]
-\begin{tabular}{ccc}
-\hline
-Peak & $2\theta$ ($^\circ$) & $d$ (\AA)\\
-\hline
-1 & $44.4819 \pm 0.0011$ & $2.03512 \pm 0.00005$\\
-2 & $51.8330 \pm 0.0023$ & $1.76246 \pm 0.00007$\\
-3 & $76.3993 \pm 0.0041$ & $1.24563 \pm 0.00006$\\
-4 & $92.9684 \pm 0.0059$ & $1.06221 \pm 0.00005$\\
-5 & $98.4832 \pm 0.0109$ & $1.01694 \pm 0.00008$\\
-\hline
-\end{tabular}
-\end{tabular}
-&
-\begin{tabular}{c}
-\textbf{Ni trial 2}\\[-2pt]
-\begin{tabular}{ccc}
-\hline
-Peak & $2\theta$ ($^\circ$) & $d$ (\AA)\\
-\hline
-1 & $44.4843 \pm 0.0011$ & $2.03502 \pm 0.00005$\\
-2 & $51.8331 \pm 0.0024$ & $1.76245 \pm 0.00008$\\
-3 & $76.3933 \pm 0.0045$ & $1.24571 \pm 0.00006$\\
-4 & $92.9701 \pm 0.0062$ & $1.06220 \pm 0.00005$\\
-5 & $98.5025 \pm 0.0127$ & $1.01679 \pm 0.00010$\\
-\hline
-\end{tabular}
-\end{tabular}
-\\[8pt]
-
-% ---------------- Row 2 ----------------
-\begin{tabular}{c}
-\textbf{Ni trial 3}\\[-2pt]
-\begin{tabular}{ccc}
-\hline
-Peak & $2\theta$ ($^\circ$) & $d$ (\AA$)$\\
-\hline
-1 & $44.4810 \pm 0.0012$ & $2.03517 \pm 0.00005$\\
-2 & $51.8307 \pm 0.0024$ & $1.76253 \pm 0.00008$\\
-3 & $76.4023 \pm 0.0045$ & $1.24558 \pm 0.00006$\\
-4 & $92.9767 \pm 0.0062$ & $1.06214 \pm 0.00005$\\
-5 & $98.4665 \pm 0.0135$ & $1.01707 \pm 0.00010$\\
-\hline
-\end{tabular}
-\end{tabular}
-&
-\begin{tabular}{c}
-\textbf{Cu trial 1}\\[-2pt]
-\begin{tabular}{ccc}
-\hline
-Peak & $2\theta$ ($^\circ$) & $d$ (\AA)\\
-\hline
-1 & $43.3661 \pm 0.0011$ & $2.08487 \pm 0.00005$\\
-2 & $50.4888 \pm 0.0024$ & $1.80618 \pm 0.00008$\\
-3 & $74.2095 \pm 0.0043$ & $1.27687 \pm 0.00006$\\
-4 & $90.0228 \pm 0.0054$ & $1.08915 \pm 0.00005$\\
-5 & $95.2553 \pm 0.0097$ & $1.04266 \pm 0.00008$\\
-\hline
-\end{tabular}
-\end{tabular}
-\\[8pt]
-
-% ---------------- Row 3 ----------------
-\begin{tabular}{c}
-\textbf{Cu trial 2}\\[-2pt]
-\begin{tabular}{ccc}
-\hline
-Peak & $2\theta$ ($^\circ$) & $d$ (\AA)\\
-\hline
-1 & $43.3667 \pm 0.0011$ & $2.08484 \pm 0.00005$\\
-2 & $50.4882 \pm 0.0024$ & $1.80620 \pm 0.00008$\\
-3 & $74.2000 \pm 0.0043$ & $1.27701 \pm 0.00006$\\
-4 & $90.0104 \pm 0.0057$ & $1.08927 \pm 0.00005$\\
-5 & $95.2715 \pm 0.0098$ & $1.04253 \pm 0.00008$\\
-\hline
-\end{tabular}
-\end{tabular}
-&
-\begin{tabular}{c}
-\textbf{Cu$_{25}$Ni$_{75}$}\\[-2pt]
-\begin{tabular}{ccc}
-\hline
-Peak & $2\theta$ ($^\circ$) & $d$ (\AA)\\
-\hline
-1 & $44.2433 \pm 0.0015$ & $2.04554 \pm 0.00006$\\
-2 & $51.5406 \pm 0.0034$ & $1.77176 \pm 0.00011$\\
-3 & $75.9226 \pm 0.0065$ & $1.25226 \pm 0.00009$\\
-4 & $92.3239 \pm 0.0085$ & $1.06793 \pm 0.00008$\\
-5 & $97.7855 \pm 0.0166$ & $1.02232 \pm 0.00013$\\
-\hline
-\end{tabular}
-\end{tabular}
-\\[8pt]
-
-% ---------------- Row 4 ----------------
-\begin{tabular}{c}
-\textbf{Cu$_{50}$Ni$_{50}$}\\[-2pt]
-\begin{tabular}{ccc}
-\hline
-Peak & $2\theta$ ($^\circ$) & $d$ (\AA)\\
-\hline
-1 & $43.9763 \pm 0.0016$ & $2.05734 \pm 0.00007$\\
-2 & $51.2219 \pm 0.0036$ & $1.78204 \pm 0.00012$\\
-3 & $75.4112 \pm 0.0071$ & $1.25948 \pm 0.00010$\\
-4 & $91.6044 \pm 0.0098$ & $1.07443 \pm 0.00009$\\
-5 & $97.0016 \pm 0.0200$ & $1.02849 \pm 0.00016$\\
-\hline
-\end{tabular}
-\end{tabular}
-&
-\begin{tabular}{c}
-\textbf{Cu$_{75}$Ni$_{25}$}\\[-2pt]
-\begin{tabular}{ccc}
-\hline
-Peak & $2\theta$ ($^\circ$) & $d$ (\AA)\\
-\hline
-1 & $43.6499 \pm 0.0015$ & $2.07197 \pm 0.00007$\\
-2 & $50.8455 \pm 0.0035$ & $1.79434 \pm 0.00011$\\
-3 & $74.8037 \pm 0.0062$ & $1.26819 \pm 0.00009$\\
-4 & $90.8289 \pm 0.0083$ & $1.08157 \pm 0.00008$\\
-5 & $96.1327 \pm 0.0160$ & $1.03546 \pm 0.00013$\\
-\hline
-\end{tabular}
-\end{tabular}
-
-\end{tabular}
-\caption{Measured X-ray diffraction peak angular positions and corresponding interplanar spacings ($d$) for the Ni, Cu, and Cu--Ni alloy samples.}
-\end{table}
 
 \end{document}
