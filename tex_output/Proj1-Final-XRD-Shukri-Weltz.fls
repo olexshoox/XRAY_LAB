@@ -184,15 +184,9 @@ INPUT C:\Users\micha\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr12.tfm
 INPUT C:\Users\micha\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
 INPUT C:\Users\micha\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr10.tfm
 INPUT C:\Users\micha\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx10.tfm
-INPUT C:\Users\micha\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr17.tfm
-INPUT C:\Users\micha\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
-INPUT e:\codeshit\PHYS-469\XRD-code\XRAY_LAB\tex_output\Proj1-Final-XRD-Shukri-Weltz.toc
-INPUT e:\codeshit\PHYS-469\XRD-code\XRAY_LAB\tex_output\Proj1-Final-XRD-Shukri-Weltz.toc
-INPUT e:\codeshit\PHYS-469\XRD-code\XRAY_LAB\tex_output\Proj1-Final-XRD-Shukri-Weltz.toc
-INPUT C:\Users\micha\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
 INPUT C:\Users\micha\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr8.tfm
 INPUT C:\Users\micha\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr6.tfm
-INPUT C:\Users\micha\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi12.tfm
+INPUT C:\Users\micha\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi10.tfm
 INPUT C:\Users\micha\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi8.tfm
 INPUT C:\Users\micha\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi6.tfm
 INPUT C:\Users\micha\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy10.tfm
@@ -216,6 +210,18 @@ INPUT C:\Users\micha\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\sym
 INPUT C:\Users\micha\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\euler\eurm10.tfm
 INPUT C:\Users\micha\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\euler\eurm10.tfm
 INPUT C:\Users\micha\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\euler\eurm7.tfm
+INPUT C:\Users\micha\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr17.tfm
+INPUT C:\Users\micha\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
+INPUT e:\codeshit\PHYS-469\XRD-code\XRAY_LAB\tex_output\Proj1-Final-XRD-Shukri-Weltz.toc
+INPUT e:\codeshit\PHYS-469\XRD-code\XRAY_LAB\tex_output\Proj1-Final-XRD-Shukri-Weltz.toc
+INPUT e:\codeshit\PHYS-469\XRD-code\XRAY_LAB\tex_output\Proj1-Final-XRD-Shukri-Weltz.toc
+INPUT C:\Users\micha\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
+INPUT C:\Users\micha\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi12.tfm
+INPUT C:\Users\micha\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy10.tfm
+INPUT C:\Users\micha\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmex10.tfm
+INPUT C:\Users\micha\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
+INPUT C:\Users\micha\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
+INPUT C:\Users\micha\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\euler\eurm10.tfm
 OUTPUT e:\codeshit\PHYS-469\XRD-code\XRAY_LAB\tex_output\Proj1-Final-XRD-Shukri-Weltz.toc
 INPUT C:\Users\micha\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
 INPUT .\figures\Instr_1.JPG
@@ -250,6 +256,69 @@ INPUT .\figures\brav_lat.png
 INPUT .\figures\brav_lat.png
 INPUT .\figures\brav_lat.png
 INPUT C:\Users\micha\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\tcrm1200.tfm
+INPUT .\figures\indexing tables\Cu25Ni75.png
+INPUT .\figures\indexing tables\Cu25Ni75.png
+INPUT .\figures\indexing tables\Cu25Ni75.png
+INPUT .\figures\indexing tables\Cu25Ni75.png
+INPUT .\figures\indexing tables\Cu25Ni75.png
+INPUT .\figures\indexing tables\Cu25Ni75.png
+INPUT .\figures\indexing tables\Cu25Ni75.png
+INPUT .\figures\indexing tables\Cu50Ni50.png
+INPUT .\figures\indexing tables\Cu50Ni50.png
+INPUT .\figures\indexing tables\Cu50Ni50.png
+INPUT .\figures\indexing tables\Cu50Ni50.png
+INPUT .\figures\indexing tables\Cu50Ni50.png
+INPUT .\figures\indexing tables\Cu50Ni50.png
+INPUT .\figures\indexing tables\Cu50Ni50.png
+INPUT .\figures\indexing tables\Cu75Ni25.png
+INPUT .\figures\indexing tables\Cu75Ni25.png
+INPUT .\figures\indexing tables\Cu75Ni25.png
+INPUT .\figures\indexing tables\Cu75Ni25.png
+INPUT .\figures\indexing tables\Cu75Ni25.png
+INPUT .\figures\indexing tables\Cu75Ni25.png
+INPUT .\figures\indexing tables\Cu75Ni25.png
+INPUT .\figures\indexing tables\Ni.png
+INPUT .\figures\indexing tables\Ni.png
+INPUT .\figures\indexing tables\Ni.png
+INPUT .\figures\indexing tables\Ni.png
+INPUT .\figures\indexing tables\Ni.png
+INPUT .\figures\indexing tables\Ni.png
+INPUT .\figures\indexing tables\Ni.png
+INPUT .\figures\indexing tables\Sn.png
+INPUT .\figures\indexing tables\Sn.png
+INPUT .\figures\indexing tables\Sn.png
+INPUT .\figures\indexing tables\Sn.png
+INPUT .\figures\indexing tables\Sn.png
+INPUT .\figures\indexing tables\Sn.png
+INPUT .\figures\indexing tables\Sn.png
+INPUT .\figures\indexing tables\Pb25Sn75.png
+INPUT .\figures\indexing tables\Pb25Sn75.png
+INPUT .\figures\indexing tables\Pb25Sn75.png
+INPUT .\figures\indexing tables\Pb25Sn75.png
+INPUT .\figures\indexing tables\Pb25Sn75.png
+INPUT .\figures\indexing tables\Pb25Sn75.png
+INPUT .\figures\indexing tables\Pb25Sn75.png
+INPUT .\figures\indexing tables\Pb50Sn50.png
+INPUT .\figures\indexing tables\Pb50Sn50.png
+INPUT .\figures\indexing tables\Pb50Sn50.png
+INPUT .\figures\indexing tables\Pb50Sn50.png
+INPUT .\figures\indexing tables\Pb50Sn50.png
+INPUT .\figures\indexing tables\Pb50Sn50.png
+INPUT .\figures\indexing tables\Pb50Sn50.png
+INPUT .\figures\indexing tables\Pb75Sn25.png
+INPUT .\figures\indexing tables\Pb75Sn25.png
+INPUT .\figures\indexing tables\Pb75Sn25.png
+INPUT .\figures\indexing tables\Pb75Sn25.png
+INPUT .\figures\indexing tables\Pb75Sn25.png
+INPUT .\figures\indexing tables\Pb75Sn25.png
+INPUT .\figures\indexing tables\Pb75Sn25.png
+INPUT .\figures\indexing tables\A.png
+INPUT .\figures\indexing tables\A.png
+INPUT .\figures\indexing tables\A.png
+INPUT .\figures\indexing tables\A.png
+INPUT .\figures\indexing tables\A.png
+INPUT .\figures\indexing tables\A.png
+INPUT .\figures\indexing tables\A.png
 INPUT .\figures\all_figures_with_residuals\Cu_10-09-26_2.png
 INPUT .\figures\all_figures_with_residuals\Cu_10-09-26_2.png
 INPUT .\figures\all_figures_with_residuals\Cu_10-09-26_2.png
@@ -429,6 +498,8 @@ INPUT C:\Users\micha\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\c
 INPUT C:\Users\micha\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx12.pfb
 INPUT C:\Users\micha\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmex10.pfb
 INPUT C:\Users\micha\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmex10.pfb
+INPUT C:\Users\micha\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi10.pfb
+INPUT C:\Users\micha\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi10.pfb
 INPUT C:\Users\micha\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi12.pfb
 INPUT C:\Users\micha\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi12.pfb
 INPUT C:\Users\micha\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi8.pfb

@@ -1,0 +1,429 @@
+Determining the Crystaline Structure
+of Metals through X-Ray Diffraction
+
+              Shukri Alex, Weltz Michael
+        McGill University Department of Physics
+            Supervisor: Prof. David Cooke
+                   October 5, 2026
+                                      Abstract
+
+   This experiment set out to to measure X-ray diffraction patterns of various solid
+samples in order to describe their crystaline structure level. A pre-calibrated Siemen
+D5000 X-Ray diffractometer was used to charactize the structure of Copper, Nickel
+(Ni), CuNi alloy, Titanium (Sn), Lead (Pb), PbSn alloy and two mystery samples A
+and B. Bragg’s law was used to obtain the distances of various diffraction planes, which
+was related to the Miller indices of the planes. It was found that Copper, Nickel and
+the alloys are Cubic system with face centered (FCC) Bravais lattices ((and a lattice
+parameter of [...])); Lead was also found to be FCC, while the Tin sample was a body-
+centered tetragonal, and the alloys are Tetragonal systemes with [P/I] lattices ((and
+parameters of )); sample A is a cubic system with a face-centered lattice whereas B is
+also a cubic system, but with a primitive lattice (PC).
+
+
+
+
+                                           1
+Contents
+
+1 Introduction                                                                                 1
+
+2 Methods                                                                                      2
+  2.1   Instrument and Data Acquisition . . . . . . . . . . . . . . . . . . . . . . . .        2
+  2.2   Data Analysis . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .    3
+
+3 Results                                                                                      4
+  3.1   Analysis of Copper, Nickel, and alloys . . . . . . . . . . . . . . . . . . . . . .     4
+  3.2   Lead, Tin, and alloys . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .    8
+  3.3   Mystery Samples A and B . . . . . . . . . . . . . . . . . . . . . . . . . . . .        8
+
+4 Discussion                                                                                   9
+
+5 Conclusion                                                                                  10
+
+6 Appendix                                                                                    11
+  6.1   Inter-planar distance, Bravais Lattices and Miller indices . . . . . . . . . . .      11
+  6.2   Supplementary Indexing Tables . . . . . . . . . . . . . . . . . . . . . . . . .       13
+  6.3   Supplementary Gaussian Fits and Residuals . . . . . . . . . . . . . . . . . .         14
+1     Introduction
+A solid can serve as a diffraction grating for X-rays of wavelengths similar to the lengths of
+inter-atomic distances. Similarly to how light diffracts, X-rays can also diffract off of atoms.
+Atoms within solids will arrange themselves in symmetries, formally called cells, given by
+one of one of fourteen Bravais lattices, with each lattice grouped into one of seven crystal
+systems. These Bravais lattices govern along which diffraction planes atoms may align and
+Miller indices are conventially used to index the various planes. Appendix 6.1 shows the
+different Bravais lattices. If an X-ray is sent to a solid with an angle θ such that constructive
+interference occurs at a detector placed 2θ with respect to the incident ray, a peak in intensity
+of photons may be observed. From this, one can obtain a relation between the inter-planar
+distance d, the incident angle θ, and the wavelength λ.
+
+
+                                         nλ = 2d sin(θ)                                        (1)
+
+with n = 1 for our purposes. Equation 1 is formally called Bragg’s Law.
+    Using these observed peaks and (1), the distance d between the parallel diffraction planes
+can be obtained and related to the Bravais lattice and Miller indices by various equations.
+For a cubic system, this relation takes the form of
+
+                                        1    h2 + k 2 + l2
+                                           =                                                   (2)
+                                        d2        a2
+
+where h, k, l are the Miller Indices and a is the length of the cube edge. Similar equations for
+different crystal systems are given in 6.1. Additionally, selection rules exist for each Bravais
+lattice, which allow only certain diffraction planes to be observed. For instance, while any
+plane is allowed for a primitive cubic lattice, only planes with all even or all odd Miller indices
+are allowed for a face-centered cubic lattice. These selection rules are outlined for cubic and
+tetragonal systems in Appendix 6.1.
+
+
+
+
+                                                1
+2     Methods
+
+2.1     Instrument and Data Acquisition
+
+The apparatus consisted of a pre-calibrated Siemens D5000 diffractometer. The X-ray tube
+used Copper Kα radiation. Two sets of filters of 0.6 mm were present on the X-ray tube
+and the detector. During data acquisition, the diffractometer was set to 40 kV and 40 mA. A
+computer connected to the apparatus was used to specify the measurement parameters and
+obtain the data from the instrument. A picture of the instrument is shown in Figure 1
+    Data acquisition consisted in mounting the sample on the mounting plate, opening the
+parameter file in the computer software and executing the job. Once the job is executed, the
+detector rotates about the mouting plate to be at an angle of 2θ0 = 5.00◦ with respect to the
+incident rays and the mounting plate rotates about itself to make an angle of θ0 . The detector
+and mounting plate rotate with angle increments of 2∆θ = 0.05 and ∆θ, respectively, with
+2.00 s at each step until reaching 2θ = 110.00◦ .
+    Measurements were taken for samples of Copper, Nickel, Tin, Lead; 25%, 50% and 75%
+alloys of Copper-Nickel and Tin-lead, and two mystery samples A and B. Three trials were
+initially done for Copper and Nickel, and two trials were done for the other samples. This
+is because it was found that the uncertainties associated to statistical fluctuations of two
+measurements were smaller than that associated with noise in a single data plot, expressed
+as standard deviation of a fitted gaussian. Therefore, taking a second trial reduced the
+uncertainty in the mean value of d for a given peak, but taking a third trial did not reduce
+it significantly.
+
+
+
+
+                                               2
+      Figure 1: Picture of the Siemens D5000 diffractometer used for the experiment.
+
+
+
+2.2    Data Analysis
+
+The measured intensity was read as a function of 2θ for each sample. Candidate diffraction
+peaks were identified from a smoothed intensity trace using a local-maximum prominence
+threshold. These parameters were varied from sample to sample based on the characteristics
+of the diffraction patterns. Smoothing was used only for candidate detection; the peak fit
+used the original measured intensities.
+   All candidate peaks in a sample plot were fitted simultaneously with a sum of Gaussian
+functions and a linear background (meant to account for a baseline count), Ifit (2θ) = m(2θ)+
+b + i Ai exp[−(2θ − µi )2 /(2σi2 )]. The initial peak centers were the detected positions, and
+    P
+
+the fit constrained each center to within 1◦ of its initial position and each Gaussian width
+to between 0.01◦ and 1◦ . Nonlinear least squares was performed with each count weighted
+                           p
+by its Poisson uncertainty, max(I, 1). The fitted center µi gives the peak position 2θi ; its
+uncertainty was obtained from the corresponding σi standard deviation. Fit residuals and
+reduced χ2 were also calculated to assess the fit.
+   For each fitted peak, the interplanar spacing was calculated from Bragg’s law (equation
+1) using first-order diffraction and λ = 1.5406 Å for a Kα source. The uncertainty in d was
+propagated from the fitted uncertainty in 2θ. Given that multiple plots were available per
+sample, weighted means and uncertainties were calculated separately for each peak position
+and spacing. The values of 1/d2 and their propagated uncertainties were then calculated, and
+ratios (often relative to the first peak, as was the case with all cubics) were compared with the
+expected sequences for candidate crystal systems and Miller indices. Candidate indices and
+
+                                               3
+lattice parameters were assessed for consistency with the measured spacings; Bravais-lattice
+selection rules (Appendix 6.1) were used to assess which reflections are allowed.
+
+
+
+3     Results
+
+3.1    Analysis of Copper, Nickel, and alloys
+
+Figure 2 shows the summed gaussians fitted to the diffraction pattern for a Cu sample as an
+example. All other such fits are available in 6.3. A χ2 value of 2.477 was obtained, showing
+that the results are statistically probable and reproducible. From the means of the gaussians
+and Bragg’s law the inter-planar distances were found, and then averaged for all Cu sample
+runs. Angles for this particular run are shown in Table 1, along with the associated mean
+inter-planar distances for Cu. Uncertainties were calculated as explain in 2.2. We first try
+cubic systems, so a guess is made that the first peak occurs at (100), thus 1/d2 = 1/a2 .
+Dividing 1/d2 by 1/a2 for every d does not yield integers. However we find that it is an
+integer times a factor of three. Hence we multiply by three and find integers for h2 + k 2 + l2 .
+From these integer we infer h, k, l, and hence the Miller index for each plane. Table 2 show
+the values obtained following this procedure.
+
+
+
+
+Figure 2: Plot of intensity against 2θ for the Copper sample.the summed gaussians (orange)
+are fitted to the data (blue).
+
+
+
+
+                                                4
+                                     2θ (deg)                dmean (Å)
+                             43.3664 ± 8 · 10−4 2.08485 ± 4 · 10−5
+                              50.489 ± 2 · 10−3 1.80619 ± 6 · 10−5
+                              74.205 ± 3 · 10−3 1.27694 ± 5 · 10−5
+                              90.017 ± 4 · 10−3 1.08921 ± 4 · 10−5
+                              95.263 ± 7 · 10−3 1.04260 ± 6 · 10−5
+
+           Table 1: Angle of the peaks and the associated inter-planar distances
+
+
+                                                   1/d2
+                      1/d2 (Å−2 )                  a2
+                                                        ·3          h2 + k 2 + l2 index
+                0.230064 ± 8 · 10−6              3.00 ± 0.00              3         (111)
+                 0.30653 ± 2 · 10−5        3.9971 ± 3 · 10−4              4         (200)
+                 0.61329 ± 4 · 10−5        7.9971 ± 6 · 10−4              8         (220)
+                 0.84291 ± 6 · 10−5 10.9913 ± 8 · 10−4                    11        (311)
+                 0.9200 ± 1 · 10−4         11.996 ± 1 · 10−3              12        (222)
+
+          Table 2: Values obtained when attempting to index the Miller indices.
+
+
+   Based on the selection rules for cubic systems, we find that Copper is a face centered
+cubic (FCC). A similar method was applied to determine the same for Nickel, and all alloys
+of the two materials. The lattice parameters were then calculated and are shown in table 3
+below, compared with theoretical values.
+
+                 Sample              aexp (Å)       atheory (Å)         ∆a (Å)
+                 Ni          3.5223 ± 0.0001             3.5238     −0.0015 ± 0.0001
+                 Cu          3.6126 ± 0.0001             3.6149     −0.0023 ± 0.0001
+                 Cu25 Ni75 3.5415 ± 0.0002               3.5467     −0.0052 ± 0.0002
+                 Cu50 Ni50 3.5629 ± 0.0003               3.5696     −0.0067 ± 0.0003
+                 Cu75 Ni25 3.5864 ± 0.0002               3.5924     −0.0060 ± 0.0002
+
+Table 3: Experimental and theoretical lattice parameters for Cu, Ni pure samples and alloys.
+The theoretical values for the alloys are calculated using Vegard’s law .
+
+
+                                                     5
+   For cubics, a viable alternate method for comparison with expected sequences is to plot
+the experimental values against the expected sequence of (h2 + k 2 + l2 ) values for each of all
+3 types of cubic Bravais lattices, which yielded the same results as indexing and comparing
+for all copper and nickel samples (alloys included) Example such plots are shown below in
+figure 3 for mean values of d−2 .
+
+
+
+
+                                               6
+Figure 3: Determination of Cubic crystal structure and lattice parameter for Cu and Ni.
+                                           7
+3.2    Lead, Tin, and alloys
+
+The lead and tin samples’ analysis proved to be more challenging, as the peaks were greater in
+number and not as well defined. Still, proper tweaking of the peak detection parameters lead
+to accurate identification of the peak angles, which were then used to calculate the interplanar
+distances as with Cu and Ni. Lead (Pb) followed a pattern similar to that of Cu and Ni,
+though showing many more peaks; it was indexed as another face-centered cubic (FCC)
+system, with a lattice parameter of aP b = 4.94343 ± 0.0001 Å. As it is repetitive, the indexing
+of the lead sample is not shown here, but is available in the supplementary material. The tin
+sample required more in-depth analysis, as it did not match any cubic crystal structure. It
+was eventually identified to be a body-centered tetragonal, with parameters aSn = 5.8278 ±
+0.0010 Å and cSn = 3.1817 ± 0.0008 Å. As for the alloys, time proved insufficient to complete
+that part of the analysis, and no lattice parameter values were obtained, but the data is
+discussed below. Indexing of samples containing Sn is too bulky to be shown here, but is
+available in the supplementary material. Further discussion of the analysis of these samples
+is done in section 4.
+
+
+3.3    Mystery Samples A and B
+
+Analysis of the mystery samples provided was actually quite straightforward. Building upon
+the methodology developed for Copper and Nickel, we quickly found sample A to be a cubic
+system with a face-centered lattice, with a ratio sequence and Miller indices identical to that
+of the Copper and Nickel samples; sample B proved to be a cubic system with a primitive
+lattice. Again, as it is repetitive, the indexing of sample A is not shown here, but is available
+in the supplementary material. The indexing of sample B is shown in table 4 below, where a
+is the first inreplanar distance, as is the case with PC. The lattice parameters were calculated
+to be aA = 3.6110 ± 0.0001 Åand aB = 3.7482 ± 0.0004 Å respectively.
+
+
+
+
+                                               8
+                                         1/d2
+              1/d2 (Å−2 )                a2
+                                                       Expected PC ratio Miller indices
+
+         0.071179 ± 0.000016         1.00 ± 0.00               1              (100)
+         0.142535 ± 0.000020 2.00248 ± 0.00054                 2              (110)
+         0.213807 ± 0.000010 3.00379 ± 0.00071                 3              (111)
+         0.285031 ± 0.000021 4.00442 ± 0.00097                 4              (200)
+         0.356334 ± 0.000050       5.0062 ± 0.0014             5              (210)
+         0.427618 ± 0.000065       6.0076 ± 0.0017             6              (211)
+         0.570263 ± 0.000036       8.0117 ± 0.0019             8              (220)
+          0.64134 ± 0.00011        9.0102 ± 0.0026             9           (221), (300)
+          0.71252 ± 0.00016       10.0103 ± 0.0033            10              (310)
+         0.784099 ± 0.000050 11.0159 ± 0.0026                 11              (311)
+          0.85524 ± 0.00011       12.0153 ± 0.0032            12              (222)
+          0.92726 ± 0.00026       13.0271 ± 0.0048            13              (320)
+          0.99755 ± 0.00018       14.0146 ± 0.0041            14              (321)
+
+                             Table 4: XRD peak indexing for sample B.
+
+
+
+4     Discussion
+The CuNi samples provide the clearest test of the peak-indexing procedure. The measured
+Cu reflections are consistent with the sequence (111), (200), (220), (311), and (222), and
+satisfy the FCC selection rule that the Miller indices are either all odd or all even. The
+corresponding cubic fits give the same FCC sequences for Ni and for the Cu–Ni alloys. The
+measured lattice parameter increases with Cu content, from 3.5223 ± 0.0001 Å for Ni to
+3.6126 ± 0.0001 Å for Cu, which is in close agreement with the linear Vegard-law estimates
+listed in Table 3.
+    All five experimental lattice parameters in that table are lower than their theoretical
+or Vegard-law values. The differences range from 0.0015 to 0.0067 Å (less than 0.2%), but
+are larger than the quoted fit-based uncertainties. This means those small uncertainties
+describe the precision estimated from the fitted peaks and repeat measurements rather the
+
+
+
+                                                   9
+full accuracy of the lattice parameters, which is a flaw in our method. The reported Cu fit
+statistic of χ2 = 2.477 should likewise be interpreted together with its degrees of freedom
+and the precise definition of the statistic; it does not on its own demonstrate reproducibility,
+but the other Cu runs shown in the appendix, and the similarity between runs for each
+sample, also show in 6.3 do. In the end, the CuNi results do show that the combination of
+Bragg’s law, Miller-index sequences, and lattice selection rules can identify structures and
+estimate lattice parameters from measured diffraction peaks, which was the primary goal of
+this preliminary study.
+    The Pb and Sn results show the importance of comparing candidate crystal systems
+rather than assuming that every sample is cubic. The Pb pattern was found as FCC, with
+aPb = 4.94343 ± 0.0001 Å, while the Sn one did not match a cubic sequence and was shown
+to be a body-centered tetragonal structure, with aSn = 5.8278 ± 0.0010 Å and cSn = 3.1817 ±
+0.0008 Å. This is also in close accordance with theoretical values. The PbSn alloys were not
+fully analyzed, but the measured peaks are consistent with a tetragonal structure, which is
+expected for a mixture of FCC and BCT materials.
+    The two mystery patterns were assigned to cubic structures: sample A to FCC and
+sample B to primitive cubic (PC), based on their observed ratio sequences and the applicable
+selection rules. These assignments describe the diffraction patterns; the results presented
+here do not independently establish the chemical identities of the samples. However, it does
+strongly suggest that is the case.
+
+
+
+5     Conclusion
+
+
+
+
+                                              10
+6     Appendix
+
+6.1     Inter-planar distance, Bravais Lattices and Miller indices
+
+
+
+
+            Figure 4: Fourteen Bravais lattices and their seven associated groups.
+
+
+The selection rules for cubic systems are as follows:
+
+     PC: all h, k, l allowed
+
+     FCC: all even or all odd h, k, l allowed
+
+     BCC: h + k + l even
+
+    For tetragonal systems, the selection rules are as follows:
+
+     P: all h, k, l allowed
+
+     I: h + k + l even
+
+
+
+
+                                                 11
+   For the following equations: d is the inter planar distance, a, b, c the inter-atomic distances,
+h, k, l the indices for a given Miller index (hkl).
+   Cubic:
+                                        1    h2 + k 2 + l2
+                                           =
+                                        d2        a2
+   Tetragonal:
+                                       1    h2 + k 2   l2
+                                          =          +
+                                       d2      a2      c2
+   Hexagonal:
+                                   1    4 h2 + k 2 + hk     l2
+                                      =   (             ) +
+                                   d2   3      a2           c2
+   Orthorhombic:
+                                       1    h2 k 2    l2
+                                          =    +    +
+                                       d2   a2   b2   c2
+   Vegard’s law:
+                                   aalloy = xaCu + (1 − x)aN i
+
+
+
+
+                                                12
+6.2   Supplementary Indexing Tables
+
+
+             Cu25 Ni75                Cu50 Ni50
+
+
+
+
+             Cu75 Ni25                   Ni
+
+
+
+
+                Sn                    Pb25 Sn75
+
+
+
+
+             Pb50 Sn50                Pb75 Sn25
+
+
+
+
+         Mystery sample A
+
+
+
+
+                               13
+6.3   Supplementary Gaussian Fits and Residuals
+
+
+
+
+                               14
+Gaussian fits and normalized residuals (1/3)
+
+
+
+
+                                      15
+Gaussian fits and normalized residuals (2/3)
+
+
+
+
+                                      16
+Gaussian fits and normalized residuals (3/3)
+
+
+
+
+                                      17
+

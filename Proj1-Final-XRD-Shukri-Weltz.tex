@@ -3,6 +3,12 @@
 
 % You can define your own commands like this
 \newcommand{\um}{$\upmu$m} % easily creates the label for ``micrometers''
+\newcommand{\residualpanel}[1]{%
+	\begin{minipage}[c][0.215\textheight][c]{0.49\textwidth}
+		\centering
+		\includegraphics[width=\linewidth,height=0.21\textheight,keepaspectratio]{figures/all_figures_with_residuals/#1.png}
+	\end{minipage}%
+}
 
 
 
@@ -37,14 +43,15 @@
 
 % double paranthesis means not sure if should add
 
-This experiment set out to to measure X-ray diffraction patterns of various solid 
-samples in order to describe their crystaline structure level. A pre-calibrated Siemen D5000 X-Ray 
-diffractometer was used to charactize the structure of Copper, Nickel (Ni), CuNi alloy, Titanium (Sn), 
-Lead (Pb), PbSn alloy and two mystery samples A and B. Bragg's law was used to obtain the 
-distances of various diffraction planes, which was related to the Miller indices of the 
-planes. It was found that Copper, Nickel and the alloys are Cubic system with face centered (FCC) Bravais lattices ((and a 
-lattice parameter of [...])); Lead was also found to be FCC, while the Tin sample was a body-centered tetragonal, and the alloys are Tetragonal systemes with [P/I] lattices ((and parameters 
-of )); sample A is a cubic system with a face-centered lattice whereas B is also a cubic system, but with a primitive lattice (PC).
+X-ray diffraction patterns were measured with a pre-calibrated Siemens D5000 diffractometer to determine the crystal structures
+and lattice parameters of Cu, Ni, CuNi alloys, Sn, Pb, PbSn alloys, and two mystery samples. Peak positions were converted to
+interplanar spacings using Bragg's law and indexed using candidate lattice structures and their reflection rules. Cu, Ni, and the
+CuNi alloys were identified as face-centered cubic (FCC). Their experimental lattice parameters were $a_{\mathrm{Ni}}=3.5223\pm0.0001$\,\AA,
+$a_{\mathrm{Cu}}=3.6126\pm0.0001$\,\AA, $a_{\mathrm{Cu_{25}Ni_{75}}}=3.5415\pm0.0002$\,\AA, $a_{\mathrm{Cu_{50}Ni_{50}}}=3.5629\pm0.0003$\,\AA,
+and $a_{\mathrm{Cu_{75}Ni_{25}}}=3.5864\pm0.0002$\,\AA. Pb was also indexed as FCC, with $a_{\mathrm{Pb}}=4.94343\pm0.0001$\,\AA, while Sn was
+identified as body-centered tetragonal, with $a_{\mathrm{Sn}}=5.8278\pm0.0010$\,\AA\ and $c_{\mathrm{Sn}}=3.1817\pm0.0008$\,\AA. Mystery samples
+A and B were assigned FCC and primitive cubic structures, with $a_A=3.6110\pm0.0001$\,\AA\ and $a_B=3.7482\pm0.0004$\,\AA, respectively.
+Lattice parameters were not determined for the Pb--Sn alloys.
 
 
 
@@ -285,11 +292,6 @@ Cu$_{75}$Ni$_{25}$ & $3.5864 \pm 0.0002$ & $3.5924$ & $-0.0060 \pm 0.0002$ \\
 \label{tab:CuNi_lattice_parameters}
 \end{table}
 
-For cubics, a viable alternate method for comparison with expected sequences is to plot the experimental values against the expected sequence of
-$(h^2+k^2+l^2)$ values for each of all 3 types of cubic Bravais lattices, which yielded the same results as indexing and comparing for
-all copper and nickel samples (alloys included) Example such plots are shown
-below in figure \ref{fig:CuNi_fitted_cubic_lattice} for mean values of $d^{-2}$.
-
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.8\linewidth]{figures/cubic_lattice_and_parameter_fit_Cu&Ni_new.png}
@@ -297,21 +299,27 @@ below in figure \ref{fig:CuNi_fitted_cubic_lattice} for mean values of $d^{-2}$.
 	\label{fig:CuNi_fitted_cubic_lattice}
 \end{figure}
 
+For cubics, a viable alternate method for comparison with expected sequences is to plot the experimental values against the expected sequence of
+$(h^2+k^2+l^2)$ values for each of all 3 types of cubic Bravais lattices, which yielded the same results as indexing and comparing for
+all copper and nickel samples (alloys included) Example such plots are shown
+above in figure \ref{fig:CuNi_fitted_cubic_lattice} for mean values of $d^{-2}$.
+
 \subsection{Lead, Tin, and alloys}
 The lead and tin samples' analysis proved to be more challenging, as the peaks were greater in number and not as well defined. Still, proper tweaking of the  peak detection
-parameters lead to accurate identification of the peak angles, which were then used to calculate the interplanar distances as with Cu and Ni. Lead (Pb) followed a
+parameters lead to fairly accurate identification of the peak angles, which were then used to calculate the interplanar distances as with Cu and Ni. Lead (Pb) followed a
 pattern similar to that of Cu and Ni, though showing many more peaks; it was indexed as another face-centered cubic (FCC) system, with a lattice parameter of $a_{Pb}=4.94343\pm 0.0001$\,\AA.
 As it is repetitive, the indexing of the lead sample is not shown here, but is available in the supplementary material. The tin sample required more in-depth analysis,
 as it did not match any cubic crystal structure. It was eventually identified to be a body-centered tetragonal, with parameters $a_{Sn}=5.8278 \pm 0.0010$\,\AA\ and $c_{Sn}=3.1817 \pm 0.0008$\,\AA.
-As for the alloys, time proved insufficient to complete that part of the analysis, and no lattice parameter values were obtained, but the data is discussed below. Indexing of samples containing Sn is too bulky to be shown here, but is available in the supplementary material. Further discussion of the analysis of these samples is done
+As for the alloys, time proved insufficient to complete that part of the analysis, and no lattice parameter values were obtained. Still, some discussion of the data will be provided. Indexing of
+samples containing Sn is too bulky to be shown here, but is available in the supplementary material. Further discussion of the analysis of these samples is done
  in section \ref{sec:dis}.
 
 \subsection{Mystery Samples A and B}
 Analysis of the mystery samples provided was actually quite straightforward. Building upon the methodology developed for Copper and Nickel,
-we quickly found sample A to be a cubic system with a face-centered lattice, with a ratio sequence and Miller indices identical to that of the Copper
+sample A was quickly found to be a cubic system with a face-centered lattice, with a ratio sequence and Miller indices identical to that of the Copper
 and Nickel samples; sample B proved to be a cubic system with a primitive lattice. Again, as it is repetitive, the indexing of sample A is not shown here, but is
-available in the supplementary material. The indexing of sample B is shown in table \ref{tab:B_indexing} below, where $a$ is the first inreplanar distance,
-as is the case with PC.
+available in the supplementary material. The indexing of sample B is shown in table \ref{tab:B_indexing} below, where $a$ is the first interplanar distance,
+as is the case with a PC.
 The lattice parameters were calculated to be $a_A=3.6110\pm 0.0001$\,\AA and $a_B=3.7482\pm 0.0004$\,\AA\, respectively.
 
 \begin{table}[H]
@@ -356,14 +364,28 @@ own demonstrate reproducibility, but the other Cu runs shown in the appendix, an
 combination of Bragg's law, Miller-index sequences, and lattice selection rules can identify structures and estimate lattice parameters from measured diffraction peaks, which was the primary goal of this preliminary study.
 
 The Pb and Sn results show the importance of comparing candidate crystal systems rather than assuming that every sample is cubic. The Pb pattern was found as FCC, with $a_{\mathrm{Pb}}=4.94343 \pm 0.0001$\,\AA, while the Sn
-one did not match a cubic sequence and was shown to be a body-centered tetragonal structure, with $a_{\mathrm{Sn}}=5.8278 \pm 0.0010$\,\AA\ and $c_{\mathrm{Sn}}=3.1817 \pm 0.0008$\,\AA. This is also in close accordance with theoretical
-values. The PbSn alloys were not fully analyzed, but the measured peaks are consistent with a tetragonal structure, which is expected for a mixture of FCC and BCT materials.
+one did not match a cubic sequence and was shown to be a body-centered tetragonal structure, with $a_{\mathrm{Sn}}=5.8278 \pm 0.0010$\,\AA\ and $c_{\mathrm{Sn}}=3.1817 \pm 0.0008$\,\AA. Indexing the Sn pattern required testing
+candidate crystal systems in turn. After the ratio sequence ruled out all three cubic lattices, a body-centered tetragonal lattice was assumed, so that only reflections with $h+k+l$ even were considered. With two unknown lattice parameters,
+the peak positions alone do not fix the indices, so the assignment was made by trial and error. Candidate $(hkl)$ were matched to the measured peaks starting from approximate $a$ and $c$ values, and $a$ and $c$ were then refined by a least-squares
+fit of $1/d^2=(h^2+k^2)/a^2+l^2/c^2$ to all indexed peaks. The final assignment of parameters was accepted because every indexed peak fell within $0.1^{\circ}$ of its calculated position. Several reflections that satisfy $h+k+l$ even, such as
+$(110)$, $(002)$ and $(310)$, never appear, which is expected since Sn crystallizes in the $I4_1/amd$ space group, which has additional extinction rules beyond those of Appendix \ref{A:brav}. The lowest-angle peak ($2\theta\approx28.5^{\circ}$)
+could not be matched to any allowed Sn reflection and was discarded, likely as a contaminant.
+
+This is also in close accordance with theoretical
+values. The PbSn alloy patterns were indexed as a superposition of two separate phases, FCC Pb and body-centered tetragonal Sn, rather than as a single new structure. Most detected peaks could be assigned to one of the two phases except
+for a few likely false peaks, results of the difficult fit of the obtained diffraction pattern. This is consistent with the PbSn system having very limited mutual solubility, in
+contrast to the CuNi alloys, which formed a single FCC phase. Vegard's law therefore does not apply here.
 
 The two mystery patterns were assigned to cubic structures: sample A to FCC and sample B to primitive cubic (PC), based on their observed ratio sequences and the applicable selection rules. These assignments describe
 the diffraction patterns; the results presented here do not independently establish the chemical identities of the samples. However, it does strongly suggest that is the case.
 
 
 \section{Conclusion}\label{sec:con}
+X-ray diffraction combined with Bragg's law and Miller-index selection rules was enough to identify the crystal structure of every sample in this study, with minimal assumptions. Cu, Ni, Pb and mystery sample A were indexed as FCC,
+mystery sample B as primitive cubic, and Sn as body-centered tetragonal. The CuNi alloys remained a single FCC phase, with lattice parameters that followed Vegard's law to within $0.2\%$. The PbSn alloys instead behaved as a mixture
+of separate Pb and Sn phases, which reflects the limited mutual solubility of the two metals. The lattice parameters were consistently slightly below the expected values by more than their statistical uncertainties, so the quoted errors
+reflect precision and not the full accuracy of the measurement. A limitation in the shown results is that the PbSn alloys were only qualitatively analyzed, without lattice parameters. Future work could use a reference standard to correct systematic
+angle offsets, include a quantitative fit of the PbSn phases, and use peak intensities to estimate phase fractions.
 
 \newpage
 
@@ -413,16 +435,29 @@ Orthorhombic: \[\frac{1}{d^2}=\frac{h^2}{a^2}+\frac{k^2}{b^2}+\frac{l^2}{c^2}\]
 Vegard's law: \[a_{alloy}=x a_{Cu}+(1-x) a_{Ni}\]
 
 
-\subsection{Supplementary Figures and Tables}
-\label{A:residuals}
-\newpage
-
-\newcommand{\residualpanel}[1]{%
-	\begin{minipage}[c][0.235\textheight][c]{0.49\textwidth}
+\clearpage
+\subsection{Supplementary Indexing Tables}
+\label{A:indexing-tables}
+\newcommand{\indexingpanel}[2]{%
+	\begin{minipage}[c][0.17\textheight][c]{0.48\textwidth}
 		\centering
-		\includegraphics[width=\linewidth,height=0.23\textheight,keepaspectratio]{figures/all_figures_with_residuals/#1.png}
+		\normalsize\textbf{#1}\\[0.15em]
+		\includegraphics[width=\linewidth,height=0.155\textheight,keepaspectratio]{\detokenize{figures/indexing tables/#2.png}}
 	\end{minipage}%
 }
+
+\noindent
+\begin{tabular}{@{}c@{\hspace{0.02\textwidth}}c@{}}
+	\indexingpanel{Cu$_{25}$Ni$_{75}$}{Cu25Ni75} & \indexingpanel{Cu$_{50}$Ni$_{50}$}{Cu50Ni50} \\
+	\indexingpanel{Cu$_{75}$Ni$_{25}$}{Cu75Ni25} & \indexingpanel{Ni}{Ni} \\
+	\indexingpanel{Sn}{Sn} & \indexingpanel{Pb$_{25}$Sn$_{75}$}{Pb25Sn75} \\
+	\indexingpanel{Pb$_{50}$Sn$_{50}$}{Pb50Sn50} & \indexingpanel{Pb$_{75}$Sn$_{25}$}{Pb75Sn25} \\
+	\indexingpanel{Mystery sample A}{A} & \rule{0pt}{0.17\textheight}
+\end{tabular}
+
+\clearpage
+\subsection{Supplementary Gaussian Fits and Residuals}
+\label{A:residuals}
 
 \noindent\textbf{Gaussian fits and normalized residuals (1/3)}\par\vspace{0.2em}
 \begin{center}

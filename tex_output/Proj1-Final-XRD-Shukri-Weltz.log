@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.10.5)  5 OCT 2026 21:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.10.5)  5 OCT 2026 21:49
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -414,24 +414,24 @@ Package subcaption Info: The counter `subtable' was already defined by
 )) (e:\codeshit\PHYS-469\XRD-code\XRAY_LAB\tex_output\Proj1-Final-XRD-Shukri-Weltz.aux)
 \openout1 = `Proj1-Final-XRD-Shukri-Weltz.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
  (C:\Users\micha\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count331
@@ -451,7 +451,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (C:\Users\micha\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring ON on input line 11.
+Package hyperref Info: Link coloring ON on input line 17.
  (e:\codeshit\PHYS-469\XRD-code\XRAY_LAB\tex_output\Proj1-Final-XRD-Shukri-Weltz.out) (e:\codeshit\PHYS-469\XRD-code\XRAY_LAB\tex_output\Proj1-Final-XRD-Shukri-Weltz.out)
 \@outlinefile=\write3
 \openout3 = `Proj1-Final-XRD-Shukri-Weltz.out'.
@@ -496,24 +496,24 @@ Package caption Info: End \AtBeginDocument code.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 
-Package chemgreek Info: Activating mapping `upgreek' on line 11.
+Package chemgreek Info: Activating mapping `upgreek' on line 17.
 
 [1
 
 {C:/Users/micha/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
-pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.69 \newpage
-              [1] (e:\codeshit\PHYS-469\XRD-code\XRAY_LAB\tex_output\Proj1-Final-XRD-Shukri-Weltz.toc
-LaTeX Font Info:    Trying to load font information for U+msa on input line 4.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 49.
  (C:\Users\micha\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 4.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 49.
  (C:\Users\micha\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-))
+)
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.76 \newpage
+              [1] (e:\codeshit\PHYS-469\XRD-code\XRAY_LAB\tex_output\Proj1-Final-XRD-Shukri-Weltz.toc)
 \tf@toc=\write4
 \openout4 = `Proj1-Final-XRD-Shukri-Weltz.toc'.
 
@@ -521,182 +521,232 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.125 
+l.132 
        [1]
-<figures/Instr_1.JPG, id=97, 971.3088pt x 728.4816pt>
+<figures/Instr_1.JPG, id=106, 971.3088pt x 728.4816pt>
 File: figures/Instr_1.JPG Graphic file (type jpg)
 <use figures/Instr_1.JPG>
-Package pdftex.def Info: figures/Instr_1.JPG  used on input line 145.
+Package pdftex.def Info: figures/Instr_1.JPG  used on input line 152.
 (pdftex.def)             Requested size: 188.8096pt x 141.60315pt.
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.149 
+l.156 
        [2] [3 <./figures/Instr_1.JPG>]
-<figures/cu_diff.png, id=117, 901.3675pt x 282.05376pt>
+<figures/cu_diff.png, id=124, 901.3675pt x 282.05376pt>
 File: figures/cu_diff.png Graphic file (type png)
 <use figures/cu_diff.png>
-Package pdftex.def Info: figures/cu_diff.png  used on input line 220.
+Package pdftex.def Info: figures/cu_diff.png  used on input line 227.
 (pdftex.def)             Requested size: 472.03123pt x 147.7103pt.
- [4 <./figures/cu_diff.png>] [5]
+ [4 <./figures/cu_diff.png>]
 <figures/cubic_lattice_and_parameter_fit_Cu&Ni_new.png, id=136, 559.3698pt x 967.6953pt>
 File: figures/cubic_lattice_and_parameter_fit_Cu&Ni_new.png Graphic file (type png)
 <use figures/cubic_lattice_and_parameter_fit_Cu&Ni_new.png>
-Package pdftex.def Info: figures/cubic_lattice_and_parameter_fit_Cu&Ni_new.png  used on input line 295.
+Package pdftex.def Info: figures/cubic_lattice_and_parameter_fit_Cu&Ni_new.png  used on input line 297.
 (pdftex.def)             Requested size: 377.62642pt x 653.29904pt.
- [6]
+ [5]
 Overfull \vbox (25.0928pt too high) has occurred while \output is active []
 
- [7 <./figures/cubic_lattice_and_parameter_fit_Cu&Ni_new.png>] [8] [9] [10] (e:\codeshit\PHYS-469\XRD-code\XRAY_LAB\tex_output\Proj1-Final-XRD-Shukri-Weltz.bbl)
-<figures/brav_lat.png, id=165, 482.80376pt x 508.90125pt>
+ [6 <./figures/cubic_lattice_and_parameter_fit_Cu&Ni_new.png>] [7] [8] [9] [10] (e:\codeshit\PHYS-469\XRD-code\XRAY_LAB\tex_output\Proj1-Final-XRD-Shukri-Weltz.bbl)
+<figures/brav_lat.png, id=172, 482.80376pt x 508.90125pt>
 File: figures/brav_lat.png Graphic file (type png)
 <use figures/brav_lat.png>
-Package pdftex.def Info: figures/brav_lat.png  used on input line 382.
+Package pdftex.def Info: figures/brav_lat.png  used on input line 404.
 (pdftex.def)             Requested size: 188.8096pt x 199.01425pt.
  [11 <./figures/brav_lat.png>] [12]
-<figures/all_figures_with_residuals/Cu_10-09-26_2.png, id=177, 714.7503pt x 498.663pt>
+<figures/indexing tables/Cu25Ni75.png, id=184, 1308.087pt x 259.4493pt>
+File: figures/indexing tables/Cu25Ni75.png Graphic file (type png)
+<use figures/indexing tables/Cu25Ni75.png>
+Package pdftex.def Info: figures/indexing tables/Cu25Ni75.png  used on input line 451.
+(pdftex.def)             Requested size: 226.5634pt x 44.93715pt.
+<figures/indexing tables/Cu50Ni50.png, id=185, 1308.087pt x 259.4493pt>
+File: figures/indexing tables/Cu50Ni50.png Graphic file (type png)
+<use figures/indexing tables/Cu50Ni50.png>
+Package pdftex.def Info: figures/indexing tables/Cu50Ni50.png  used on input line 451.
+(pdftex.def)             Requested size: 226.5634pt x 44.93715pt.
+<figures/indexing tables/Cu75Ni25.png, id=186, 1308.087pt x 259.4493pt>
+File: figures/indexing tables/Cu75Ni25.png Graphic file (type png)
+<use figures/indexing tables/Cu75Ni25.png>
+Package pdftex.def Info: figures/indexing tables/Cu75Ni25.png  used on input line 452.
+(pdftex.def)             Requested size: 226.5634pt x 44.93715pt.
+<figures/indexing tables/Ni.png, id=187, 1308.087pt x 259.4493pt>
+File: figures/indexing tables/Ni.png Graphic file (type png)
+<use figures/indexing tables/Ni.png>
+Package pdftex.def Info: figures/indexing tables/Ni.png  used on input line 452.
+(pdftex.def)             Requested size: 226.5634pt x 44.93715pt.
+<figures/indexing tables/Sn.png, id=188, 1076.1003pt x 563.706pt>
+File: figures/indexing tables/Sn.png Graphic file (type png)
+<use figures/indexing tables/Sn.png>
+Package pdftex.def Info: figures/indexing tables/Sn.png  used on input line 453.
+(pdftex.def)             Requested size: 193.11499pt x 101.16165pt.
+<figures/indexing tables/Pb25Sn75.png, id=189, 1076.1003pt x 593.3367pt>
+File: figures/indexing tables/Pb25Sn75.png Graphic file (type png)
+<use figures/indexing tables/Pb25Sn75.png>
+Package pdftex.def Info: figures/indexing tables/Pb25Sn75.png  used on input line 453.
+(pdftex.def)             Requested size: 183.47649pt x 101.16467pt.
+<figures/indexing tables/Pb50Sn50.png, id=190, 1076.1003pt x 563.706pt>
+File: figures/indexing tables/Pb50Sn50.png Graphic file (type png)
+<use figures/indexing tables/Pb50Sn50.png>
+Package pdftex.def Info: figures/indexing tables/Pb50Sn50.png  used on input line 454.
+(pdftex.def)             Requested size: 193.11499pt x 101.16165pt.
+<figures/indexing tables/Pb75Sn25.png, id=191, 1076.1003pt x 502.2765pt>
+File: figures/indexing tables/Pb75Sn25.png Graphic file (type png)
+<use figures/indexing tables/Pb75Sn25.png>
+Package pdftex.def Info: figures/indexing tables/Pb75Sn25.png  used on input line 454.
+(pdftex.def)             Requested size: 216.7433pt x 101.16628pt.
+<figures/indexing tables/A.png, id=192, 1308.087pt x 259.4493pt>
+File: figures/indexing tables/A.png Graphic file (type png)
+<use figures/indexing tables/A.png>
+Package pdftex.def Info: figures/indexing tables/A.png  used on input line 455.
+(pdftex.def)             Requested size: 226.5634pt x 44.93715pt.
+ [13
+
+ <./figures/indexing tables/Cu25Ni75.png> <./figures/indexing tables/Cu50Ni50.png> <./figures/indexing tables/Cu75Ni25.png> <./figures/indexing tables/Ni.png> <./figures/indexing tables/Sn.png> <./figures/indexing tables/Pb25Sn75.png> <./figures/indexing tables/Pb50Sn50.png> <./figures/indexing tables/Pb75Sn25.png> <./figures/indexing tables/A.png>]
+<figures/all_figures_with_residuals/Cu_10-09-26_2.png, id=206, 714.7503pt x 498.663pt>
 File: figures/all_figures_with_residuals/Cu_10-09-26_2.png Graphic file (type png)
 <use figures/all_figures_with_residuals/Cu_10-09-26_2.png>
-Package pdftex.def Info: figures/all_figures_with_residuals/Cu_10-09-26_2.png  used on input line 430.
-(pdftex.def)             Requested size: 215.16837pt x 150.11746pt.
-<figures/all_figures_with_residuals/Ni_08-09-26.png, id=178, 714.7503pt x 498.663pt>
+Package pdftex.def Info: figures/all_figures_with_residuals/Cu_10-09-26_2.png  used on input line 465.
+(pdftex.def)             Requested size: 196.46423pt x 137.06807pt.
+<figures/all_figures_with_residuals/Ni_08-09-26.png, id=207, 714.7503pt x 498.663pt>
 File: figures/all_figures_with_residuals/Ni_08-09-26.png Graphic file (type png)
 <use figures/all_figures_with_residuals/Ni_08-09-26.png>
-Package pdftex.def Info: figures/all_figures_with_residuals/Ni_08-09-26.png  used on input line 430.
-(pdftex.def)             Requested size: 215.16837pt x 150.11746pt.
-<figures/all_figures_with_residuals/Ni_10-09-26.png, id=179, 714.7503pt x 498.663pt>
+Package pdftex.def Info: figures/all_figures_with_residuals/Ni_08-09-26.png  used on input line 465.
+(pdftex.def)             Requested size: 196.46423pt x 137.06807pt.
+<figures/all_figures_with_residuals/Ni_10-09-26.png, id=208, 714.7503pt x 498.663pt>
 File: figures/all_figures_with_residuals/Ni_10-09-26.png Graphic file (type png)
 <use figures/all_figures_with_residuals/Ni_10-09-26.png>
-Package pdftex.def Info: figures/all_figures_with_residuals/Ni_10-09-26.png  used on input line 431.
-(pdftex.def)             Requested size: 215.16837pt x 150.11746pt.
-<figures/all_figures_with_residuals/Ni_10-09-26_2.png, id=180, 714.7503pt x 498.663pt>
+Package pdftex.def Info: figures/all_figures_with_residuals/Ni_10-09-26.png  used on input line 466.
+(pdftex.def)             Requested size: 196.46423pt x 137.06807pt.
+<figures/all_figures_with_residuals/Ni_10-09-26_2.png, id=209, 714.7503pt x 498.663pt>
 File: figures/all_figures_with_residuals/Ni_10-09-26_2.png Graphic file (type png)
 <use figures/all_figures_with_residuals/Ni_10-09-26_2.png>
-Package pdftex.def Info: figures/all_figures_with_residuals/Ni_10-09-26_2.png  used on input line 431.
-(pdftex.def)             Requested size: 215.16837pt x 150.11746pt.
-<figures/all_figures_with_residuals/Cu25Ni75_14-09-26.png, id=181, 714.7503pt x 498.663pt>
+Package pdftex.def Info: figures/all_figures_with_residuals/Ni_10-09-26_2.png  used on input line 466.
+(pdftex.def)             Requested size: 196.46423pt x 137.06807pt.
+<figures/all_figures_with_residuals/Cu25Ni75_14-09-26.png, id=210, 714.7503pt x 498.663pt>
 File: figures/all_figures_with_residuals/Cu25Ni75_14-09-26.png Graphic file (type png)
 <use figures/all_figures_with_residuals/Cu25Ni75_14-09-26.png>
-Package pdftex.def Info: figures/all_figures_with_residuals/Cu25Ni75_14-09-26.png  used on input line 432.
-(pdftex.def)             Requested size: 215.16837pt x 150.11746pt.
-<figures/all_figures_with_residuals/Cu25Ni75_29-09-26.png, id=182, 714.7503pt x 498.663pt>
+Package pdftex.def Info: figures/all_figures_with_residuals/Cu25Ni75_14-09-26.png  used on input line 467.
+(pdftex.def)             Requested size: 196.46423pt x 137.06807pt.
+<figures/all_figures_with_residuals/Cu25Ni75_29-09-26.png, id=211, 714.7503pt x 498.663pt>
 File: figures/all_figures_with_residuals/Cu25Ni75_29-09-26.png Graphic file (type png)
 <use figures/all_figures_with_residuals/Cu25Ni75_29-09-26.png>
-Package pdftex.def Info: figures/all_figures_with_residuals/Cu25Ni75_29-09-26.png  used on input line 432.
-(pdftex.def)             Requested size: 215.16837pt x 150.11746pt.
-<figures/all_figures_with_residuals/Cu50Ni50_14-09-26.png, id=183, 714.7503pt x 498.663pt>
+Package pdftex.def Info: figures/all_figures_with_residuals/Cu25Ni75_29-09-26.png  used on input line 467.
+(pdftex.def)             Requested size: 196.46423pt x 137.06807pt.
+<figures/all_figures_with_residuals/Cu50Ni50_14-09-26.png, id=212, 714.7503pt x 498.663pt>
 File: figures/all_figures_with_residuals/Cu50Ni50_14-09-26.png Graphic file (type png)
 <use figures/all_figures_with_residuals/Cu50Ni50_14-09-26.png>
-Package pdftex.def Info: figures/all_figures_with_residuals/Cu50Ni50_14-09-26.png  used on input line 433.
-(pdftex.def)             Requested size: 215.16837pt x 150.11746pt.
-<figures/all_figures_with_residuals/Cu50Ni50_29-09-26.png, id=184, 714.7503pt x 498.663pt>
+Package pdftex.def Info: figures/all_figures_with_residuals/Cu50Ni50_14-09-26.png  used on input line 468.
+(pdftex.def)             Requested size: 196.46423pt x 137.06807pt.
+<figures/all_figures_with_residuals/Cu50Ni50_29-09-26.png, id=213, 714.7503pt x 498.663pt>
 File: figures/all_figures_with_residuals/Cu50Ni50_29-09-26.png Graphic file (type png)
 <use figures/all_figures_with_residuals/Cu50Ni50_29-09-26.png>
-Package pdftex.def Info: figures/all_figures_with_residuals/Cu50Ni50_29-09-26.png  used on input line 433.
-(pdftex.def)             Requested size: 215.16837pt x 150.11746pt.
- [13 <./figures/all_figures_with_residuals/Cu_10-09-26_2.png> <./figures/all_figures_with_residuals/Ni_08-09-26.png> <./figures/all_figures_with_residuals/Ni_10-09-26.png> <./figures/all_figures_with_residuals/Ni_10-09-26_2.png> <./figures/all_figures_with_residuals/Cu25Ni75_14-09-26.png> <./figures/all_figures_with_residuals/Cu25Ni75_29-09-26.png> <./figures/all_figures_with_residuals/Cu50Ni50_14-09-26.png> <./figures/all_figures_with_residuals/Cu50Ni50_29-09-26.png>]
-<figures/all_figures_with_residuals/Cu75Ni25_14-09-26.png, id=197, 714.7503pt x 498.663pt>
+Package pdftex.def Info: figures/all_figures_with_residuals/Cu50Ni50_29-09-26.png  used on input line 468.
+(pdftex.def)             Requested size: 196.46423pt x 137.06807pt.
+ [14
+
+ <./figures/all_figures_with_residuals/Cu_10-09-26_2.png> <./figures/all_figures_with_residuals/Ni_08-09-26.png> <./figures/all_figures_with_residuals/Ni_10-09-26.png> <./figures/all_figures_with_residuals/Ni_10-09-26_2.png> <./figures/all_figures_with_residuals/Cu25Ni75_14-09-26.png> <./figures/all_figures_with_residuals/Cu25Ni75_29-09-26.png> <./figures/all_figures_with_residuals/Cu50Ni50_14-09-26.png> <./figures/all_figures_with_residuals/Cu50Ni50_29-09-26.png>]
+<figures/all_figures_with_residuals/Cu75Ni25_14-09-26.png, id=226, 714.7503pt x 498.663pt>
 File: figures/all_figures_with_residuals/Cu75Ni25_14-09-26.png Graphic file (type png)
 <use figures/all_figures_with_residuals/Cu75Ni25_14-09-26.png>
-Package pdftex.def Info: figures/all_figures_with_residuals/Cu75Ni25_14-09-26.png  used on input line 441.
-(pdftex.def)             Requested size: 215.16837pt x 150.11746pt.
-<figures/all_figures_with_residuals/Cu75Ni25_29-09-26.png, id=198, 714.7503pt x 498.663pt>
+Package pdftex.def Info: figures/all_figures_with_residuals/Cu75Ni25_14-09-26.png  used on input line 476.
+(pdftex.def)             Requested size: 196.46423pt x 137.06807pt.
+<figures/all_figures_with_residuals/Cu75Ni25_29-09-26.png, id=227, 714.7503pt x 498.663pt>
 File: figures/all_figures_with_residuals/Cu75Ni25_29-09-26.png Graphic file (type png)
 <use figures/all_figures_with_residuals/Cu75Ni25_29-09-26.png>
-Package pdftex.def Info: figures/all_figures_with_residuals/Cu75Ni25_29-09-26.png  used on input line 441.
-(pdftex.def)             Requested size: 215.16837pt x 150.11746pt.
-<figures/all_figures_with_residuals/Pb_15-09-26.png, id=199, 714.7503pt x 498.663pt>
+Package pdftex.def Info: figures/all_figures_with_residuals/Cu75Ni25_29-09-26.png  used on input line 476.
+(pdftex.def)             Requested size: 196.46423pt x 137.06807pt.
+<figures/all_figures_with_residuals/Pb_15-09-26.png, id=228, 714.7503pt x 498.663pt>
 File: figures/all_figures_with_residuals/Pb_15-09-26.png Graphic file (type png)
 <use figures/all_figures_with_residuals/Pb_15-09-26.png>
-Package pdftex.def Info: figures/all_figures_with_residuals/Pb_15-09-26.png  used on input line 442.
-(pdftex.def)             Requested size: 215.16837pt x 150.11746pt.
-<figures/all_figures_with_residuals/Pb_24-09-26.png, id=200, 714.7503pt x 498.663pt>
+Package pdftex.def Info: figures/all_figures_with_residuals/Pb_15-09-26.png  used on input line 477.
+(pdftex.def)             Requested size: 196.46423pt x 137.06807pt.
+<figures/all_figures_with_residuals/Pb_24-09-26.png, id=229, 714.7503pt x 498.663pt>
 File: figures/all_figures_with_residuals/Pb_24-09-26.png Graphic file (type png)
 <use figures/all_figures_with_residuals/Pb_24-09-26.png>
-Package pdftex.def Info: figures/all_figures_with_residuals/Pb_24-09-26.png  used on input line 442.
-(pdftex.def)             Requested size: 215.16837pt x 150.11746pt.
-<figures/all_figures_with_residuals/Sn_15-09-26.png, id=201, 720.5319pt x 498.663pt>
+Package pdftex.def Info: figures/all_figures_with_residuals/Pb_24-09-26.png  used on input line 477.
+(pdftex.def)             Requested size: 196.46423pt x 137.06807pt.
+<figures/all_figures_with_residuals/Sn_15-09-26.png, id=230, 720.5319pt x 498.663pt>
 File: figures/all_figures_with_residuals/Sn_15-09-26.png Graphic file (type png)
 <use figures/all_figures_with_residuals/Sn_15-09-26.png>
-Package pdftex.def Info: figures/all_figures_with_residuals/Sn_15-09-26.png  used on input line 443.
-(pdftex.def)             Requested size: 216.90886pt x 150.11746pt.
-<figures/all_figures_with_residuals/Sn_24-09-26.png, id=202, 720.5319pt x 498.663pt>
+Package pdftex.def Info: figures/all_figures_with_residuals/Sn_15-09-26.png  used on input line 478.
+(pdftex.def)             Requested size: 198.05342pt x 137.06807pt.
+<figures/all_figures_with_residuals/Sn_24-09-26.png, id=231, 720.5319pt x 498.663pt>
 File: figures/all_figures_with_residuals/Sn_24-09-26.png Graphic file (type png)
 <use figures/all_figures_with_residuals/Sn_24-09-26.png>
-Package pdftex.def Info: figures/all_figures_with_residuals/Sn_24-09-26.png  used on input line 443.
-(pdftex.def)             Requested size: 216.90886pt x 150.11746pt.
-<figures/all_figures_with_residuals/Pb25Sn75_05-10-26.png, id=203, 714.7503pt x 498.663pt>
+Package pdftex.def Info: figures/all_figures_with_residuals/Sn_24-09-26.png  used on input line 478.
+(pdftex.def)             Requested size: 198.05342pt x 137.06807pt.
+<figures/all_figures_with_residuals/Pb25Sn75_05-10-26.png, id=232, 714.7503pt x 498.663pt>
 File: figures/all_figures_with_residuals/Pb25Sn75_05-10-26.png Graphic file (type png)
 <use figures/all_figures_with_residuals/Pb25Sn75_05-10-26.png>
-Package pdftex.def Info: figures/all_figures_with_residuals/Pb25Sn75_05-10-26.png  used on input line 444.
-(pdftex.def)             Requested size: 215.16837pt x 150.11746pt.
-<figures/all_figures_with_residuals/Pb25Sn75_15-09-26.png, id=204, 714.7503pt x 498.663pt>
+Package pdftex.def Info: figures/all_figures_with_residuals/Pb25Sn75_05-10-26.png  used on input line 479.
+(pdftex.def)             Requested size: 196.46423pt x 137.06807pt.
+<figures/all_figures_with_residuals/Pb25Sn75_15-09-26.png, id=233, 714.7503pt x 498.663pt>
 File: figures/all_figures_with_residuals/Pb25Sn75_15-09-26.png Graphic file (type png)
 <use figures/all_figures_with_residuals/Pb25Sn75_15-09-26.png>
-Package pdftex.def Info: figures/all_figures_with_residuals/Pb25Sn75_15-09-26.png  used on input line 444.
-(pdftex.def)             Requested size: 215.16837pt x 150.11746pt.
- [14 <./figures/all_figures_with_residuals/Cu75Ni25_14-09-26.png> <./figures/all_figures_with_residuals/Cu75Ni25_29-09-26.png> <./figures/all_figures_with_residuals/Pb_15-09-26.png> <./figures/all_figures_with_residuals/Pb_24-09-26.png> <./figures/all_figures_with_residuals/Sn_15-09-26.png> <./figures/all_figures_with_residuals/Sn_24-09-26.png> <./figures/all_figures_with_residuals/Pb25Sn75_05-10-26.png> <./figures/all_figures_with_residuals/Pb25Sn75_15-09-26.png>]
-<figures/all_figures_with_residuals/Pb50Sn50_15-09-26.png, id=217, 714.7503pt x 498.663pt>
+Package pdftex.def Info: figures/all_figures_with_residuals/Pb25Sn75_15-09-26.png  used on input line 479.
+(pdftex.def)             Requested size: 196.46423pt x 137.06807pt.
+ [15 <./figures/all_figures_with_residuals/Cu75Ni25_14-09-26.png> <./figures/all_figures_with_residuals/Cu75Ni25_29-09-26.png> <./figures/all_figures_with_residuals/Pb_15-09-26.png> <./figures/all_figures_with_residuals/Pb_24-09-26.png> <./figures/all_figures_with_residuals/Sn_15-09-26.png> <./figures/all_figures_with_residuals/Sn_24-09-26.png> <./figures/all_figures_with_residuals/Pb25Sn75_05-10-26.png> <./figures/all_figures_with_residuals/Pb25Sn75_15-09-26.png>]
+<figures/all_figures_with_residuals/Pb50Sn50_15-09-26.png, id=246, 714.7503pt x 498.663pt>
 File: figures/all_figures_with_residuals/Pb50Sn50_15-09-26.png Graphic file (type png)
 <use figures/all_figures_with_residuals/Pb50Sn50_15-09-26.png>
-Package pdftex.def Info: figures/all_figures_with_residuals/Pb50Sn50_15-09-26.png  used on input line 452.
-(pdftex.def)             Requested size: 215.16837pt x 150.11746pt.
-<figures/all_figures_with_residuals/Pb50Sn50_24-09-26.png, id=218, 714.7503pt x 498.663pt>
+Package pdftex.def Info: figures/all_figures_with_residuals/Pb50Sn50_15-09-26.png  used on input line 487.
+(pdftex.def)             Requested size: 196.46423pt x 137.06807pt.
+<figures/all_figures_with_residuals/Pb50Sn50_24-09-26.png, id=247, 714.7503pt x 498.663pt>
 File: figures/all_figures_with_residuals/Pb50Sn50_24-09-26.png Graphic file (type png)
 <use figures/all_figures_with_residuals/Pb50Sn50_24-09-26.png>
-Package pdftex.def Info: figures/all_figures_with_residuals/Pb50Sn50_24-09-26.png  used on input line 452.
-(pdftex.def)             Requested size: 215.16837pt x 150.11746pt.
-<figures/all_figures_with_residuals/Pb75Sn25_02-10-26.png, id=219, 714.7503pt x 497.9403pt>
+Package pdftex.def Info: figures/all_figures_with_residuals/Pb50Sn50_24-09-26.png  used on input line 487.
+(pdftex.def)             Requested size: 196.46423pt x 137.06807pt.
+<figures/all_figures_with_residuals/Pb75Sn25_02-10-26.png, id=248, 714.7503pt x 497.9403pt>
 File: figures/all_figures_with_residuals/Pb75Sn25_02-10-26.png Graphic file (type png)
 <use figures/all_figures_with_residuals/Pb75Sn25_02-10-26.png>
-Package pdftex.def Info: figures/all_figures_with_residuals/Pb75Sn25_02-10-26.png  used on input line 453.
-(pdftex.def)             Requested size: 215.47374pt x 150.11264pt.
-<figures/all_figures_with_residuals/Pb75Sn25_15-09-26.png, id=220, 714.7503pt x 498.663pt>
+Package pdftex.def Info: figures/all_figures_with_residuals/Pb75Sn25_02-10-26.png  used on input line 488.
+(pdftex.def)             Requested size: 196.7478pt x 137.06697pt.
+<figures/all_figures_with_residuals/Pb75Sn25_15-09-26.png, id=249, 714.7503pt x 498.663pt>
 File: figures/all_figures_with_residuals/Pb75Sn25_15-09-26.png Graphic file (type png)
 <use figures/all_figures_with_residuals/Pb75Sn25_15-09-26.png>
-Package pdftex.def Info: figures/all_figures_with_residuals/Pb75Sn25_15-09-26.png  used on input line 453.
-(pdftex.def)             Requested size: 215.16837pt x 150.11746pt.
-<figures/all_figures_with_residuals/A_17-09-26.png, id=221, 714.7503pt x 498.663pt>
+Package pdftex.def Info: figures/all_figures_with_residuals/Pb75Sn25_15-09-26.png  used on input line 488.
+(pdftex.def)             Requested size: 196.46423pt x 137.06807pt.
+<figures/all_figures_with_residuals/A_17-09-26.png, id=250, 714.7503pt x 498.663pt>
 File: figures/all_figures_with_residuals/A_17-09-26.png Graphic file (type png)
 <use figures/all_figures_with_residuals/A_17-09-26.png>
-Package pdftex.def Info: figures/all_figures_with_residuals/A_17-09-26.png  used on input line 454.
-(pdftex.def)             Requested size: 215.16837pt x 150.11746pt.
-<figures/all_figures_with_residuals/A_17-09-26_2.png, id=222, 714.7503pt x 498.663pt>
+Package pdftex.def Info: figures/all_figures_with_residuals/A_17-09-26.png  used on input line 489.
+(pdftex.def)             Requested size: 196.46423pt x 137.06807pt.
+<figures/all_figures_with_residuals/A_17-09-26_2.png, id=251, 714.7503pt x 498.663pt>
 File: figures/all_figures_with_residuals/A_17-09-26_2.png Graphic file (type png)
 <use figures/all_figures_with_residuals/A_17-09-26_2.png>
-Package pdftex.def Info: figures/all_figures_with_residuals/A_17-09-26_2.png  used on input line 454.
-(pdftex.def)             Requested size: 215.16837pt x 150.11746pt.
-<figures/all_figures_with_residuals/B_17-09-26.png, id=223, 714.7503pt x 498.663pt>
+Package pdftex.def Info: figures/all_figures_with_residuals/A_17-09-26_2.png  used on input line 489.
+(pdftex.def)             Requested size: 196.46423pt x 137.06807pt.
+<figures/all_figures_with_residuals/B_17-09-26.png, id=252, 714.7503pt x 498.663pt>
 File: figures/all_figures_with_residuals/B_17-09-26.png Graphic file (type png)
 <use figures/all_figures_with_residuals/B_17-09-26.png>
-Package pdftex.def Info: figures/all_figures_with_residuals/B_17-09-26.png  used on input line 455.
-(pdftex.def)             Requested size: 215.16837pt x 150.11746pt.
-<figures/all_figures_with_residuals/B_17-09-26_2.png, id=224, 714.7503pt x 498.663pt>
+Package pdftex.def Info: figures/all_figures_with_residuals/B_17-09-26.png  used on input line 490.
+(pdftex.def)             Requested size: 196.46423pt x 137.06807pt.
+<figures/all_figures_with_residuals/B_17-09-26_2.png, id=253, 714.7503pt x 498.663pt>
 File: figures/all_figures_with_residuals/B_17-09-26_2.png Graphic file (type png)
 <use figures/all_figures_with_residuals/B_17-09-26_2.png>
-Package pdftex.def Info: figures/all_figures_with_residuals/B_17-09-26_2.png  used on input line 455.
-(pdftex.def)             Requested size: 215.16837pt x 150.11746pt.
- [15 <./figures/all_figures_with_residuals/Pb50Sn50_15-09-26.png> <./figures/all_figures_with_residuals/Pb50Sn50_24-09-26.png> <./figures/all_figures_with_residuals/Pb75Sn25_02-10-26.png> <./figures/all_figures_with_residuals/Pb75Sn25_15-09-26.png> <./figures/all_figures_with_residuals/A_17-09-26.png> <./figures/all_figures_with_residuals/A_17-09-26_2.png> <./figures/all_figures_with_residuals/B_17-09-26.png> <./figures/all_figures_with_residuals/B_17-09-26_2.png>] (e:\codeshit\PHYS-469\XRD-code\XRAY_LAB\tex_output\Proj1-Final-XRD-Shukri-Weltz.aux)
+Package pdftex.def Info: figures/all_figures_with_residuals/B_17-09-26_2.png  used on input line 490.
+(pdftex.def)             Requested size: 196.46423pt x 137.06807pt.
+ [16 <./figures/all_figures_with_residuals/Pb50Sn50_15-09-26.png> <./figures/all_figures_with_residuals/Pb50Sn50_24-09-26.png> <./figures/all_figures_with_residuals/Pb75Sn25_02-10-26.png> <./figures/all_figures_with_residuals/Pb75Sn25_15-09-26.png> <./figures/all_figures_with_residuals/A_17-09-26.png> <./figures/all_figures_with_residuals/A_17-09-26_2.png> <./figures/all_figures_with_residuals/B_17-09-26.png> <./figures/all_figures_with_residuals/B_17-09-26_2.png>] (e:\codeshit\PHYS-469\XRD-code\XRAY_LAB\tex_output\Proj1-Final-XRD-Shukri-Weltz.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-12-24>
  ***********
 Package rerunfilecheck Info: File `Proj1-Final-XRD-Shukri-Weltz.out' has not changed.
-(rerunfilecheck)             Checksum: E4688A5C16AA6477B07B5E1BB942B9A3;2086.
+(rerunfilecheck)             Checksum: E179D2AAA5F45A4D6F5748EC919F12B6;2343.
  ) 
 Here is how much of TeX's memory you used:
- 15433 strings out of 467870
- 264184 string characters out of 5418355
- 705119 words of memory out of 5000000
- 44060 multiletter control sequences out of 15000+600000
- 636284 words of font info for 71 fonts, out of 8000000 for 9000
+ 15507 strings out of 467870
+ 266919 string characters out of 5418355
+ 705318 words of memory out of 5000000
+ 44132 multiletter control sequences out of 15000+600000
+ 637815 words of font info for 77 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  105i,12n,107p,473b,482s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\micha\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Users/micha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/micha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/micha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/micha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/micha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/micha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/micha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/micha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/micha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/micha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/micha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on e:\codeshit\PHYS-469\XRD-code\XRAY_LAB\tex_output\Proj1-Final-XRD-Shukri-Weltz.pdf (18 pages, 5716766 bytes).
+ <C:\Users\micha\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Users/micha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/micha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/micha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/micha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/micha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/micha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/micha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/micha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/micha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/micha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/micha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/micha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on e:\codeshit\PHYS-469\XRD-code\XRAY_LAB\tex_output\Proj1-Final-XRD-Shukri-Weltz.pdf (19 pages, 6342395 bytes).
 PDF statistics:
- 299 PDF objects out of 1000 (max. 8388607)
- 39 named destinations out of 1000 (max. 500000)
- 245 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 333 PDF objects out of 1000 (max. 8388607)
+ 41 named destinations out of 1000 (max. 500000)
+ 298 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,13 +1,13 @@
 # Fdb version 4
-["bibtex tex_output/Proj1-Final-XRD-Shukri-Weltz"] 1791249071.31383 "tex_output/Proj1-Final-XRD-Shukri-Weltz.aux" "tex_output/Proj1-Final-XRD-Shukri-Weltz.bbl" "tex_output/Proj1-Final-XRD-Shukri-Weltz" 1791249586.89329 0
+["bibtex tex_output/Proj1-Final-XRD-Shukri-Weltz"] 0 "tex_output/Proj1-Final-XRD-Shukri-Weltz.aux" "tex_output/Proj1-Final-XRD-Shukri-Weltz.bbl" "tex_output/Proj1-Final-XRD-Shukri-Weltz" 1791251380.31571 0
   "C:/Users/micha/AppData/Local/Programs/MiKTeX/bibtex/bst/ieeetran/IEEEtran.bst" 1440622569 57748 7c8250ecf02814ce6ddc0cdbb63df1dd ""
   "Reporttemplate/MyBibliography.bib" 0 -1 0 ""
-  "tex_output/Proj1-Final-XRD-Shukri-Weltz.aux" 1791249070 4096 b58e58acb28977d4eecbfa594b7c95ce "pdflatex"
+  "tex_output/Proj1-Final-XRD-Shukri-Weltz.aux" 0 -1 0 "pdflatex"
   (generated)
   "tex_output/Proj1-Final-XRD-Shukri-Weltz.bbl"
   "tex_output/Proj1-Final-XRD-Shukri-Weltz.blg"
   (rewritten before read)
-["pdflatex"] 1791249580.39015 "e:/codeshit/PHYS-469/XRD-code/XRAY_LAB/Proj1-Final-XRD-Shukri-Weltz.tex" "tex_output/Proj1-Final-XRD-Shukri-Weltz.pdf" "Proj1-Final-XRD-Shukri-Weltz" 1791249586.89445 0
+["pdflatex"] 1791251373.40999 "e:/codeshit/PHYS-469/XRD-code/XRAY_LAB/Proj1-Final-XRD-Shukri-Weltz.tex" "tex_output/Proj1-Final-XRD-Shukri-Weltz.pdf" "Proj1-Final-XRD-Shukri-Weltz" 1791251380.31677 0
   "C:/Users/micha/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1791236675 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/micha/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1200.pk" 1791237212 14064 7c70ba5d1ea15b2be5eac114aa8d5396 ""
   "C:/Users/micha/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1791236339 13333528 8c539de7eeb844f3c37155509f09eeee ""
@@ -23,6 +23,7 @@
   "C:/Users/micha/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmbx10.tfm" 1136765053 1328 c834bbb027764024c09d3d2bf908b5f0 ""
   "C:/Users/micha/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmbx12.tfm" 1136765053 1324 c910af8c371558dc20f2d7822f66fe64 ""
   "C:/Users/micha/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmex10.tfm" 1136765053 992 662f679a0b3d2d53c1b94050fdaa3f50 ""
+  "C:/Users/micha/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmmi10.tfm" 1136765053 1528 abec98dbc43e172678c11b3b9031252a ""
   "C:/Users/micha/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmmi12.tfm" 1136765053 1524 4414a8315f39513458b80dfc63bff03a ""
   "C:/Users/micha/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmmi6.tfm" 1136765053 1512 f21f83efb36853c0b70002322c1ab3ad ""
   "C:/Users/micha/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmmi8.tfm" 1136765053 1520 eccf95517727cb11801f4f1aee3a21b4 ""
@@ -37,6 +38,7 @@
   "C:/Users/micha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb" 1247596666 34811 78b52f49e893bcba91bd7581cdc144c0 ""
   "C:/Users/micha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb" 1247596666 32080 340ef9bf63678554ee606688e7b5339d ""
   "C:/Users/micha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb" 1247596667 30251 6afa5cb1d0204815a708a080681d4674 ""
+  "C:/Users/micha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb" 1247596667 36299 5f9df58c2139e7edcf37c8fca4bd384d ""
   "C:/Users/micha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb" 1247596667 36741 0ee9e374ec3e30da87cdfb0ea3575226 ""
   "C:/Users/micha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb" 1247596666 35469 dcf3a5f2fc1862f5952e3ee5eb1d98c4 ""
   "C:/Users/micha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1247596667 35752 024fb6c41858982481f6968b5fc26508 ""
@@ -122,9 +124,9 @@
   "C:/Users/micha/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/micha/AppData/Local/Programs/MiKTeX/tex/latex/was/upgreek.sty" 1665850770 5794 9054e31be15d93f1e6bd28cca2b6643f ""
   "C:/Users/micha/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1729265222 55384 b454dec21c2d9f45ec0b793f0995b992 ""
-  "Proj1-Final-XRD-Shukri-Weltz.tex" 1791249572 23911 e4dc7fa0335f5657b9ea50618f51a059 ""
+  "Proj1-Final-XRD-Shukri-Weltz.tex" 1791251369 27600 d76541fe0e98ea9cd1f60a85c1c72fb2 ""
   "Style-Thesis-Report.sty" 1790888992 1139 4538f332f5dea174b80cc38799696b1e ""
-  "e:/codeshit/PHYS-469/XRD-code/XRAY_LAB/Proj1-Final-XRD-Shukri-Weltz.tex" 1791249572 23911 e4dc7fa0335f5657b9ea50618f51a059 ""
+  "e:/codeshit/PHYS-469/XRD-code/XRAY_LAB/Proj1-Final-XRD-Shukri-Weltz.tex" 1791251369 27600 d76541fe0e98ea9cd1f60a85c1c72fb2 ""
   "figures/Instr_1.JPG" 1791219647 3098963 3dd096489bfedd6bf6016e4933b5c02d ""
   "figures/all_figures_with_residuals/A_17-09-26.png" 1791248123 94678 7f870f20e07c81150d3412d078100d68 ""
   "figures/all_figures_with_residuals/A_17-09-26_2.png" 1791248123 97266 a62f0101fbe181e9545c3d30fee3d3ff ""
@@ -153,10 +155,19 @@
   "figures/brav_lat.png" 1790888992 405466 e292cfa3855feb6c0e4e57c3cf93cc81 ""
   "figures/cu_diff.png" 1791227514 197769 5f27981d90a54b067f182b02f365e04c ""
   "figures/cubic_lattice_and_parameter_fit_Cu&Ni_new.png" 1791243150 147734 16f63b7327521ba8af50ab892bc33c71 ""
-  "tex_output/Proj1-Final-XRD-Shukri-Weltz.aux" 1791249585 5181 9b1e94a674d787bae8d9859d8ba85415 "pdflatex"
+  "figures/indexing tables/A.png" 1791249837 65053 262da770055ed90375377f41aad71a8b ""
+  "figures/indexing tables/Cu25Ni75.png" 1791249823 67578 85eb607d6bb9923f8d30be4c8c4b2b08 ""
+  "figures/indexing tables/Cu50Ni50.png" 1791249782 66417 ca24a02313af6c003f9a6e5a7442c983 ""
+  "figures/indexing tables/Cu75Ni25.png" 1791249770 65983 76179bce23fa7a1f7e2848161490475e ""
+  "figures/indexing tables/Ni.png" 1791249747 65107 312f7ef7266f4dad48eec96cbea5d6ae ""
+  "figures/indexing tables/Pb25Sn75.png" 1791249686 140074 c3dbd5161eec3f08d60c919e93bb2862 ""
+  "figures/indexing tables/Pb50Sn50.png" 1791249668 133721 e6f3dfdc8242d2b2feb4032df632b3ad ""
+  "figures/indexing tables/Pb75Sn25.png" 1791249698 121712 674c58c7581a14b5f156cf96fdd38057 ""
+  "figures/indexing tables/Sn.png" 1791249713 131128 183b3695a82d3de32c674212d75193eb ""
+  "tex_output/Proj1-Final-XRD-Shukri-Weltz.aux" 1791251379 5425 867b34ce18172539937f709191d57b6f "pdflatex"
   "tex_output/Proj1-Final-XRD-Shukri-Weltz.bbl" 1791249071 0 d41d8cd98f00b204e9800998ecf8427e "bibtex tex_output/Proj1-Final-XRD-Shukri-Weltz"
-  "tex_output/Proj1-Final-XRD-Shukri-Weltz.out" 1791249585 2086 e4688a5c16aa6477b07b5e1bb942b9a3 "pdflatex"
-  "tex_output/Proj1-Final-XRD-Shukri-Weltz.toc" 1791249585 1102 8e9336273d41f55ab88292b7056b5aa1 "pdflatex"
+  "tex_output/Proj1-Final-XRD-Shukri-Weltz.out" 1791251379 2343 e179d2aaa5f45a4d6f5748ec919f12b6 "pdflatex"
+  "tex_output/Proj1-Final-XRD-Shukri-Weltz.toc" 1791251379 1207 d17ad631d895387e14f3d2fa20b95b11 "pdflatex"
   (generated)
   "tex_output/Proj1-Final-XRD-Shukri-Weltz.aux"
   "tex_output/Proj1-Final-XRD-Shukri-Weltz.log"
